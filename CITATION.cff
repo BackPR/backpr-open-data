@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "BackPR open data for US youth programs"
+authors:
+  - name: BackPR
+    website: "https://backpr.com"
+doi: "10.5281/zenodo.23577823"
+license: CC-BY-4.0
+url: "https://backpr.com/ai"
+repository-code: "https://github.com/DB-Shadow/backpr-open-data"
+abstract: >-
+  Free, sourced reference data for camps, after-school programs, childcare and youth sports in the United
+  States: state rules for all 50 states and DC, youth nonprofit counts from IRS records, what registration
+  platforms publish about price and nonprofit terms, licensed program directory statistics and an index of
+  free form templates.
+keywords:
+  - "youth programs"
+  - "childcare"
+  - "summer camps"
+  - "after-school"
+  - "state regulations"
+  - "staff-to-child ratios"
+  - "mandated reporting"
+  - "nonprofits"
+  - "IRS"
+  - "registration software"
+  - "open data"

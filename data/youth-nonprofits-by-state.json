@@ -1,0 +1,834 @@
+{
+ "name": "youth-nonprofits-by-state",
+ "title": "Youth and community nonprofits by state: active 501(c)(3) organizations from IRS data",
+ "description": "Counts of active 501(c)(3) youth development, amateur sports, PTA and PTO, recreation, camp and club, children's and youth services, arts education and childcare nonprofits in each state and DC, by group, including how many report under $50,000 in annual revenue. There are 171,592 nationally. The state rows total 171,286; the other 306 have no state on file or are in US territories, at military addresses or abroad.",
+ "version": "1.0",
+ "last_checked": "2026-09-08",
+ "license": "CC-BY-4.0",
+ "license_url": "https://creativecommons.org/licenses/by/4.0/",
+ "publisher": "BackPR",
+ "page": "https://backpr.com/resources/nonprofits-by-state",
+ "checked_label": "September 2026",
+ "cite_as": "BackPR (2026). Youth and community nonprofits by state: active 501(c)(3) organizations from IRS data (version 1.0, checked September 2026). https://backpr.com/data/youth-nonprofits-by-state.json. CC BY 4.0.",
+ "sources": [
+  "IRS Exempt Organizations Business Master File, posted September 8, 2026"
+ ],
+ "notes": "Filter: Active 501(c)(3) organizations in the NTEE codes listed for each group. Group codes (NTEE, the IRS's activity codes for nonprofits): Amateur sports: N40, N6x, N7x; Youth development: all O codes; PTAs and PTOs: B94; Recreation, camps and clubs: N20, N30, N31, N50; Children's and youth services: P30; Arts education: A25; Childcare: P33. Each organization is counted once, by its main NTEE code. Some groups, such as amateur sports and arts education, include organizations that also serve adults. The \"under_50k\" column counts organizations that report annual revenue under $50,000 on their latest IRS filing or have no revenue amount on file.",
+ "groups": [
+  {
+   "key": "sports",
+   "label": "Amateur sports",
+   "ntee": "N40, N6x, N7x",
+   "count": 65671
+  },
+  {
+   "key": "youth",
+   "label": "Youth development",
+   "ntee": "all O codes",
+   "count": 58326
+  },
+  {
+   "key": "pta",
+   "label": "PTAs and PTOs",
+   "ntee": "B94",
+   "count": 19984
+  },
+  {
+   "key": "recreation",
+   "label": "Recreation, camps and clubs",
+   "ntee": "N20, N30, N31, N50",
+   "count": 10141
+  },
+  {
+   "key": "children",
+   "label": "Children's and youth services",
+   "ntee": "P30",
+   "count": 8392
+  },
+  {
+   "key": "arts",
+   "label": "Arts education",
+   "ntee": "A25",
+   "count": 5384
+  },
+  {
+   "key": "childcare",
+   "label": "Childcare",
+   "ntee": "P33",
+   "count": 3694
+  }
+ ],
+ "national_total": 171592,
+ "national_by_size": {
+  "under50k": 132549,
+  "50kTo5m": 37640,
+  "over5m": 1403
+ },
+ "records": [
+  {
+   "state_code": "AL",
+   "state": "Alabama",
+   "total": 1981,
+   "under_50k": 1609,
+   "by_group": {
+    "sports": 628,
+    "youth": 844,
+    "pta": 130,
+    "recreation": 115,
+    "children": 156,
+    "arts": 53,
+    "childcare": 55
+   }
+  },
+  {
+   "state_code": "AK",
+   "state": "Alaska",
+   "total": 593,
+   "under_50k": 412,
+   "by_group": {
+    "sports": 323,
+    "youth": 112,
+    "pta": 65,
+    "recreation": 53,
+    "children": 11,
+    "arts": 12,
+    "childcare": 17
+   }
+  },
+  {
+   "state_code": "AZ",
+   "state": "Arizona",
+   "total": 3126,
+   "under_50k": 2563,
+   "by_group": {
+    "sports": 1293,
+    "youth": 809,
+    "pta": 551,
+    "recreation": 173,
+    "children": 178,
+    "arts": 105,
+    "childcare": 17
+   }
+  },
+  {
+   "state_code": "AR",
+   "state": "Arkansas",
+   "total": 1315,
+   "under_50k": 1082,
+   "by_group": {
+    "sports": 479,
+    "youth": 456,
+    "pta": 112,
+    "recreation": 97,
+    "children": 86,
+    "arts": 40,
+    "childcare": 45
+   }
+  },
+  {
+   "state_code": "CA",
+   "state": "California",
+   "total": 16945,
+   "under_50k": 12206,
+   "by_group": {
+    "sports": 6838,
+    "youth": 5625,
+    "pta": 1532,
+    "recreation": 912,
+    "children": 934,
+    "arts": 821,
+    "childcare": 283
+   }
+  },
+  {
+   "state_code": "CO",
+   "state": "Colorado",
+   "total": 3076,
+   "under_50k": 2180,
+   "by_group": {
+    "sports": 1409,
+    "youth": 763,
+    "pta": 309,
+    "recreation": 242,
+    "children": 146,
+    "arts": 131,
+    "childcare": 76
+   }
+  },
+  {
+   "state_code": "CT",
+   "state": "Connecticut",
+   "total": 1986,
+   "under_50k": 1388,
+   "by_group": {
+    "sports": 815,
+    "youth": 518,
+    "pta": 338,
+    "recreation": 102,
+    "children": 78,
+    "arts": 83,
+    "childcare": 52
+   }
+  },
+  {
+   "state_code": "DE",
+   "state": "Delaware",
+   "total": 581,
+   "under_50k": 459,
+   "by_group": {
+    "sports": 178,
+    "youth": 211,
+    "pta": 65,
+    "recreation": 38,
+    "children": 54,
+    "arts": 23,
+    "childcare": 12
+   }
+  },
+  {
+   "state_code": "DC",
+   "state": "District of Columbia",
+   "total": 643,
+   "under_50k": 434,
+   "by_group": {
+    "sports": 125,
+    "youth": 320,
+    "pta": 67,
+    "recreation": 36,
+    "children": 36,
+    "arts": 26,
+    "childcare": 33
+   }
+  },
+  {
+   "state_code": "FL",
+   "state": "Florida",
+   "total": 9283,
+   "under_50k": 7473,
+   "by_group": {
+    "sports": 3364,
+    "youth": 3647,
+    "pta": 690,
+    "recreation": 435,
+    "children": 681,
+    "arts": 321,
+    "childcare": 145
+   }
+  },
+  {
+   "state_code": "GA",
+   "state": "Georgia",
+   "total": 5544,
+   "under_50k": 4515,
+   "by_group": {
+    "sports": 1611,
+    "youth": 2517,
+    "pta": 415,
+    "recreation": 262,
+    "children": 497,
+    "arts": 145,
+    "childcare": 97
+   }
+  },
+  {
+   "state_code": "HI",
+   "state": "Hawaii",
+   "total": 972,
+   "under_50k": 784,
+   "by_group": {
+    "sports": 513,
+    "youth": 259,
+    "pta": 72,
+    "recreation": 66,
+    "children": 31,
+    "arts": 21,
+    "childcare": 10
+   }
+  },
+  {
+   "state_code": "ID",
+   "state": "Idaho",
+   "total": 1162,
+   "under_50k": 919,
+   "by_group": {
+    "sports": 588,
+    "youth": 231,
+    "pta": 164,
+    "recreation": 103,
+    "children": 35,
+    "arts": 26,
+    "childcare": 15
+   }
+  },
+  {
+   "state_code": "IL",
+   "state": "Illinois",
+   "total": 6257,
+   "under_50k": 4772,
+   "by_group": {
+    "sports": 1993,
+    "youth": 2492,
+    "pta": 799,
+    "recreation": 292,
+    "children": 314,
+    "arts": 226,
+    "childcare": 141
+   }
+  },
+  {
+   "state_code": "IN",
+   "state": "Indiana",
+   "total": 4704,
+   "under_50k": 3772,
+   "by_group": {
+    "sports": 1603,
+    "youth": 1922,
+    "pta": 537,
+    "recreation": 204,
+    "children": 183,
+    "arts": 86,
+    "childcare": 169
+   }
+  },
+  {
+   "state_code": "IA",
+   "state": "Iowa",
+   "total": 2210,
+   "under_50k": 1680,
+   "by_group": {
+    "sports": 1087,
+    "youth": 452,
+    "pta": 233,
+    "recreation": 197,
+    "children": 59,
+    "arts": 41,
+    "childcare": 141
+   }
+  },
+  {
+   "state_code": "KS",
+   "state": "Kansas",
+   "total": 1449,
+   "under_50k": 1131,
+   "by_group": {
+    "sports": 562,
+    "youth": 366,
+    "pta": 236,
+    "recreation": 116,
+    "children": 63,
+    "arts": 31,
+    "childcare": 75
+   }
+  },
+  {
+   "state_code": "KY",
+   "state": "Kentucky",
+   "total": 1805,
+   "under_50k": 1432,
+   "by_group": {
+    "sports": 834,
+    "youth": 460,
+    "pta": 210,
+    "recreation": 111,
+    "children": 103,
+    "arts": 52,
+    "childcare": 35
+   }
+  },
+  {
+   "state_code": "LA",
+   "state": "Louisiana",
+   "total": 1983,
+   "under_50k": 1665,
+   "by_group": {
+    "sports": 650,
+    "youth": 879,
+    "pta": 95,
+    "recreation": 108,
+    "children": 142,
+    "arts": 50,
+    "childcare": 59
+   }
+  },
+  {
+   "state_code": "ME",
+   "state": "Maine",
+   "total": 757,
+   "under_50k": 532,
+   "by_group": {
+    "sports": 337,
+    "youth": 170,
+    "pta": 74,
+    "recreation": 109,
+    "children": 21,
+    "arts": 29,
+    "childcare": 17
+   }
+  },
+  {
+   "state_code": "MD",
+   "state": "Maryland",
+   "total": 3369,
+   "under_50k": 2605,
+   "by_group": {
+    "sports": 1074,
+    "youth": 1408,
+    "pta": 295,
+    "recreation": 206,
+    "children": 195,
+    "arts": 116,
+    "childcare": 75
+   }
+  },
+  {
+   "state_code": "MA",
+   "state": "Massachusetts",
+   "total": 4075,
+   "under_50k": 2667,
+   "by_group": {
+    "sports": 1716,
+    "youth": 990,
+    "pta": 671,
+    "recreation": 239,
+    "children": 147,
+    "arts": 189,
+    "childcare": 123
+   }
+  },
+  {
+   "state_code": "MI",
+   "state": "Michigan",
+   "total": 5955,
+   "under_50k": 4893,
+   "by_group": {
+    "sports": 1960,
+    "youth": 2484,
+    "pta": 686,
+    "recreation": 352,
+    "children": 249,
+    "arts": 153,
+    "childcare": 71
+   }
+  },
+  {
+   "state_code": "MN",
+   "state": "Minnesota",
+   "total": 4864,
+   "under_50k": 3536,
+   "by_group": {
+    "sports": 2085,
+    "youth": 1744,
+    "pta": 437,
+    "recreation": 303,
+    "children": 116,
+    "arts": 101,
+    "childcare": 78
+   }
+  },
+  {
+   "state_code": "MS",
+   "state": "Mississippi",
+   "total": 1195,
+   "under_50k": 1001,
+   "by_group": {
+    "sports": 314,
+    "youth": 476,
+    "pta": 154,
+    "recreation": 80,
+    "children": 86,
+    "arts": 25,
+    "childcare": 60
+   }
+  },
+  {
+   "state_code": "MO",
+   "state": "Missouri",
+   "total": 2807,
+   "under_50k": 2243,
+   "by_group": {
+    "sports": 1096,
+    "youth": 859,
+    "pta": 343,
+    "recreation": 197,
+    "children": 160,
+    "arts": 75,
+    "childcare": 77
+   }
+  },
+  {
+   "state_code": "MT",
+   "state": "Montana",
+   "total": 1276,
+   "under_50k": 995,
+   "by_group": {
+    "sports": 580,
+    "youth": 391,
+    "pta": 77,
+    "recreation": 133,
+    "children": 28,
+    "arts": 38,
+    "childcare": 29
+   }
+  },
+  {
+   "state_code": "NE",
+   "state": "Nebraska",
+   "total": 1675,
+   "under_50k": 1329,
+   "by_group": {
+    "sports": 501,
+    "youth": 818,
+    "pta": 128,
+    "recreation": 91,
+    "children": 44,
+    "arts": 26,
+    "childcare": 67
+   }
+  },
+  {
+   "state_code": "NV",
+   "state": "Nevada",
+   "total": 1260,
+   "under_50k": 1023,
+   "by_group": {
+    "sports": 518,
+    "youth": 416,
+    "pta": 103,
+    "recreation": 82,
+    "children": 87,
+    "arts": 43,
+    "childcare": 11
+   }
+  },
+  {
+   "state_code": "NH",
+   "state": "New Hampshire",
+   "total": 868,
+   "under_50k": 609,
+   "by_group": {
+    "sports": 401,
+    "youth": 173,
+    "pta": 121,
+    "recreation": 88,
+    "children": 29,
+    "arts": 24,
+    "childcare": 32
+   }
+  },
+  {
+   "state_code": "NJ",
+   "state": "New Jersey",
+   "total": 4667,
+   "under_50k": 3456,
+   "by_group": {
+    "sports": 1838,
+    "youth": 1396,
+    "pta": 708,
+    "recreation": 253,
+    "children": 216,
+    "arts": 128,
+    "childcare": 128
+   }
+  },
+  {
+   "state_code": "NM",
+   "state": "New Mexico",
+   "total": 827,
+   "under_50k": 629,
+   "by_group": {
+    "sports": 373,
+    "youth": 223,
+    "pta": 73,
+    "recreation": 50,
+    "children": 31,
+    "arts": 42,
+    "childcare": 35
+   }
+  },
+  {
+   "state_code": "NY",
+   "state": "New York",
+   "total": 8311,
+   "under_50k": 5848,
+   "by_group": {
+    "sports": 3107,
+    "youth": 2646,
+    "pta": 850,
+    "recreation": 516,
+    "children": 434,
+    "arts": 471,
+    "childcare": 287
+   }
+  },
+  {
+   "state_code": "NC",
+   "state": "North Carolina",
+   "total": 5234,
+   "under_50k": 4317,
+   "by_group": {
+    "sports": 1715,
+    "youth": 1957,
+    "pta": 690,
+    "recreation": 323,
+    "children": 294,
+    "arts": 149,
+    "childcare": 106
+   }
+  },
+  {
+   "state_code": "ND",
+   "state": "North Dakota",
+   "total": 694,
+   "under_50k": 483,
+   "by_group": {
+    "sports": 294,
+    "youth": 211,
+    "pta": 56,
+    "recreation": 65,
+    "children": 19,
+    "arts": 16,
+    "childcare": 33
+   }
+  },
+  {
+   "state_code": "OH",
+   "state": "Ohio",
+   "total": 8158,
+   "under_50k": 6763,
+   "by_group": {
+    "sports": 2810,
+    "youth": 3636,
+    "pta": 888,
+    "recreation": 338,
+    "children": 273,
+    "arts": 139,
+    "childcare": 74
+   }
+  },
+  {
+   "state_code": "OK",
+   "state": "Oklahoma",
+   "total": 1691,
+   "under_50k": 1363,
+   "by_group": {
+    "sports": 695,
+    "youth": 499,
+    "pta": 201,
+    "recreation": 126,
+    "children": 103,
+    "arts": 45,
+    "childcare": 22
+   }
+  },
+  {
+   "state_code": "OR",
+   "state": "Oregon",
+   "total": 2662,
+   "under_50k": 1962,
+   "by_group": {
+    "sports": 1206,
+    "youth": 636,
+    "pta": 397,
+    "recreation": 187,
+    "children": 90,
+    "arts": 109,
+    "childcare": 37
+   }
+  },
+  {
+   "state_code": "PA",
+   "state": "Pennsylvania",
+   "total": 7054,
+   "under_50k": 5224,
+   "by_group": {
+    "sports": 3349,
+    "youth": 1724,
+    "pta": 888,
+    "recreation": 493,
+    "children": 270,
+    "arts": 183,
+    "childcare": 147
+   }
+  },
+  {
+   "state_code": "RI",
+   "state": "Rhode Island",
+   "total": 519,
+   "under_50k": 373,
+   "by_group": {
+    "sports": 233,
+    "youth": 118,
+    "pta": 86,
+    "recreation": 37,
+    "children": 13,
+    "arts": 24,
+    "childcare": 8
+   }
+  },
+  {
+   "state_code": "SC",
+   "state": "South Carolina",
+   "total": 2238,
+   "under_50k": 1817,
+   "by_group": {
+    "sports": 716,
+    "youth": 832,
+    "pta": 305,
+    "recreation": 134,
+    "children": 152,
+    "arts": 51,
+    "childcare": 48
+   }
+  },
+  {
+   "state_code": "SD",
+   "state": "South Dakota",
+   "total": 635,
+   "under_50k": 462,
+   "by_group": {
+    "sports": 319,
+    "youth": 154,
+    "pta": 41,
+    "recreation": 61,
+    "children": 13,
+    "arts": 14,
+    "childcare": 33
+   }
+  },
+  {
+   "state_code": "TN",
+   "state": "Tennessee",
+   "total": 3163,
+   "under_50k": 2495,
+   "by_group": {
+    "sports": 1182,
+    "youth": 1077,
+    "pta": 416,
+    "recreation": 169,
+    "children": 154,
+    "arts": 93,
+    "childcare": 72
+   }
+  },
+  {
+   "state_code": "TX",
+   "state": "Texas",
+   "total": 13480,
+   "under_50k": 10922,
+   "by_group": {
+    "sports": 4774,
+    "youth": 4570,
+    "pta": 2218,
+    "recreation": 642,
+    "children": 753,
+    "arts": 325,
+    "childcare": 198
+   }
+  },
+  {
+   "state_code": "UT",
+   "state": "Utah",
+   "total": 1416,
+   "under_50k": 1116,
+   "by_group": {
+    "sports": 647,
+    "youth": 302,
+    "pta": 240,
+    "recreation": 86,
+    "children": 66,
+    "arts": 58,
+    "childcare": 17
+   }
+  },
+  {
+   "state_code": "VT",
+   "state": "Vermont",
+   "total": 585,
+   "under_50k": 404,
+   "by_group": {
+    "sports": 231,
+    "youth": 97,
+    "pta": 84,
+    "recreation": 101,
+    "children": 14,
+    "arts": 27,
+    "childcare": 31
+   }
+  },
+  {
+   "state_code": "VA",
+   "state": "Virginia",
+   "total": 4412,
+   "under_50k": 3444,
+   "by_group": {
+    "sports": 1894,
+    "youth": 1346,
+    "pta": 480,
+    "recreation": 280,
+    "children": 213,
+    "arts": 117,
+    "childcare": 82
+   }
+  },
+  {
+   "state_code": "WA",
+   "state": "Washington",
+   "total": 4869,
+   "under_50k": 3687,
+   "by_group": {
+    "sports": 1819,
+    "youth": 1376,
+    "pta": 1029,
+    "recreation": 270,
+    "children": 152,
+    "arts": 152,
+    "childcare": 71
+   }
+  },
+  {
+   "state_code": "WV",
+   "state": "West Virginia",
+   "total": 1656,
+   "under_50k": 1485,
+   "by_group": {
+    "sports": 653,
+    "youth": 722,
+    "pta": 111,
+    "recreation": 86,
+    "children": 34,
+    "arts": 21,
+    "childcare": 29
+   }
+  },
+  {
+   "state_code": "WI",
+   "state": "Wisconsin",
+   "total": 4564,
+   "under_50k": 3569,
+   "by_group": {
+    "sports": 1906,
+    "youth": 1623,
+    "pta": 461,
+    "recreation": 297,
+    "children": 115,
+    "arts": 78,
+    "childcare": 84
+   }
+  },
+  {
+   "state_code": "WY",
+   "state": "Wyoming",
+   "total": 735,
+   "under_50k": 589,
+   "by_group": {
+    "sports": 313,
+    "youth": 271,
+    "pta": 34,
+    "recreation": 68,
+    "children": 16,
+    "arts": 15,
+    "childcare": 18
+   }
+  }
+ ]
+}

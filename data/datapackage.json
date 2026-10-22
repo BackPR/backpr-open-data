@@ -1,0 +1,302 @@
+{
+ "profile": "data-package",
+ "name": "backpr-youth-program-data",
+ "title": "BackPR open data for US youth programs",
+ "description": "Free, sourced reference data for camps, after-school programs, childcare and youth sports in the United States, published by BackPR.",
+ "homepage": "https://backpr.com/ai",
+ "version": "1.0",
+ "created": "2026-10-22",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "title": "Creative Commons Attribution 4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "publishers": [
+  {
+   "title": "BackPR",
+   "path": "https://backpr.com",
+   "email": "support@backpr.com"
+  }
+ ],
+ "id": "https://doi.org/10.5281/zenodo.23577823",
+ "cite_as": "BackPR (2026). BackPR open data for US youth programs [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23577823. Current version: https://backpr.com/ai. CC BY 4.0.",
+ "copies": [
+  "https://doi.org/10.5281/zenodo.23577823",
+  "https://huggingface.co/datasets/backpr/us-youth-program-data",
+  "https://www.kaggle.com/datasets/backpr/us-youth-program-data-rules-nonprofits-pricing"
+ ],
+ "resources": [
+  {
+   "name": "state-rules-json",
+   "path": "https://backpr.com/data/state-rules.json",
+   "format": "json",
+   "mediatype": "application/json",
+   "title": "Youth program rules by state: childcare licensing, staff ratios, camps, background checks, medication and mandated reporting",
+   "description": "Rules for childcare centers, camps and after-school programs in all 50 states and DC, summarized from official state sources and published copies of state law, with links to each source.",
+   "version": "2026.10",
+   "last_checked": "2026-10",
+   "records": 51,
+   "page": "https://backpr.com/resources/states",
+   "checked_label": "October 2026",
+   "cite_as": "BackPR (2026). Youth program rules by state: childcare licensing, staff ratios, camps, background checks, medication and mandated reporting (version 2026.10, checked October 2026). https://backpr.com/data/state-rules.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "State licensing rules, statutes and agency pages, and published copies of state law such as Cornell's Legal Information Institute, listed per record"
+    }
+   ],
+   "notes": "General information, not legal advice. Rules change; confirm with the state agency. A blank (null) value means the rules don't set a single value for it or we couldn't confirm it from the sources.",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  },
+  {
+   "name": "state-rules-csv",
+   "path": "https://backpr.com/data/state-rules.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Youth program rules by state: childcare licensing, staff ratios, camps, background checks, medication and mandated reporting",
+   "description": "Rules for childcare centers, camps and after-school programs in all 50 states and DC, summarized from official state sources and published copies of state law, with links to each source.",
+   "version": "2026.10",
+   "last_checked": "2026-10",
+   "records": 51,
+   "page": "https://backpr.com/resources/states",
+   "checked_label": "October 2026",
+   "cite_as": "BackPR (2026). Youth program rules by state: childcare licensing, staff ratios, camps, background checks, medication and mandated reporting (version 2026.10, checked October 2026). https://backpr.com/data/state-rules.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "State licensing rules, statutes and agency pages, and published copies of state law such as Cornell's Legal Information Institute, listed per record"
+    }
+   ],
+   "notes": "General information, not legal advice. Rules change; confirm with the state agency. A blank (null) value means the rules don't set a single value for it or we couldn't confirm it from the sources.",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  },
+  {
+   "name": "registration-software-pricing-index-json",
+   "path": "https://backpr.com/data/registration-software-pricing-index.json",
+   "format": "json",
+   "mediatype": "application/json",
+   "title": "Registration software pricing index: what 56 platforms publish about price, fees and nonprofit terms",
+   "description": "What registration, camp, childcare, class and sports software publishes about plan prices, nonprofit offers, fees passed on to families, card processing rates, contracts, onboarding fees and Spanish-language support. Each record has a short summary of what the platform publishes, a link to the source and the date we checked.",
+   "version": "1.0",
+   "last_checked": "2026-10",
+   "records": 56,
+   "page": "https://backpr.com/resources/registration-software-pricing",
+   "checked_label": "October 2026",
+   "cite_as": "BackPR (2026). Registration software pricing index: what 56 platforms publish about price, fees and nonprofit terms (version 1.0, checked October 2026). https://backpr.com/data/registration-software-pricing-index.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "Each company's public pricing pages and terms, linked from its BackPR comparison page"
+    }
+   ],
+   "notes": "BackPR competes with the companies in this index, so we left BackPR out. A value of \"not published\" means we found nothing, not that the company doesn't offer it. CC BY 4.0 covers BackPR's compilation; quoted company text remains the company's. Companies in the index can send corrections to support@backpr.com. BackPR's State of Youth Programs 2026 report uses only the 48 registration and management platforms in this index and leaves out the form, fundraising, event and membership tools (categories \"forms\" and \"membership\").",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  },
+  {
+   "name": "registration-software-pricing-index-csv",
+   "path": "https://backpr.com/data/registration-software-pricing-index.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Registration software pricing index: what 56 platforms publish about price, fees and nonprofit terms",
+   "description": "What registration, camp, childcare, class and sports software publishes about plan prices, nonprofit offers, fees passed on to families, card processing rates, contracts, onboarding fees and Spanish-language support. Each record has a short summary of what the platform publishes, a link to the source and the date we checked.",
+   "version": "1.0",
+   "last_checked": "2026-10",
+   "records": 56,
+   "page": "https://backpr.com/resources/registration-software-pricing",
+   "checked_label": "October 2026",
+   "cite_as": "BackPR (2026). Registration software pricing index: what 56 platforms publish about price, fees and nonprofit terms (version 1.0, checked October 2026). https://backpr.com/data/registration-software-pricing-index.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "Each company's public pricing pages and terms, linked from its BackPR comparison page"
+    }
+   ],
+   "notes": "BackPR competes with the companies in this index, so we left BackPR out. A value of \"not published\" means we found nothing, not that the company doesn't offer it. CC BY 4.0 covers BackPR's compilation; quoted company text remains the company's. Companies in the index can send corrections to support@backpr.com. BackPR's State of Youth Programs 2026 report uses only the 48 registration and management platforms in this index and leaves out the form, fundraising, event and membership tools (categories \"forms\" and \"membership\").",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  },
+  {
+   "name": "youth-nonprofits-by-state-json",
+   "path": "https://backpr.com/data/youth-nonprofits-by-state.json",
+   "format": "json",
+   "mediatype": "application/json",
+   "title": "Youth and community nonprofits by state: active 501(c)(3) organizations from IRS data",
+   "description": "Counts of active 501(c)(3) youth development, amateur sports, PTA and PTO, recreation, camp and club, children's and youth services, arts education and childcare nonprofits in each state and DC, by group, including how many report under $50,000 in annual revenue. There are 171,592 nationally. The state rows total 171,286; the other 306 have no state on file or are in US territories, at military addresses or abroad.",
+   "version": "1.0",
+   "last_checked": "2026-09-08",
+   "records": 51,
+   "page": "https://backpr.com/resources/nonprofits-by-state",
+   "checked_label": "September 2026",
+   "cite_as": "BackPR (2026). Youth and community nonprofits by state: active 501(c)(3) organizations from IRS data (version 1.0, checked September 2026). https://backpr.com/data/youth-nonprofits-by-state.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "IRS Exempt Organizations Business Master File, posted September 8, 2026"
+    }
+   ],
+   "notes": "Filter: Active 501(c)(3) organizations in the NTEE codes listed for each group. Group codes (NTEE, the IRS's activity codes for nonprofits): Amateur sports: N40, N6x, N7x; Youth development: all O codes; PTAs and PTOs: B94; Recreation, camps and clubs: N20, N30, N31, N50; Children's and youth services: P30; Arts education: A25; Childcare: P33. Each organization is counted once, by its main NTEE code. Some groups, such as amateur sports and arts education, include organizations that also serve adults. The \"under_50k\" column counts organizations that report annual revenue under $50,000 on their latest IRS filing or have no revenue amount on file.",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  },
+  {
+   "name": "youth-nonprofits-by-state-csv",
+   "path": "https://backpr.com/data/youth-nonprofits-by-state.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Youth and community nonprofits by state: active 501(c)(3) organizations from IRS data",
+   "description": "Counts of active 501(c)(3) youth development, amateur sports, PTA and PTO, recreation, camp and club, children's and youth services, arts education and childcare nonprofits in each state and DC, by group, including how many report under $50,000 in annual revenue. There are 171,592 nationally. The state rows total 171,286; the other 306 have no state on file or are in US territories, at military addresses or abroad.",
+   "version": "1.0",
+   "last_checked": "2026-09-08",
+   "records": 51,
+   "page": "https://backpr.com/resources/nonprofits-by-state",
+   "checked_label": "September 2026",
+   "cite_as": "BackPR (2026). Youth and community nonprofits by state: active 501(c)(3) organizations from IRS data (version 1.0, checked September 2026). https://backpr.com/data/youth-nonprofits-by-state.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "IRS Exempt Organizations Business Master File, posted September 8, 2026"
+    }
+   ],
+   "notes": "Filter: Active 501(c)(3) organizations in the NTEE codes listed for each group. Group codes (NTEE, the IRS's activity codes for nonprofits): Amateur sports: N40, N6x, N7x; Youth development: all O codes; PTAs and PTOs: B94; Recreation, camps and clubs: N20, N30, N31, N50; Children's and youth services: P30; Arts education: A25; Childcare: P33. Each organization is counted once, by its main NTEE code. Some groups, such as amateur sports and arts education, include organizations that also serve adults. The \"under_50k\" column counts organizations that report annual revenue under $50,000 on their latest IRS filing or have no revenue amount on file.",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  },
+  {
+   "name": "templates-json",
+   "path": "https://backpr.com/data/templates.json",
+   "format": "json",
+   "mediatype": "application/json",
+   "title": "Free youth program form templates: registration, medical, pickup, waivers, policies and staff forms",
+   "description": "BackPR's free printable PDF and editable Word templates for camps, after-school programs, childcare and other youth programs, with Spanish versions of the forms families fill out.",
+   "version": "1.0",
+   "last_checked": "2026-10",
+   "records": 28,
+   "page": "https://backpr.com/resources/templates",
+   "checked_label": "October 2026",
+   "cite_as": "BackPR (2026). Free youth program form templates: registration, medical, pickup, waivers, policies and staff forms (version 1.0, checked October 2026). https://backpr.com/data/templates.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "Written by BackPR"
+    }
+   ],
+   "notes": "A list of BackPR's free templates, with links to each PDF and Word file. CC BY 4.0 covers this list; the templates themselves are free to use and change without credit. They're starting points to adapt, not legal advice. Have a lawyer review waivers and agreements.",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  },
+  {
+   "name": "templates-csv",
+   "path": "https://backpr.com/data/templates.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Free youth program form templates: registration, medical, pickup, waivers, policies and staff forms",
+   "description": "BackPR's free printable PDF and editable Word templates for camps, after-school programs, childcare and other youth programs, with Spanish versions of the forms families fill out.",
+   "version": "1.0",
+   "last_checked": "2026-10",
+   "records": 28,
+   "page": "https://backpr.com/resources/templates",
+   "checked_label": "October 2026",
+   "cite_as": "BackPR (2026). Free youth program form templates: registration, medical, pickup, waivers, policies and staff forms (version 1.0, checked October 2026). https://backpr.com/data/templates.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "Written by BackPR"
+    }
+   ],
+   "notes": "A list of BackPR's free templates, with links to each PDF and Word file. CC BY 4.0 covers this list; the templates themselves are free to use and change without credit. They're starting points to adapt, not legal advice. Have a lawyer review waivers and agreements.",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  },
+  {
+   "name": "finder-directory-stats-json",
+   "path": "https://backpr.com/data/finder-directory-stats.json",
+   "format": "json",
+   "mediatype": "application/json",
+   "title": "Licensed youth program directory statistics: centers, after-school programs and camps by state",
+   "description": "Live counts of the childcare centers, school-age (after-school) programs, camps and other youth programs listed in BackPR's program finder, by state and program type, from official state and local licensing data. One record per state with listings. Updated daily on backpr.com; each file shows its update date.",
+   "version": "live",
+   "last_checked": "updated daily",
+   "records": null,
+   "page": "https://backpr.com/find",
+   "checked_label": "refreshed daily",
+   "cite_as": "BackPR (2026). Licensed youth program directory statistics (live data, updated <the date shown in the file>). https://backpr.com/data/finder-directory-stats.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "Each state's official licensing or program data, as listed on each state's finder page"
+    }
+   ],
+   "notes": "Home-based family childcare isn't listed. Counts cover the states that publish program data.",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  },
+  {
+   "name": "finder-directory-stats-csv",
+   "path": "https://backpr.com/data/finder-directory-stats.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Licensed youth program directory statistics: centers, after-school programs and camps by state",
+   "description": "Live counts of the childcare centers, school-age (after-school) programs, camps and other youth programs listed in BackPR's program finder, by state and program type, from official state and local licensing data. One record per state with listings. Updated daily on backpr.com; each file shows its update date.",
+   "version": "live",
+   "last_checked": "updated daily",
+   "records": null,
+   "page": "https://backpr.com/find",
+   "checked_label": "refreshed daily",
+   "cite_as": "BackPR (2026). Licensed youth program directory statistics (live data, updated <the date shown in the file>). https://backpr.com/data/finder-directory-stats.json. CC BY 4.0.",
+   "sources": [
+    {
+     "title": "Each state's official licensing or program data, as listed on each state's finder page"
+    }
+   ],
+   "notes": "Home-based family childcare isn't listed. Counts cover the states that publish program data.",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Creative Commons Attribution 4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2315 @@
+{
+ "name": "registration-software-pricing-index",
+ "title": "Registration software pricing index: what 56 platforms publish about price, fees and nonprofit terms",
+ "description": "What registration, camp, childcare, class and sports software publishes about plan prices, nonprofit offers, fees passed on to families, card processing rates, contracts, onboarding fees and Spanish-language support. Each record has a short summary of what the platform publishes, a link to the source and the date we checked.",
+ "version": "1.0",
+ "last_checked": "2026-10",
+ "license": "CC-BY-4.0",
+ "license_url": "https://creativecommons.org/licenses/by/4.0/",
+ "publisher": "BackPR",
+ "page": "https://backpr.com/resources/registration-software-pricing",
+ "checked_label": "October 2026",
+ "cite_as": "BackPR (2026). Registration software pricing index: what 56 platforms publish about price, fees and nonprofit terms (version 1.0, checked October 2026). https://backpr.com/data/registration-software-pricing-index.json. CC BY 4.0.",
+ "sources": [
+  "Each company's public pricing pages and terms, linked from its BackPR comparison page"
+ ],
+ "notes": "BackPR competes with the companies in this index, so we left BackPR out. A value of \"not published\" means we found nothing, not that the company doesn't offer it. CC BY 4.0 covers BackPR's compilation; quoted company text remains the company's. Companies in the index can send corrections to support@backpr.com. BackPR's State of Youth Programs 2026 report uses only the 48 registration and management platforms in this index and leaves out the form, fundraising, event and membership tools (categories \"forms\" and \"membership\").",
+ "records": [
+  {
+   "platform": "ActiveNet",
+   "category": "recreation",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/activenet",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; set in each customer's order.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "added by default",
+    "published_wording": "Processing fees are added to customers' online transactions unless the organization absorbs all or part of them.",
+    "note": "Rates are set in each organization's fee contract."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "Unless the order says otherwise, ACTIVE's recreation and membership terms run three years, renew for three years at a time, and need 12 months' written notice to end.",
+    "note": "Published default in ACTIVE's terms; an order can set different terms."
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "ACTIVE's terms invoice implementation and other services half at the start and half at completion.",
+    "note": "Implementation is invoiced; amount not published."
+   },
+   "spanish_for_families": {
+    "value": "yes",
+    "published_wording": "Organizations can turn on Spanish and French for the redesigned customer pages. System text comes translated",
+    "note": "Opt-in by the organization, on the redesigned customer pages; the organization translates its own text."
+   }
+  },
+  {
+   "platform": "Activity Messenger",
+   "category": "all-in-one",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/activity-messenger",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Light $99/month, Standard $149/month, Pro $229/month, Enterprise custom.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Organizations may add an optional card convenience fee to invoices.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "Standard and Pro: cards 2.9% + $0.30, pre-authorized debits 1% + $0.40, plus a 1% Activity Messenger service fee.",
+    "note": "Light plan rates not stated."
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Billed monthly; its pricing page says customers aren't stuck in contracts.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Onboarding calls and data migration included on Standard and Pro.",
+    "note": "Light plan not stated."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published. Organizations choose English or French as their default language.",
+    "note": "Only English and French are named."
+   }
+  },
+  {
+   "platform": "Amilia SmartRec",
+   "category": "all-in-one",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/amilia",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Standard $99/mo or Advanced $499/mo, plus a 1% service fee on each new invoice item.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "other",
+    "published_wording": "Preferred nonprofit rates, not published.",
+    "note": "Special nonprofit rates, amount not published."
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": null,
+    "note": "No family-fees row in this entry; nothing to quote. The 1% service fee on invoice items is part of the organization's pricing; the row doesn't say it is passed to families."
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "2.85% + 30¢ (Standard) or 2.75% + 30¢ (Advanced), processed by Amilia.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "The default term is 24 months, then it renews yearly.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "From $899 (Standard) or $2,999 (Advanced).",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "no",
+    "published_wording": "English and French.",
+    "note": "Row lists English and French only."
+   }
+  },
+  {
+   "platform": "Arlo",
+   "category": "courses-adult",
+   "checked_on": "October 10 and 11, 2026",
+   "comparison_page": "https://backpr.com/compare/arlo",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "$80–$302 per admin license per month, depending on plan, billing and number of licenses, plus $1.07–$2.39 per registration.",
+    "note": "Published as ranges."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit discount.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": null,
+    "note": "No family-fees row in this entry; nothing to quote. Whether the per-registration charge can be passed to registrants isn't stated."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": null,
+    "note": "No payment-fee row in this entry; nothing to quote. The $1.07–$2.39 per-registration charge is a software fee, not a processing rate."
+   },
+   "contract_term": {
+    "value": "not published",
+    "published_wording": null,
+    "note": "No contract row in this entry; nothing to quote."
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "Required package: $695, $1,395 or $3,995.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "no",
+    "published_wording": "English.",
+    "note": "Row lists English only."
+   }
+  },
+  {
+   "platform": "Breeze ChMS",
+   "category": "church",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/breeze",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "$72 a month, flat, with unlimited people and admin users and online giving included.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing. Every church pays the same flat price.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "none",
+    "published_wording": "None added by Breeze. Breeze says forms have no option for payers to cover processing fees",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "Form payments in the US and Canada: 2.9% + $0.30 per card payment.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "No contract. Month-to-month, with no setup or termination fees; cancel anytime.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Free. Breeze's move-in team imports your data from a CSV file",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "no",
+    "published_wording": "No. Breeze's help center says multiple languages aren't supported",
+    "note": null
+   }
+  },
+  {
+   "platform": "brightwheel",
+   "category": "childcare",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/brightwheel",
+   "plan_prices": {
+    "value": "partial",
+    "published_wording": "Premium is quote-based. A free plan covers 1 staff member and fewer than 20 students, with limited features.",
+    "note": "Only the limited free plan has a published price; the paid Premium plan is quote-only."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Programs choose whether families pay brightwheel's service fees on card and bank-transfer payments, including autopay.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "partial",
+    "published_wording": "brightwheel charges a card fee and an ACH fee on online payments, quoted per program.",
+    "note": "Its help center gives ACH at 0.6% (25¢ min, $2 max) for most programs, but card rates are quoted per program."
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Monthly or annual subscriptions renew automatically; cancel at least 30 days before renewal.",
+    "note": "A monthly option exists; both monthly and annual terms renew automatically."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Onboarding and roster import are included in Premium.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "yes",
+    "published_wording": "Families can switch the app and web to Spanish.",
+    "note": null
+   }
+  },
+  {
+   "platform": "CampBrain",
+   "category": "camps",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/campbrain",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; set in each customer's agreement.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "None published.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published. Its service description says the camp supplies its own merchant account and payment gateway.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "not published",
+    "published_wording": "Full terms not published. CampBrain's customer service page refers to an annual subscription.",
+    "note": "An annual subscription is mentioned, but term and renewal terms aren't published."
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "data imports are quoted separately and billed on top.",
+    "note": "Setup fee not published; initial training up to 3 hours."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "CampDoc",
+   "category": "camps",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/campdoc",
+   "plan_prices": {
+    "value": "partial",
+    "published_wording": "From $355 a month, quoted by program size and needs.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Camps can add a convenience fee to card or ACH payments: a percentage, a flat fee or both, or one annual fee.",
+    "note": "Families are also charged $35 for a returned bank payment."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published; set in each client agreement and taken out before payout.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "set per order/contract",
+    "published_wording": "Full terms not published. Contracts have set start, end and renewal dates, and multi-year agreements are offered.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Every plan includes onboarding, training and support. A self-service importer is included; import services cost extra (amount not published).",
+    "note": "Assisted import services cost extra."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Camps can add translations of their form questions, and families can switch the language of health forms. Supported languages aren't listed.",
+    "note": "Multi-language forms mentioned, but Spanish isn't named."
+   }
+  },
+  {
+   "platform": "Campminder",
+   "category": "camps",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/campminder",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published. Its sales team sets each camp's price",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": null,
+    "note": "No family-fees row in this entry; nothing to quote. A separate row says Deluxe camps can offer parents a paid Photo Season Pass ($10–$50 per household per season); that's an optional product, not a checkout fee."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": null,
+    "note": "No payment-fee row in this entry; nothing to quote."
+   },
+   "contract_term": {
+    "value": "not published",
+    "published_wording": null,
+    "note": "No contract row in this entry; nothing to quote."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": null,
+    "note": "No onboarding row in this entry; nothing to quote."
+   },
+   "spanish_for_families": {
+    "value": "no",
+    "published_wording": "English. Campminder's help center suggests browser translation.",
+    "note": "Browser translation is not a product feature."
+   }
+  },
+  {
+   "platform": "CampSite",
+   "category": "camps",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/campsite",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published. CampSite is a subscription with add-on modules.",
+    "note": "Only prepaid text-message credit prices are published."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Camps can add a processing fee of up to 3% to credit card payments (not debit or ACH) after signing an agreement with CampSite's payments team.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published. Payments run through Constellation Payments, and CampSite's payments team gives card and ACH rates on request.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "not published",
+    "published_wording": "Full terms not published. Subscriptions renew on a set date",
+    "note": "Renewal is stated, but the term length isn't published."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "CampSite trains your staff during onboarding (fees not published).",
+    "note": "A self-service spreadsheet import tool is available."
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "Parents can have the parent dashboard machine-translated into Spanish, French, German, Italian or Portuguese, if the camp turns those languages on.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Campwise",
+   "category": "camps",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/campwise",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Its add-on price list shows Camp at $1,320 a year ($110 a month), Conference $1,140, Donor $840, Point of Sale $780 and Online Staff $480 a year.",
+    "note": "Per-module prices from its add-on price list."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "Each purchase includes a one-year maintenance and support subscription that renews yearly.",
+    "note": "Full terms not published."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Setup and data import costs aren't published.",
+    "note": "Training and weekday phone support are free."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Circuitree",
+   "category": "camps",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/circuitree",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Camps can add a credit card surcharge of up to 3% (not on debit cards or eCheck payments).",
+    "note": "Help center also shows how to pass Circuitree's per-registration fee or card costs to families as a service fee."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "Its current offer for new customers requires an annual agreement.",
+    "note": "Full terms not published; auto-renewal not stated."
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "Implementation and consultation fees (amounts not published).",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "CivicPlus Recreation Management",
+   "category": "recreation",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/civicrec",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; custom quote.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Agencies can add their own convenience fee (a percentage, a flat amount or both) to card and ACH payments.",
+    "note": "No CivicPlus fee for families is published; with the CSG Forte gateway, families can instead pay Forte's service fee."
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "With CivicPlus Payments (processed by Rainforest): 3% + $0.30 per card payment (3.5% + $0.30 for American Express), 1% + $0.30 per ACH payment (capped at $5.30)",
+    "note": null
+   },
+   "contract_term": {
+    "value": "set per order/contract",
+    "published_wording": "Term and renewals set in each statement of work (not published).",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "Importing accounts or facility reservation holds costs a one-time fee (not published)",
+    "note": "Dedicated implementation manager; import fee amount not published."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Classter",
+   "category": "schools-education",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/classter",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; quoted per student and by the modules chosen.",
+    "note": "Its pricing page shows example per-student module prices in euros, but actual pricing is quoted."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "None published.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published. Its billing module connects to external payment gateways.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "Billed annually or every two years (up to 20% off two-year plans). Cancellation terms not published.",
+    "note": "Annual or two-year terms; auto-renewal not stated."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Installation, data migration and training are offered as services; fees not published.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Multilingual parent and student portals; the supported languages aren't listed.",
+    "note": "Multi-language portals mentioned, but Spanish isn't named."
+   }
+  },
+  {
+   "platform": "Cognito Forms",
+   "category": "forms",
+   "checked_on": "October 11, 2026",
+   "comparison_page": "https://backpr.com/compare/cognito-forms",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Pro $19, Team $39, Enterprise $129 per month billed yearly; $24, $49, $174 billed monthly.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "other",
+    "published_wording": "Discounted rates on any plan for 501(c)(3) organizations that aren't educational or governmental, by request to support. Discount amount not published.",
+    "note": "A discount on request, amount not published (treated as 'special rates unpublished')."
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "None unless the organization turns on Include Processing Fees, which passes the plan's added Cognito Pay fee on to payers.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "Cognito Pay (US): 2.9% + 30¢ per card payment, plus 2% on the free plan or 1% on Pro.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Monthly or annual plans that renew automatically.",
+    "note": "A monthly option exists; annual plans are non-cancelable 12-month terms."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Self-serve, with a 14-day free trial.",
+    "note": "Self-serve tool; no onboarding service or fee."
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "A form's language can be set to Spanish, so its fixed text, such as error messages, appears in Spanish. Each form has one language setting.",
+    "note": "One language per form; families can't switch languages."
+   }
+  },
+  {
+   "platform": "CourseStorm",
+   "category": "courses-adult",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/coursestorm",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Starter $99, Core $169, Pro $269, All Access $399 per month billed yearly; $119, $219, $329, $499 billed monthly (starting prices).",
+    "note": "Starting prices published for every plan."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "added by default",
+    "published_wording": "A $2.49 per-registration fee applies on all plans. CourseStorm's help center describes its registration fee as a student fee that programs can choose to cover.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Stripe card processing on all plans, deducted from payouts.",
+    "note": "No rate stated."
+   },
+   "contract_term": {
+    "value": "not published",
+    "published_wording": "Monthly or yearly billing. Contract and cancellation terms aren't published.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "student data import is custom-quoted.",
+    "note": "Onboarding format varies by plan; data import is quoted separately."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Daxko",
+   "category": "recreation",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/daxko",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; set in each order form.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Organizations that process payments through Daxko can add a Flex Fee to members' card and ACH payments, up to 3% of each payment",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "set per order/contract",
+    "published_wording": "Term set in each order form, with renewal terms.",
+    "note": "Ending early means paying 100% of the remaining fees."
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "One-time, nonrefundable implementation fees for setup, data conversion and training, set in each order form.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "DreamClass",
+   "category": "schools-education",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/dreamclass",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Standard (100 students) $99, Plus (300) $189, Enterprise (500) $259 per month billed annually; $149, $279, $379 billed monthly.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "None published.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "No DreamClass transaction fee published. Tuition payments run through the school's own Stripe account.",
+    "note": "Runs on the school's own Stripe account, but DreamClass's own fee is described as 'not published' rather than none."
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Monthly or annual subscription that renews until canceled.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "monthly plans pay $500. Data migration is a paid add-on on annual Plus and Enterprise.",
+    "note": "Annual plans include 1 to 5 onboarding sessions."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Enrollsy",
+   "category": "all-in-one",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/enrollsy",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Starter $159, Professional $289, Enterprise $599 per month per location billed monthly, or $129, $239, $479 billed yearly, plus an implementation fee.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "other",
+    "published_wording": "nonprofits get one additional admin user free.",
+    "note": "No discount on plan prices; one extra admin user free."
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "None added by Enrollsy. Organizations may add their own convenience fee to card or ACH payments.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "EnrollsyPay cards 2.8% + 5¢; ACH $1.15 per transaction; plus monthly processor fees.",
+    "note": "Monthly processor fee amount not stated."
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "12-month commitment, then month-to-month with 30 days' notice.",
+    "note": "12-month minimum, then month-to-month; not an annual auto-renewal."
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "Every plan adds an implementation fee that varies by needs (amount not published).",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Eventbrite",
+   "category": "forms",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/eventbrite",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Paid tickets carry per-ticket fees. Optional Premium subscription: $69 a month or $708 a year in the US.",
+    "note": "Per-ticket fees are published in the payment-fees row."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No nonprofit discount on ticketing fees.",
+    "note": "A 50% nonprofit discount exists only on older Pro email plans that new subscribers can't get where Premium is offered."
+   },
+   "fees_added_for_families": {
+    "value": "added by default",
+    "published_wording": "By default, buyers pay Eventbrite's ticketing fees on top of the ticket price; organizers can choose to absorb them.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "US: 3.7% + $1.79 service fee per paid ticket, plus a 2.9% payment processing fee on the total order.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "No contract needed to sell tickets, and organizers can delete their account at any time.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Self-serve, with email support, plus 24/7 chat for paid events.",
+    "note": "Self-serve tool; large events can buy a custom package from sales."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Each event page uses one language; the help center doesn't list which languages are available.",
+    "note": "Spanish isn't named."
+   }
+  },
+  {
+   "platform": "FunJoin",
+   "category": "camps",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/funjoin",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; quote-based. Its pricing page is password-protected.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing. FunJoin mentions a free tier that organizations apply for; its terms aren't published.",
+    "note": "The free tier by application isn't nonprofit-specific and its terms aren't published."
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Organizations can turn on their own payment fee and may run a card surcharge program.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Card payments run through Stripe; FunJoin's rates aren't published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "One-year term that renews yearly unless either side gives 90 days' written notice.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "One-time setup fee (amount not published) that excludes data import. Data import services start at $495.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Givebutter",
+   "category": "forms",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/givebutter",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Optional Givebutter Plus is priced by number of contacts, from $29 a month billed yearly ($33.80 billed monthly) for under 250 contacts up to $279 a month billed yearly for 10,000.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "free",
+    "published_wording": "$0 with optional donor tips turned on.",
+    "note": "Free when payer tips are on (not nonprofit-only); with tips off, a 3% platform fee applies."
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "With tips on, checkout asks payers for an optional tip to Givebutter and shows processing fees they can choose to cover; they can change or remove the tip. With tips off, the organization can require payers to cover fees, make it optional, or absorb them.",
+    "note": "The organization picks tips on (payers see an optional, removable tip to Givebutter) or tips off (organization decides on fees). The row doesn't say which is the default, so not classed as 'added by default'."
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "With tips off: a 3% platform fee plus 2.9% + 30¢ per card or wallet payment, or 1.9% + 30¢ per ACH payment.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Givebutter Plus is monthly or annual; cancel anytime from the dashboard, effective at the end of the billing period.",
+    "note": "Free-plan terms not published."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Contacts, transactions and recurring donors can be imported at no cost.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Google Forms",
+   "category": "forms",
+   "checked_on": "October 11, 2026",
+   "comparison_page": "https://backpr.com/compare/google-forms",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "No charge with a Google account.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "free",
+    "published_wording": "$0. Forms is free with a Google account.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "none",
+    "published_wording": "None. Google Forms doesn't collect payments.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "not applicable",
+    "published_wording": "Not applicable. Google Forms' question types don't include a payment field",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "None for the free version.",
+    "note": "No contract."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Self-serve; no onboarding service published.",
+    "note": "Free self-serve tool; no onboarding service exists, so no fee."
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "You can write a form in Spanish. Google's help center doesn't describe a built-in way to offer the same form in English and Spanish.",
+    "note": "The organization can write a Spanish form; no built-in bilingual switching described."
+   }
+  },
+  {
+   "platform": "GotSport",
+   "category": "sports",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/gotsport",
+   "plan_prices": {
+    "value": "partial",
+    "published_wording": "Where no amount is agreed, its terms set $4 per program registration, $10 per league team and $20 per tournament team.",
+    "note": "Actual pricing is set per agreement; only fallback default fees are published."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "GotSport's software fee can be charged to families at checkout; it's shown before payment and isn't refunded",
+    "note": "Row doesn't say whether charging the software fee to families is the default or the club's choice; clubs can also add a percentage fee to recover card costs."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "set per order/contract",
+    "published_wording": "Term set in each organization's agreement.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Fees not published.",
+    "note": "Self-serve CSV bulk upload is available."
+   },
+   "spanish_for_families": {
+    "value": "yes",
+    "published_wording": "Admins can set a program's public registration pages to Spanish, and users can choose a preferred language in their profile.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Homeroom",
+   "category": "schools-education",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/homeroom",
+   "plan_prices": {
+    "value": "partial",
+    "published_wording": "No subscription for schools or PTOs. Homeroom earns a service fee added to each class price that families pay.",
+    "note": "$0 to schools and PTOs is published; the family service-fee rate isn't, and other nonprofits must ask for pricing."
+   },
+   "nonprofit_offer": {
+    "value": "other",
+    "published_wording": "Free for schools and PTOs. Private schools, districts and nonprofits are asked to contact Homeroom for pricing.",
+    "note": "Free to schools and PTOs because families pay Homeroom's service fee; other nonprofits must contact Homeroom."
+   },
+   "fees_added_for_families": {
+    "value": "added by default",
+    "published_wording": "Homeroom adds its own service fee (rate not published) on top of the class price, paid by families.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "Providers build a 3% card-processing fee into their class prices.",
+    "note": "No fee to schools or PTOs; 3% card processing for providers."
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "No subscription term published. Accounts can be closed at any time.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "No onboarding fee published. An onboarding specialist sets up programs.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "iClassPro",
+   "category": "classes-studios",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/iclasspro",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Per location, per month: Signature $139, Elite $199, Premium $299, with unlimited families and students.",
+    "note": "Enterprise by quote."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "None published.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "US accounts use iClassPro Payment Services: 2.9% + $0.50 on Visa, Mastercard and Discover, 3.5% + $0.50 on Amex, 1% eCheck, plus a $10 monthly gateway fee.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Signature and Elite: no commitment, billed monthly with no proration or refunds.",
+    "note": "Premium requires a 12-month commitment."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Two complimentary data imports (test and final)",
+    "note": "Custom imports need a statement of work and may carry a fee."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Jackrabbit Class",
+   "category": "classes-studios",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/jackrabbit-class",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Per month by total student count: $49 (up to 100), $89 (250), $129 (500), $169 (1,000), $209 (3,000), $245 (3,001+).",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Organizations can opt in to card surcharging through Jackrabbit Pay.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published; set in each organization's Jackrabbit Pay agreement.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "No contracts or setup fees, per its pricing page. Billed monthly",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "No setup fees and free data imports.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Jotform",
+   "category": "forms",
+   "checked_on": "October 11, 2026",
+   "comparison_page": "https://backpr.com/compare/jotform",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Bronze $39, Silver $49, Gold $129 per month billed monthly, or $34, $39, $99 a month billed yearly.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "discount",
+    "published_wording": "50% off Bronze, Silver and Gold, billed monthly or yearly, after Jotform approves an application; 30% off Enterprise.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "none",
+    "published_wording": "None added by Jotform.",
+    "note": "Row doesn't say whether organizations can add their own fee."
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "No Jotform transaction fee; you pay your payment gateway's standard rates (Stripe, Square, PayPal and others).",
+    "note": "No Jotform fee on top of the chosen gateway's standard rates."
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Monthly or yearly subscription that renews automatically. Cancel anytime",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Self-serve, with 24/7 support.",
+    "note": "Self-serve tool; Enterprise onboarding services have unpublished fees."
+   },
+   "spanish_for_families": {
+    "value": "yes",
+    "published_wording": "Forms can be translated into more than 130 languages, and respondents choose their language.",
+    "note": "Spanish isn't named but is covered by 130+ languages with respondent choice."
+   }
+  },
+  {
+   "platform": "Jumbula",
+   "category": "all-in-one",
+   "checked_on": "October 10 and 11, 2026",
+   "comparison_page": "https://backpr.com/compare/jumbula",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Pay As You Go $15/mo (10 enrollments included, more bought in packs), Rise $150/mo, Ascend $285/mo",
+    "note": "Enterprise is by quote."
+   },
+   "nonprofit_offer": {
+    "value": "discount",
+    "published_wording": "20% nonprofit discount off the list prices of its paid plans",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "None from Jumbula. Organizations can add a convenience fee or surcharge.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": null,
+    "note": "No payment-fee row in this entry; nothing to quote. Card processing rates are not stated, so conservatively 'no'."
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Month-to-month with 30 days' written notice to cancel.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Free onboarding. Custom or complex migrations may carry a fee",
+    "note": "Custom or complex migrations may cost extra; data migration is included on Ascend."
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "English, with a Google Translate integration.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Kangarootime",
+   "category": "childcare",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/kangarootime",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Centers can pass card processing fees to families as a surcharge, figured as a percentage of the payment; debit cards are charged the same way.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Rates not published; billing service fees are set in each order form.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "Agreements then renew automatically for one-year terms unless canceled 90 days before the term ends",
+    "note": "First term is set in each order form."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Fees not published.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "Centers can add Spanish to enrollment forms and program descriptions, and the KT Connect parent app runs in Spanish when the phone is set to Spanish. Statements and invoices stay in English",
+    "note": "Parent app and enrollment forms can be in Spanish; statements, invoices and staff messages stay in English."
+   }
+  },
+  {
+   "platform": "LeagueApps",
+   "category": "sports",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/leagueapps",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "No subscription. LeagueApps keeps a percentage of each online payment (rate by quote) and charges a one-time setup fee.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "other",
+    "published_wording": "Discounted rates for nonprofits that provide 501(c)(3) documentation. The rates aren't published.",
+    "note": "A discount, amount not published (treated as 'special rates unpublished')."
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "None added by LeagueApps. Organizations can add their own processing fee to registrations as a separate line item, as a percentage or a flat amount.",
+    "note": "Checkout can also offer families optional insurance (Vertical Insure); not counted as a fee."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "A percentage of each online payment, set by quote and taken out automatically",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "No long-term commitment; pay as you go. Either side can cancel anytime",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "A one-time setup fee (amount not published) covers launch",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Lillio",
+   "category": "childcare",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/himama",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published. The pricing page lists bundles without prices and routes to a demo request.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Centers may choose to charge parents card or bank-transfer processing fees.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Set in each center's sales order (not published).",
+    "note": null
+   },
+   "contract_term": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "Parents can receive automated email updates in Spanish. Updates written by teachers aren't translated.",
+    "note": "Spanish limited to automated emails."
+   }
+  },
+  {
+   "platform": "Mindbody",
+   "category": "classes-studios",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/mindbody",
+   "plan_prices": {
+    "value": "partial",
+    "published_wording": "In the US, Starter from $79 a month per location; Accelerate and Ultimate by quote.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "US businesses on Mindbody Payments can add a Transaction Fee to credit card payments, up to 3% or their processing rate, whichever is lower.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Mindbody Payments (run on Stripe): a percentage rate that isn't published, plus $0.10 to $0.30 per transaction.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "set per order/contract",
+    "published_wording": "Depends on the plan and billing terms. Unless the agreement says otherwise, its terms start with a 90-day term that renews every 30 days",
+    "note": "Default is a 90-day first term, then 30-day renewals; leaving early means paying for the full term. Not annual, not cancel-anytime."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "No onboarding fee: one-on-one setup sessions and training are included.",
+    "note": "Data transfer service may cost extra; custom data conversion is priced separately."
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "Booking widgets and the checkout cart can be set to Spanish, one language per widget and one for the whole checkout.",
+    "note": "One language per widget/checkout; service names and descriptions not translated."
+   }
+  },
+  {
+   "platform": "nextRec",
+   "category": "recreation",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/nextrec",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "set per order/contract",
+    "published_wording": "Term set in each client agreement (not published).",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "Set-up and professional services fees are set in each agreement (amounts not published).",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "OTTO SPORT",
+   "category": "sports",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/demosphere",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; set in each order form.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Clubs can opt in to an OTTO SPORT service fee on all online payments, shown to families as a separate line item",
+    "note": "Checkout can also offer families refund protection (Vertical Insure); not counted as a fee."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published; merchant processing fees are set in each club's statement of work",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "If the order form doesn't set a term, it's one year and renews automatically a year at a time unless you give written notice 30 days before renewal.",
+    "note": "Term is set in each order form; one year, auto-renewing, is the published default."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Pembee",
+   "category": "classes-studios",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/pembee",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Standard $45/month ($450/year), Premium $105/month ($1,050/year).",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "None published. Pembee's fees come out of the business's payouts.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "0.59% Pembee fee on card payments, plus Stripe's processing fees, deducted from payouts.",
+    "note": "Pembee's own fee is published; Stripe's processing fee is named but not quantified."
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "No long-term contract. Subscriptions renew automatically; cancel by email at least 5 days before the period ends.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "No setup fee published. Its support team can help migrate activities and customers from a previous system.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Pike13",
+   "category": "classes-studios",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/pike13",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Essential $139 or $159, Advanced $195 or $225, Premium $249 or $286",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "other",
+    "published_wording": "Pike13 offers nonprofits a discount through its sales team; the amount isn't published.",
+    "note": "A discount, amount not published (treated as 'special rates unpublished')."
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Businesses on the Celero surcharging gateway can add a fee to credit card payments to offset processing costs",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published. Pike13 isn't a payment processor",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "subscriptions are annual contracts that renew automatically.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Onboarding fees aren't published",
+    "note": "A dedicated onboarding specialist imports clients from Excel or CSV files."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published. A business-wide language setting localizes the site, but the help center doesn't list which languages are available.",
+    "note": "Multi-language setting mentioned, but Spanish isn't named."
+   }
+  },
+  {
+   "platform": "Planning Center Registrations",
+   "category": "church",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/planning-center",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "free for 5, $15 for 20, $32 for 50, $69 for 150, $115 for 400, $179 for 1,000 and $239 for 5,000.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "other",
+    "published_wording": "church plants can get Planning Center free for one year.",
+    "note": "No separate nonprofit pricing; only a one-year free offer for church plants."
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "No Planning Center fee for families is published.",
+    "note": "A cover-the-fee option exists for Giving donations but isn't described for Registrations."
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "US: 2.15% + $0.30 per card payment (3.65% + $0.30 for international cards) and $0.30 per ACH payment",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "No contracts. Monthly or annual subscription that renews automatically; upgrade, downgrade or cancel anytime.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Self-serve, with no setup fees",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "no",
+    "published_wording": "No. Planning Center says it has no immediate plans to support other languages.",
+    "note": "Churches can name events and fields in Spanish, but buttons and emails stay in English."
+   }
+  },
+  {
+   "platform": "Playground",
+   "category": "childcare",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/playground",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; the pricing link leads to a demo request.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": "State partnerships let some providers in AZ, IA, ID, KS and NY use it at no cost; not nonprofit-specific."
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Programs choose, separately for cards and ACH, whether families or the program pay processing fees; Playground's setup recommends having families pay.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Rates not published on its public pages",
+    "note": null
+   },
+   "contract_term": {
+    "value": "not published",
+    "published_wording": "Term lengths aren't published.",
+    "note": "Paid subscriptions renew automatically for the same term."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Free data migration, with a dedicated onboarding manager for every customer and hands-on setup.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "yes",
+    "published_wording": "Yes. Families can switch the Playground app and web portal to Spanish.",
+    "note": null
+   }
+  },
+  {
+   "platform": "PlayMetrics",
+   "category": "sports",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/playmetrics",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; quoted by organization type, size and features.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Organizations can also build processing costs into their prices and show them to families as a service fee",
+    "note": "Its terms also reserve PlayMetrics' right to charge non-refundable fees on family payments (amounts not published)."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published; set in each order form and shown during merchant setup.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "Initial term set in each order form; it renews automatically unless either side gives written notice 30 days before the term ends. Fees are generally annual or multi-year commitments paid in advance",
+    "note": "Term set per order form; generally annual or multi-year and auto-renewing."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Onboarding services are set in each order form for a fixed onboarding period (fees not published).",
+    "note": "Extra hours beyond the onboarding period are billed hourly."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Procare",
+   "category": "childcare",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/procare",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; quote-based, with no per-child charges.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Centers may add a surcharge on credit cards (not debit), capped at their card cost",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Rates not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "set per order/contract",
+    "published_wording": "Its terms set the term in each order form; if none is set, the term is one year and renews yearly.",
+    "note": "Conflicting sources: its website says there are no contracts, while its terms default to a one-year, yearly-renewing term. Kept neutral."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Included, with staff training and data migration support. No setup fees.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "parents can have incoming messages translated into Spanish by AI, if the center turns it on. It's off by default.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Pushpay ChMS",
+   "category": "church",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/pushpay-chms",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; quoted after a demo.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "other",
+    "published_wording": "Qualified pre-launch church plants can get a 12-month no-cost grant for the full Pushpay platform.",
+    "note": "No nonprofit pricing published; only a church-plant grant."
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "No Pushpay fee for families is published. People paying through ChMS forms can't choose to cover processing fees.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published; Pushpay's help center says to contact it for your rates.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "1-, 2- or 3-year contracts; ending early means paying the rest of the contract. Standard terms run 36 months unless the order form says otherwise and renew for the same length",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "No setup fees. Onboarding includes a project plan and a dedicated manager, and Pushpay's support team helps migrate your data.",
+    "note": "Extra coaching costs more."
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "web giving pages and receipts come in Spanish. ChMS forms have no language setting",
+    "note": "Giving pages and receipts in Spanish; registration forms have no language setting."
+   }
+  },
+  {
+   "platform": "Realm",
+   "category": "church",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/realm",
+   "plan_prices": {
+    "value": "partial",
+    "published_wording": "Inform (staff only): $49 a month after a 30-day free trial. Connect, which adds congregation features, has a monthly price based on typical weekly attendance (not published).",
+    "note": "Only the staff-only Inform tier is priced; Connect, which adds congregation features, isn't."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "No Realm fee for families is published.",
+    "note": "Donors can offset processing (1% to 4%) on gifts; not described for event payments."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Monthly subscription; no long-term commitment is published.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Data conversion, setup training and launch help are offered; prices not published.",
+    "note": "Its agreement says purchases may include one-time fees or data conversion costs; on-site training is $2,500 a day."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "RecDesk",
+   "category": "recreation",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/recdesk",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Yearly subscription: Essential from $3,835 (typically towns under 4,000 residents), Standard from $6,240, Plus from $10,790 and Enterprise from $16,250.",
+    "note": "Starting prices published for every tier."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Organizations can pass card processing fees to families as a convenience fee or absorb them.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Rates not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "Yearly subscription. Cancel anytime by email from a site administrator, with no prorated or partial refund for the rest of the billing year.",
+    "note": "Yearly term; renewal is mentioned (price increases apply at renewal) but auto-renewal isn't stated. Can cancel anytime, with no refund for the rest of the year."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "No startup costs, with free training and support.",
+    "note": "Whether data import is included isn't published."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "RecTrac",
+   "category": "recreation",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/rectrac",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; pricing on request.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "With PayTrac, public-sector and educational organizations can pass processing costs to patrons as a service fee, in person or online.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "set per order/contract",
+    "published_wording": "Initial term set in each services agreement, with renewals.",
+    "note": "Cancellation without cause only after the initial term, with 90 days' notice before the annual date; no mid-term cancellation."
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "Implementation, setup and training are billed at Vermont Systems' standard rates",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "No built-in translations. Organizations can enter their own wording, such as Spanish, phrase by phrase for WebTrac pages and receipts.",
+    "note": "The organization must translate system text itself."
+   }
+  },
+  {
+   "platform": "Regpack",
+   "category": "all-in-one",
+   "checked_on": "October 10 and 11, 2026",
+   "comparison_page": "https://backpr.com/compare/regpack",
+   "plan_prices": {
+    "value": "partial",
+    "published_wording": "A summary Regpack publishes for AI tools (llms.txt) gives about $400/mo for its small-business package or $600/mo for Mid-Market, billed yearly.",
+    "note": "Not on its pricing page; approximate figures from llms.txt plus a $3,000/yr admin license price from its help center."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "not published",
+    "published_wording": "Purchase Protection, offered by default, for a fee families pay (around 3–5% of the activity cost, per a Regpack blog post).",
+    "note": "No 'fees added to what families pay' row. Purchase Protection is a family-paid protection product offered by default at checkout, not a service/processing fee; the row doesn't say whether it is pre-selected. Kept as 'not published' to be conservative; reclassify as 'added by default' if protection products should count."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": null,
+    "note": "No payment-fee row in this entry; nothing to quote."
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "Annual terms that renew automatically.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Included on the Mid-Market Plus tier.",
+    "note": "Only says data migration is included on one tier; onboarding cost on other tiers isn't stated."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Multi-language forms.",
+    "note": "Multi-language forms mentioned, but Spanish isn't named."
+   }
+  },
+  {
+   "platform": "Sawyer",
+   "category": "all-in-one",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/sawyer",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Launch $71–79/mo in the first year, then $129–149/mo. Grow $189–219/mo. Scale $379–399/mo.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "added by default",
+    "published_wording": "A Sawyer booking fee of $1.99–$3.99 on most orders over $30. Its help center says providers can't waive it",
+    "note": "Its pricing page says businesses can ask to absorb it."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": null,
+    "note": "No payment-fee row in this entry; nothing to quote. Only a 15–30% marketplace commission is stated, which is not a processing rate."
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "30 days' notice. Monthly and annual plans both renew automatically.",
+    "note": "Monthly plans exist (renewing monthly, 30 days' notice); annual plans also renew automatically."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": null,
+    "note": "No onboarding row in this entry; nothing to quote. The strengths text mentions hands-on onboarding but no fee."
+   },
+   "spanish_for_families": {
+    "value": "no",
+    "published_wording": "English.",
+    "note": "Row lists English only."
+   }
+  },
+  {
+   "platform": "SignUpGenius",
+   "category": "forms",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/signupgenius",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Silver $11.99, Gold $29.99 and Platinum $59.99 a month billed monthly",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No nonprofit pricing published.",
+    "note": "A free plan with payment collection is available to everyone."
+   },
+   "fees_added_for_families": {
+    "value": "added by default",
+    "published_wording": "By default, payers are charged SignUpGenius's convenience fee at checkout: 3.95% + $0.95 per card payment, or 1.95% (minimum $1) per eCheck.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "3.95% + $0.95 per card payment and 1.95% (minimum $1) per eCheck, on every plan.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Monthly or annual subscription that renews automatically. Turn off auto-renewal anytime",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Self-serve.",
+    "note": "Self-serve tool; Enterprise includes an account manager."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Its help center doesn't describe a Spanish version of sign-up or checkout pages.",
+    "note": "Only a printable Spanish how-to guide is published."
+   }
+  },
+  {
+   "platform": "SportsEngine",
+   "category": "sports",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/sportsengine",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "HQ Premium: $69 a month or $749 a year.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "None by default: SportsEngine deducts its management fee from the organization's payout. Organizations can recover it from families as an extra line item on each payment.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "partial",
+    "published_wording": "A management fee on every order and invoice, at rates agreed when an organization joins.",
+    "note": "HQ rates are agreed per organization (help-center example 3.25% + $2.00); Motion's rate (1% + 2.9% + $0.30) is published."
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "HQ Premium: cancel without penalty in the first 90 days; after that, a one-year contract from purchase.",
+    "note": "Subscriptions renew automatically. Motion has no long-term contract."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Extra services, such as more content migration, may carry setup fees.",
+    "note": "An onboarding coach and CSV imports are described; a base onboarding fee isn't stated."
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "The help center shows admins how to add a Google Translate widget to website and registration pages.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Stack Sports",
+   "category": "sports",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/stack-sports",
+   "plan_prices": {
+    "value": "no",
+    "published_wording": "Not published; set in each pricing agreement.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "added by default",
+    "published_wording": "Families pay a Sports Connect service fee at checkout, which isn't refundable.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Card processing rate not published",
+    "note": null
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "After the initial term it renews for 12 months at a time unless either side gives written notice 30 days before the end",
+    "note": "Initial term is set per agreement; some Stack services run month to month."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Fees not published.",
+    "note": "Custom implementation is billed separately."
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "Not published.",
+    "note": null
+   }
+  },
+  {
+   "platform": "Tadpoles",
+   "category": "childcare",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/tadpoles",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "$2.25 per active child per month, with no per-user fees, on its pricing page.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "programs that want families to cover them add a fee to each billing plan by hand.",
+    "note": "No Tadpoles family fee published; processing fees can't be passed on automatically."
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "Payments run through BlueSnap: 2.8% + $0.30 per US card payment (debit included), 3.9% + $0.30 for international cards and 0.5% + $0.30 per ACH payment",
+    "note": null
+   },
+   "contract_term": {
+    "value": "set per order/contract",
+    "published_wording": "Set in each order.",
+    "note": "Billed yearly in advance unless the order says otherwise; renewal needs written agreement from both sides; older Tadpoles terms allow cancel anytime."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "Fees not published.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "not published",
+    "published_wording": "The Tadpoles Parent app has a preferred-language setting for the app and its activity playlist; the help center doesn't list which languages.",
+    "note": "Spanish isn't confirmed for the app; some family help guides are in Spanish."
+   }
+  },
+  {
+   "platform": "TeamLinkt",
+   "category": "sports",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/teamlinkt",
+   "plan_prices": {
+    "value": "partial",
+    "published_wording": "TeamLinkt Core: $0, with no subscription or per-player fees; TeamLinkt earns a per-transaction rate set by size and volume (ask sales).",
+    "note": "Subscription and add-on prices are published, but its main charge, the per-transaction rate, is by quote."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Organizations choose on each form whether registrants pay the transaction fee",
+    "note": "Checkout can also offer optional insurance and a $5/month TeamLinkt Plus app upgrade; not counted as fees."
+   },
+   "card_rates_published": {
+    "value": "no",
+    "published_wording": "Not published.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "No contract for Core, per its pricing page.",
+    "note": "Add-ons are billed yearly; organization terms auto-renew per order form."
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Smart Importer brings in rosters, teams and schedules at no extra cost",
+    "note": "Self-serve setup; priority onboarding comes with the $795/yr Full Platform add-on."
+   },
+   "spanish_for_families": {
+    "value": "yes",
+    "published_wording": "Users can set their profile language to English, French or Spanish.",
+    "note": null
+   }
+  },
+  {
+   "platform": "TeamSnap",
+   "category": "sports",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/teamsnap",
+   "plan_prices": {
+    "value": "partial",
+    "published_wording": "Clubs and leagues: custom pricing, with discounts for registration volume. Single teams: Free for teams of fewer than 15 players; Premium $10.83 and Ultra $13.75 a month billed yearly.",
+    "note": "Club/league pricing is custom; only single-team plans are priced."
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "added by default",
+    "published_wording": "Registration processing fees are passed to families by default; the organization can switch this off.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "partial",
+    "published_wording": "The registration rate isn't published.",
+    "note": "Invoice payments are published at 3.25% + $1.50."
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "Club and league subscriptions run on annual terms, renew automatically",
+    "note": "Single-team plans renew monthly or yearly and can be canceled anytime."
+   },
+   "onboarding_and_import": {
+    "value": "not published",
+    "published_wording": "TeamSnap ONE comes with a dedicated onboarding team to help bring your data over (fees not published).",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "partial",
+    "published_wording": "The web app and Android app are in English only. The iOS app is available in English, Spanish and French.",
+    "note": null
+   }
+  },
+  {
+   "platform": "UltraCamp",
+   "category": "camps",
+   "checked_on": "October 10, 2026",
+   "comparison_page": "https://backpr.com/compare/ultracamp",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "Basic $275/month (500 people a year, then $6 each); Advanced $475/month (1,250, then $4); Enterprise $975/month (3,500, then $2).",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No published nonprofit pricing.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Camps can add their own credit card surcharge (up to 3%) or convenience fees.",
+    "note": null
+   },
+   "card_rates_published": {
+    "value": "partial",
+    "published_wording": "Card rates are set by the merchant provider.",
+    "note": "Only the ACH rate ($0.25 + 1.25%) is published."
+   },
+   "contract_term": {
+    "value": "annual or longer, auto-renewing",
+    "published_wording": "One-year initial term that renews yearly",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "paid",
+    "published_wording": "$1,000 one-time setup fee, including a basic data import",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "yes",
+    "published_wording": "Families can switch the registration language to Spanish, French or Korean.",
+    "note": null
+   }
+  },
+  {
+   "platform": "WildApricot",
+   "category": "membership",
+   "checked_on": "October 19, 2026",
+   "comparison_page": "https://backpr.com/compare/wild-apricot",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "$66 a month for 100, $82 for 250, $154 for 500, $265 for 2,000, $485 for 5,000, $584 for 15,000 and $992 for 50,000.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "none published",
+    "published_wording": "No nonprofit discount published.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "optional for the program",
+    "published_wording": "Organizations can turn on an optional checkbox that asks payers to cover card processing as a donation.",
+    "note": "No WildApricot fee added."
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "Personify Payments (US only): 2.99% + 30¢ per card payment (3.5% + 30¢ for American Express), 1.1% + 30¢ per ACH payment, and $4.99 a month.",
+    "note": null
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "Monthly, 1-year or 2-year plans that renew automatically. Cancel anytime by deleting the account",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Free onboarding coaching, including help importing member data.",
+    "note": null
+   },
+   "spanish_for_families": {
+    "value": "no",
+    "published_wording": "No. WildApricot's help center says it doesn't provide multiple-language support or translation",
+    "note": null
+   }
+  },
+  {
+   "platform": "Zeffy",
+   "category": "forms",
+   "checked_on": "October 11, 2026",
+   "comparison_page": "https://backpr.com/compare/zeffy",
+   "plan_prices": {
+    "value": "yes",
+    "published_wording": "$0, with one plan and every feature included.",
+    "note": null
+   },
+   "nonprofit_offer": {
+    "value": "free",
+    "published_wording": "$0. Only nonprofits can use Zeffy.",
+    "note": null
+   },
+   "fees_added_for_families": {
+    "value": "added by default",
+    "published_wording": "Checkout asks payers for an optional contribution to Zeffy, with a suggested amount they can lower or set to $0.",
+    "note": "A voluntary contribution is suggested by default; payers can set it to $0, and the nonprofit can't change the wording or amounts. The nonprofit receives 100%."
+   },
+   "card_rates_published": {
+    "value": "yes",
+    "published_wording": "None for the nonprofit. Zeffy covers card and transaction fees.",
+    "note": "The nonprofit's rate is $0."
+   },
+   "contract_term": {
+    "value": "month-to-month or cancel anytime",
+    "published_wording": "No contract, per its pricing page. Either side can end the agreement at any time.",
+    "note": null
+   },
+   "onboarding_and_import": {
+    "value": "free/included",
+    "published_wording": "Self-serve, with weekly live group demos.",
+    "note": "Self-serve tool; imports via Zeffy's templates."
+   },
+   "spanish_for_families": {
+    "value": "yes",
+    "published_wording": "US nonprofits can translate a form from English to Spanish. Zeffy auto-translates it for review, and payers can switch languages on the form.",
+    "note": null
+   }
+  }
+ ]
+}

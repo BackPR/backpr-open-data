@@ -1,0 +1,93 @@
+name: Sync open data
+
+# Every Monday (and on demand): copy the latest files from https://backpr.com/data into data/ and refresh the
+# README. When a dataset changes (anything other than the daily directory statistics), tag a release and
+# publish the new files to the copies on Hugging Face, Kaggle and Zenodo. Each copy is updated only when its
+# secret is set in Settings > Secrets and variables > Actions:
+#   HF_TOKEN                    Hugging Face access token with write access to backpr/us-youth-program-data
+#   KAGGLE_USERNAME, KAGGLE_KEY Kaggle API credentials for the backpr account
+#   ZENODO_TOKEN                Zenodo personal access token (scopes deposit:write and deposit:actions)
+# The live directory statistics also go to Hugging Face whenever they change.
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      release:
+        description: "Publish a new version to Hugging Face, Kaggle and Zenodo even if no dataset changed"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+      ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Copy the latest files from backpr.com
+        id: sync
+        run: python3 scripts/sync.py
+
+      - name: Commit changes
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Sync data from backpr.com ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Decide what to publish
+        id: plan
+        run: |
+          release=false
+          if [ "${{ steps.sync.outputs.release }}" = "true" ] || [ "${{ inputs.release }}" = "true" ]; then release=true; fi
+          echo "release=$release" >> "$GITHUB_OUTPUT"
+          echo "Release: $release"
+
+      - name: Tag the release
+        if: steps.plan.outputs.release == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="v$(date -u +%Y.%m.%d)"
+          if gh release view "$tag" >/dev/null 2>&1; then echo "$tag exists"; exit 0; fi
+          gh release create "$tag" data/* CITATION.cff --title "Data release $(date -u +%Y-%m-%d)" \
+            --notes "Files copied from https://backpr.com/data on $(date -u +%Y-%m-%d). What changed: https://backpr.com/changes"
+
+      - name: Hugging Face
+        if: env.HF_TOKEN != '' && (steps.plan.outputs.release == 'true' || steps.sync.outputs.changed == 'true')
+        run: |
+          pip install --quiet "huggingface_hub>=0.34"
+          hf upload backpr/us-youth-program-data data . --repo-type dataset \
+            --commit-message "Sync data from backpr.com ($(date -u +%Y-%m-%d))"
+
+      - name: Kaggle
+        if: env.KAGGLE_USERNAME != '' && env.KAGGLE_KEY != '' && steps.plan.outputs.release == 'true'
+        run: |
+          pip install --quiet kaggle
+          mkdir -p /tmp/kaggle && cp data/* /tmp/kaggle/
+          echo '{"id": "backpr/us-youth-program-data-rules-nonprofits-pricing"}' > /tmp/kaggle/dataset-metadata.json
+          kaggle datasets version -p /tmp/kaggle -m "Data from backpr.com, $(date -u +%Y-%m-%d)"
+
+      - name: Zenodo
+        if: env.ZENODO_TOKEN != '' && steps.plan.outputs.release == 'true'
+        run: python3 scripts/zenodo_new_version.py
