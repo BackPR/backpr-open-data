@@ -8,7 +8,7 @@ authors:
 doi: "10.5281/zenodo.23577823"
 license: CC-BY-4.0
 url: "https://backpr.com/ai"
-repository-code: "https://github.com/DB-Shadow/backpr-open-data"
+repository-code: "https://github.com/BackPR/backpr-open-data"
 abstract: >-
   Free, sourced reference data for camps, after-school programs, childcare and youth sports in the United
   States: state rules for all 50 states and DC, youth nonprofit counts from IRS records, what registration

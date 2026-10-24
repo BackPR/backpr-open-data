@@ -25,7 +25,7 @@ START, END = "<!-- datasets:start -->", "<!-- datasets:end -->"
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "backpr-open-data-sync/1.0 (+https://github.com/DB-Shadow/backpr-open-data)"})
+    req = urllib.request.Request(url, headers={"User-Agent": "backpr-open-data-sync/1.0 (+https://github.com/BackPR/backpr-open-data)"})
     with urllib.request.urlopen(req, timeout=60) as res:
         return res.read()
 

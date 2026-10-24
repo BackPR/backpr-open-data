@@ -24,7 +24,7 @@ Load a file straight from this repository, for example with pandas:
 ```python
 import pandas as pd
 
-base = "https://raw.githubusercontent.com/DB-Shadow/backpr-open-data/main/data"
+base = "https://raw.githubusercontent.com/BackPR/backpr-open-data/main/data"
 rules = pd.read_csv(f"{base}/state-rules.csv")
 nonprofits = pd.read_csv(f"{base}/youth-nonprofits-by-state.csv")
 ```
