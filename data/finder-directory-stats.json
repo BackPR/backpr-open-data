@@ -3,12 +3,12 @@
  "title": "Licensed youth program directory statistics: centers, after-school programs and camps by state",
  "description": "Live counts of the childcare centers, school-age (after-school) programs, camps and youth programs listed in BackPR's program finder, by state and program type, from official state and local licensing data. One record per state with listings; refreshed daily, and each file shows its update date.",
  "version": "live",
- "last_checked": "2026-10-22",
+ "last_checked": "2026-10-26",
  "license": "CC-BY-4.0",
  "license_url": "https://creativecommons.org/licenses/by/4.0/",
  "publisher": "BackPR",
  "page": "https://backpr.com/find",
- "cite_as": "BackPR (2026). Licensed youth program directory statistics (live data, updated 2026-10-22). https://backpr.com/data/finder-directory-stats.json. CC BY 4.0.",
+ "cite_as": "BackPR (2026). Licensed youth program directory statistics (live data, updated 2026-10-26). https://backpr.com/data/finder-directory-stats.json. CC BY 4.0.",
  "sources": [
   "Each state's official licensing or program data, as listed on each state's finder page"
  ],
@@ -22,7 +22,7 @@
    "school_age": 0,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/alaska"
   },
   {
@@ -44,18 +44,18 @@
    "school_age": 961,
    "camps": 122,
    "youth_programs": 11,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/colorado"
   },
   {
    "state_code": "CT",
    "state": "Connecticut",
-   "total": 1879,
-   "centers": 1366,
+   "total": 1878,
+   "centers": 1365,
    "school_age": 0,
    "camps": 513,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/connecticut"
   },
   {
@@ -77,7 +77,7 @@
    "school_age": 0,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/district-of-columbia"
   },
   {
@@ -99,7 +99,7 @@
    "school_age": 0,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/kentucky"
   },
   {
@@ -110,7 +110,7 @@
    "school_age": 0,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-26",
    "finder_url": "https://backpr.com/find/massachusetts"
   },
   {
@@ -121,7 +121,7 @@
    "school_age": 0,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-26",
    "finder_url": "https://backpr.com/find/michigan"
   },
   {
@@ -132,7 +132,7 @@
    "school_age": 0,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-26",
    "finder_url": "https://backpr.com/find/minnesota"
   },
   {
@@ -149,12 +149,12 @@
   {
    "state_code": "NY",
    "state": "New York",
-   "total": 7542,
-   "centers": 4299,
-   "school_age": 3243,
+   "total": 7552,
+   "centers": 4302,
+   "school_age": 3250,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-26",
    "finder_url": "https://backpr.com/find/new-york"
   },
   {
@@ -165,7 +165,7 @@
    "school_age": 0,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/pennsylvania"
   },
   {
@@ -176,7 +176,7 @@
    "school_age": 0,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/tennessee"
   },
   {
@@ -198,7 +198,7 @@
    "school_age": 145,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/utah"
   },
   {
@@ -209,7 +209,7 @@
    "school_age": 124,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/vermont"
   },
   {
@@ -220,7 +220,7 @@
    "school_age": 0,
    "camps": 21,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/virginia"
   },
   {
@@ -231,7 +231,7 @@
    "school_age": 633,
    "camps": 0,
    "youth_programs": 0,
-   "updated": "2026-10-22",
+   "updated": "2026-10-25",
    "finder_url": "https://backpr.com/find/washington"
   }
  ]

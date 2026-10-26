@@ -1669,9 +1669,9 @@
    "child_care": {
     "agency": "Illinois Department of Early Childhood (IDEC), Child Care Licensing (took over from DCFS on July 1, 2026)",
     "agency_url": "https://idec.illinois.gov/forproviders/licensure.html",
-    "licensing": "Day care centers (care for more than 3 children in a facility other than a family home, or more than 8 in a family home) need a state license, and so do day care homes and group day care homes. Homes caring for no more than 3 children, or only children from one household, are exempt (225 ILCS 10/2.09; 89 Ill. Adm. Code 377.3).",
+    "licensing": "Day care centers (care for more than 3 children in a facility other than a family home, or more than 8 in a family home) need a state license, and so do day care homes and group day care homes. Homes caring for no more than 3 children, or only children from one household, are exempt (225 ILCS 10/2.09; 89 Ill. Adm. Code 377.3, now 23 Ill. Adm. Code Part 2005).",
     "school_age_exemption": "No license is needed for programs run by public or private schools, or for out-of-school-time programs serving only kindergarten-age and older children that meet set conditions: IDPH or local health and fire safety standards, ISP/FBI fingerprint, sex offender registry, and CANTS checks for staff and volunteers, and written notice to parents that the program is not licensed. Recreation, athletics, and crafts programs run by civic, charitable, or government groups are also exempt, with park district programs limited to 3.5 hours at a time and 25 hours a week (225 ILCS 10/2.09); a new exemption structure starts July 1, 2027 (July 1, 2028 for park districts) under Public Act 104-0480.",
-    "ratio_rule": "89 Ill. Adm. Code 407.190",
+    "ratio_rule": "89 Ill. Adm. Code 407.190 (now in 23 Ill. Adm. Code Part 2008)",
     "ratios": [
      {
       "ages": "3 years",
@@ -1709,11 +1709,11 @@
     "url": "https://backpr.com/resources/states/illinois#camps"
    },
    "background_checks": {
-    "summary": "Licensed child care staff, volunteers, and others with access to children need fingerprint-based Illinois State Police and FBI criminal history checks, checks of Illinois' child abuse and neglect tracking system (CANTS) and other states' child protection registries, and the Illinois and national sex offender registries; authorizations are filed at hiring and at each license renewal (89 Ill. Adm. Code 385.20, 385.40). DCFS still processes these checks for IDEC until about July 1, 2027. We found no background check rule for IDPH-licensed youth camps, but license-exempt school-age programs must run the same ISP/FBI, sex offender registry, and CANTS checks (225 ILCS 10/2.09(j)).",
+    "summary": "Licensed child care staff, volunteers, and others with access to children need fingerprint-based Illinois State Police and FBI criminal history checks, checks of Illinois' child abuse and neglect tracking system (CANTS) and other states' child protection registries, and the Illinois and national sex offender registries; authorizations are filed at hiring and at each license renewal (89 Ill. Adm. Code 385.20, 385.40, now 23 Ill. Adm. Code Part 2010). DCFS still processes these checks for IDEC until about July 1, 2027. We found no background check rule for IDPH-licensed youth camps, but license-exempt school-age programs must run the same ISP/FBI, sex offender registry, and CANTS checks (225 ILCS 10/2.09(j)).",
     "url": "https://backpr.com/resources/states/illinois#background-checks"
    },
    "medication": {
-    "summary": "Centers need a written medication policy. Medicine must be in its original container (prescriptions with the full pharmacy label, over-the-counter labeled with the child's name), given only with parent permission by a designated staff member, logged with date, time, dose, and who gave it, and kept locked and out of children's reach; sunscreen, diaper cream, and similar products need written parent approval (89 Ill. Adm. Code 407.360).",
+    "summary": "Centers need a written medication policy. Medicine must be in its original container (prescriptions with the full pharmacy label, over-the-counter labeled with the child's name), given only with parent permission by a designated staff member, logged with date, time, dose, and who gave it, and kept locked and out of children's reach; sunscreen, diaper cream, and similar products need written parent approval (89 Ill. Adm. Code 407.360, now in 23 Ill. Adm. Code Part 2008).",
     "url": "https://backpr.com/resources/states/illinois#medication"
    },
    "mandated_reporting": {
@@ -1725,7 +1725,7 @@
    },
    "unverified": [
     "The Illinois General Assembly website (ilga.gov) refused connections from our checker, so the ILCS links could not be load-tested. Statute text (225 ILCS 10/2.09, 210 ILCS 100, 325 ILCS 5/4) was read from archived copies (captured April to June 2025) of those official pages and may have been amended since; Public Act 104-0480 changes child care terminology (July 1, 2026) and the license-exemption structure (July 1, 2027; July 1, 2028 for park districts).",
-    "Part 407 is still published as a DCFS rule under Title 89; IDEC says requirements did not change on July 1, 2026, but the rules may be renumbered or moved.",
+    "On July 1, 2026, the DCFS licensing rules moved to IDEC under Title 23: Part 377 became 23 Ill. Adm. Code Part 2005, Part 385 became Part 2010, Part 406 became Part 2007, Part 407 became Part 2008 and Part 408 became Part 2009 (IDEC's table of transferred rules). IDEC says requirements did not change. The section numbers on this page are the former Title 89 ones; we couldn't load the new Title 23 text (ilga.gov refused our checker) to confirm the new section numbers.",
     "The 407.190 table (LII mirror) shows one school-age row, 'kindergartners present: 1:20, max 30'. Whether a different limit applies to school-age groups with no kindergartners was not confirmed; IDEC's summary lists '5 years and up = 20:1'.",
     "We found no background check requirement in IDPH's youth camp rules (Recreational Area Code, 77 Ill. Adm. Code 800); not confirmed that none exists elsewhere."
    ],
@@ -1736,7 +1736,7 @@
      "topic": "childCare"
     },
     {
-     "label": "IDEC: Child care licensure (ratios, background checks)",
+     "label": "IDEC: Child care licensure (ratios, background checks, table of transferred rules)",
      "url": "https://idec.illinois.gov/forproviders/licensure.html",
      "topic": "childCare"
     },
