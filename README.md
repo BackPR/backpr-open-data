@@ -79,7 +79,7 @@ Counts of active 501(c)(3) youth development, amateur sports, PTA and PTO, recre
 
 BackPR's free printable PDF and editable Word templates for camps, after-school programs, childcare and other youth programs, with Spanish versions of the forms families fill out.
 
-- Files: [`data/templates.csv`](data/templates.csv), [`data/templates.json`](data/templates.json) (28 records)
+- Files: [`data/templates.csv`](data/templates.csv), [`data/templates.json`](data/templates.json) (38 records)
 - Version 1.0 · Last checked October 2026
 - Sources: Written by BackPR
 - Notes: A list of BackPR's free templates, with links to each PDF and Word file. CC BY 4.0 covers this list; the templates themselves are free to use and change without credit. They're starting points to adapt, not legal advice. Have a lawyer review waivers and agreements.

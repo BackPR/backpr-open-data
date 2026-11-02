@@ -322,6 +322,116 @@
    "spanish": false,
    "spanish_pdf_url": null,
    "spanish_word_url": null
+  },
+  {
+   "slug": "child-care-enrollment-form",
+   "title": "Childcare enrollment form and agreement",
+   "description": "An enrollment form and parent agreement for daycares and childcare centers: child and family details, schedule, key policies and signatures.",
+   "page_url": "https://backpr.com/resources/templates/child-care-enrollment-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-child-care-enrollment-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-child-care-enrollment-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "infant-daily-report",
+   "title": "Infant daily report",
+   "description": "A daily sheet for each baby: feedings, naps, diapers, mood and notes, so families know how their baby's day went.",
+   "page_url": "https://backpr.com/resources/templates/infant-daily-report",
+   "pdf_url": "https://backpr.com/media/templates/backpr-infant-daily-report.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-infant-daily-report.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "immunization-and-health-record-form",
+   "title": "Child immunization and health record form",
+   "description": "Keeps a child's vaccine dates, checkups and health screenings in one place for your childcare records, with space for a health care provider's signature.",
+   "page_url": "https://backpr.com/resources/templates/immunization-and-health-record-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-immunization-and-health-record-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-immunization-and-health-record-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "child-care-tuition-agreement",
+   "title": "Childcare tuition and fee agreement",
+   "description": "A tuition agreement for daycares and childcare centers: rates, due dates, fees, late payments, rate changes and withdrawal notice, signed by each family.",
+   "page_url": "https://backpr.com/resources/templates/child-care-tuition-agreement",
+   "pdf_url": "https://backpr.com/media/templates/backpr-child-care-tuition-agreement.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-child-care-tuition-agreement.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "sick-child-policy",
+   "title": "Sick child policy",
+   "description": "A fill-in illness policy for childcare: when children stay home, when you'll call families to pick up and when children can come back.",
+   "page_url": "https://backpr.com/resources/templates/sick-child-policy",
+   "pdf_url": "https://backpr.com/media/templates/backpr-sick-child-policy.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-sick-child-policy.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "infant-safe-sleep-policy",
+   "title": "Infant safe sleep policy",
+   "description": "A safe sleep policy for infant rooms, based on AAP and NICHD Safe to Sleep guidance: back to sleep, a bare crib, sleep checks and staff training.",
+   "page_url": "https://backpr.com/resources/templates/infant-safe-sleep-policy",
+   "pdf_url": "https://backpr.com/media/templates/backpr-infant-safe-sleep-policy.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-infant-safe-sleep-policy.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "infant-feeding-plan",
+   "title": "Infant feeding plan",
+   "description": "A feeding plan families fill out for each baby: breast milk or formula, amounts, hunger cues, solid foods and allergies, plus your bottle safety rules.",
+   "page_url": "https://backpr.com/resources/templates/infant-feeding-plan",
+   "pdf_url": "https://backpr.com/media/templates/backpr-infant-feeding-plan.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-infant-feeding-plan.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "medication-authorization-form",
+   "title": "Medication authorization form",
+   "description": "Parent permission for staff to give a child medicine: the medicine, dose, times and dates, signed before the first dose. Use it with the medication log.",
+   "page_url": "https://backpr.com/resources/templates/medication-authorization-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-medication-authorization-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-medication-authorization-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "sunscreen-and-insect-repellent-permission",
+   "title": "Sunscreen and insect repellent permission form",
+   "description": "Parent permission for staff to apply sunscreen and insect repellent, with the products to use, skin allergies and age limits from AAP and CDC guidance.",
+   "page_url": "https://backpr.com/resources/templates/sunscreen-and-insect-repellent-permission",
+   "pdf_url": "https://backpr.com/media/templates/backpr-sunscreen-and-insect-repellent-permission.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-sunscreen-and-insect-repellent-permission.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "diaper-and-toileting-log",
+   "title": "Diaper and toileting log",
+   "description": "A daily log of diaper changes and toilet visits for each room: times, wet or soiled diapers, rashes, cream and staff initials, plus CDC's changing steps.",
+   "page_url": "https://backpr.com/resources/templates/diaper-and-toileting-log",
+   "pdf_url": "https://backpr.com/media/templates/backpr-diaper-and-toileting-log.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-diaper-and-toileting-log.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
   }
  ]
 }
