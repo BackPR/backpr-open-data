@@ -1,0 +1,4114 @@
+{
+ "name": "child-care-cost-by-state",
+ "title": "Child care cost by state and county: median weekly prices and share of family income",
+ "description": "County median weekly child care prices for infants, toddlers, preschool and school-age children in centers and family child care homes, with cost as a share of median family income, from the U.S. Department of Labor Women's Bureau National Database of Childcare Prices.",
+ "version": "2022",
+ "snapshot": "2026-11-08",
+ "license": "CC-BY-4.0",
+ "license_url": "https://creativecommons.org/licenses/by/4.0/",
+ "publisher": "BackPR",
+ "page": "https://backpr.com/resources/child-care-cost-by-state",
+ "source": {
+  "name": "U.S. Department of Labor, Women's Bureau, National Database of Childcare Prices (NDCP), county-level file 2008-2022",
+  "url": "https://www.dol.gov/agencies/wb/topics/childcare",
+  "file_url": "https://www.dol.gov/sites/dolgov/files/WB/NDCP2022.xlsx",
+  "technical_report_url": "https://www.dol.gov/sites/dolgov/files/WB/National-Database-of-Childcare-Prices-Technical-Report.pdf",
+  "data_gov_url": "https://catalog.data.gov/dataset/national-database-of-childcare-prices",
+  "technical_report_date": "September 2024",
+  "dataset_updated": "2025-12-09"
+ },
+ "cite_as": "BackPR (2026). Child care cost by state and county, from the U.S. Department of Labor Women's Bureau National Database of Childcare Prices (2022 data). https://backpr.com/data/child-care-cost-by-state.json. CC BY 4.0.",
+ "last_checked": "2026-11-08",
+ "checked_label": "NDCP 2022 data, checked 2026-11-08",
+ "sources": [
+  "U.S. Department of Labor, Women's Bureau, National Database of Childcare Prices (county file 2008-2022; technical report September 2024)"
+ ],
+ "notes": "Weekly full-time median prices from state market rate surveys, standardized by the Women's Bureau contractor; prices are in the dollars of the study year and are not inflation-adjusted. Many 2022 values are estimates between survey years or filled in from state data; see the technical report. Cost as a share of income is BackPR's calculation: weekly price x 52 divided by the county's median family income (ACS, same year). A state's typical county is the median of its county medians, not weighted by population.",
+ "states_with_data": 49,
+ "states_total": 51,
+ "national_typical_infant_center_weekly": 204.94,
+ "national_typical_infant_center_share": 13.05,
+ "counties_total": 2855,
+ "records": [
+  {
+   "state_code": "AL",
+   "state": "Alabama",
+   "slug": "alabama",
+   "year": 2022,
+   "counties_in_state": 67,
+   "counties_with_price": 67,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 134.97,
+     "low": 113.98,
+     "high": 147.25,
+     "counties": 67,
+     "typical_share": 10.3
+    },
+    {
+     "group": "center_toddler",
+     "typical": 131.65,
+     "low": 107.81,
+     "high": 151.63,
+     "counties": 67,
+     "typical_share": 9.8
+    },
+    {
+     "group": "center_preschool",
+     "typical": 124.97,
+     "low": 102.81,
+     "high": 139.13,
+     "counties": 67,
+     "typical_share": 9.5
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 112.73,
+     "low": 101.3,
+     "high": 124.97,
+     "counties": 67,
+     "typical_share": 8.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 129.32,
+     "low": 82.77,
+     "high": 146.08,
+     "counties": 67,
+     "typical_share": 9.0
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 129.32,
+     "low": 83.84,
+     "high": 141.98,
+     "counties": 67,
+     "typical_share": 8.9
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 128.41,
+     "low": 83.84,
+     "high": 140.05,
+     "counties": 67,
+     "typical_share": 8.9
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 105.4,
+     "low": 75.44,
+     "high": 138.19,
+     "counties": 67,
+     "typical_share": 8.5
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 65,
+   "infant_center_counties_with_share": 67,
+   "page": "https://backpr.com/resources/child-care-cost/alabama",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/alabama",
+   "finder_url": "https://backpr.com/find/alabama"
+  },
+  {
+   "state_code": "AK",
+   "state": "Alaska",
+   "slug": "alaska",
+   "year": 2022,
+   "counties_in_state": 30,
+   "counties_with_price": 8,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 296.42,
+     "low": 154.85,
+     "high": 469.48,
+     "counties": 8,
+     "typical_share": 14.7
+    },
+    {
+     "group": "center_toddler",
+     "typical": 255.19,
+     "low": 217.21,
+     "high": 406.92,
+     "counties": 8,
+     "typical_share": 12.75
+    },
+    {
+     "group": "center_preschool",
+     "typical": 249.88,
+     "low": 193.96,
+     "high": 360.0,
+     "counties": 8,
+     "typical_share": 12.05
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 161.54,
+     "low": 122.31,
+     "high": 329.08,
+     "counties": 7,
+     "typical_share": 8.3
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 251.47,
+     "low": 131.54,
+     "high": 315.85,
+     "counties": 7,
+     "typical_share": 11.7
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 235.08,
+     "low": 147.42,
+     "high": 269.08,
+     "counties": 7,
+     "typical_share": 12.1
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 224.62,
+     "low": 153.97,
+     "high": 257.46,
+     "counties": 7,
+     "typical_share": 11.1
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 181.33,
+     "low": 129.22,
+     "high": 244.61,
+     "counties": 7,
+     "typical_share": 9.4
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 8,
+   "infant_center_counties_with_share": 8,
+   "page": "https://backpr.com/resources/child-care-cost/alaska",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/alaska",
+   "finder_url": "https://backpr.com/find/alaska"
+  },
+  {
+   "state_code": "AZ",
+   "state": "Arizona",
+   "slug": "arizona",
+   "year": 2022,
+   "counties_in_state": 15,
+   "counties_with_price": 15,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 215.0,
+     "low": 187.5,
+     "high": 270.0,
+     "counties": 15,
+     "typical_share": 15.7
+    },
+    {
+     "group": "center_toddler",
+     "typical": 161.9,
+     "low": 154.75,
+     "high": 210.0,
+     "counties": 15,
+     "typical_share": 11.6
+    },
+    {
+     "group": "center_preschool",
+     "typical": 161.9,
+     "low": 154.75,
+     "high": 210.0,
+     "counties": 15,
+     "typical_share": 11.6
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 165.0,
+     "low": 150.0,
+     "high": 175.0,
+     "counties": 15,
+     "typical_share": 12.0
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 175.0,
+     "low": 175.0,
+     "high": 210.0,
+     "counties": 15,
+     "typical_share": 13.5
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 175.0,
+     "low": 150.0,
+     "high": 175.0,
+     "counties": 15,
+     "typical_share": 12.8
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 175.0,
+     "low": 150.0,
+     "high": 175.0,
+     "counties": 15,
+     "typical_share": 12.8
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 162.5,
+     "low": 150.0,
+     "high": 175.0,
+     "counties": 15,
+     "typical_share": 11.9
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 15,
+   "infant_center_counties_with_share": 15,
+   "page": "https://backpr.com/resources/child-care-cost/arizona",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/arizona",
+   "finder_url": "https://backpr.com/find/arizona"
+  },
+  {
+   "state_code": "AR",
+   "state": "Arkansas",
+   "slug": "arkansas",
+   "year": 2021,
+   "counties_in_state": 75,
+   "counties_with_price": 68,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 102.5,
+     "low": 87.5,
+     "high": 147.5,
+     "counties": 68,
+     "typical_share": 9.8
+    },
+    {
+     "group": "center_toddler",
+     "typical": 104.25,
+     "low": 92.5,
+     "high": 142.53,
+     "counties": 68,
+     "typical_share": 9.85
+    },
+    {
+     "group": "center_preschool",
+     "typical": 92.5,
+     "low": 82.5,
+     "high": 127.5,
+     "counties": 68,
+     "typical_share": 8.75
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 82.5,
+     "low": 70.0,
+     "high": 104.5,
+     "counties": 68,
+     "typical_share": 7.75
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 92.5,
+     "low": 85.0,
+     "high": 115.0,
+     "counties": 68,
+     "typical_share": 8.7
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 95.0,
+     "low": 87.5,
+     "high": 102.5,
+     "counties": 68,
+     "typical_share": 8.75
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 88.75,
+     "low": 82.5,
+     "high": 97.5,
+     "counties": 68,
+     "typical_share": 8.2
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 86.25,
+     "low": 81.25,
+     "high": 92.5,
+     "counties": 68,
+     "typical_share": 7.95
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 68,
+   "infant_center_counties_with_share": 68,
+   "page": "https://backpr.com/resources/child-care-cost/arkansas",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/arkansas",
+   "finder_url": "https://backpr.com/find/arkansas"
+  },
+  {
+   "state_code": "CA",
+   "state": "California",
+   "slug": "california",
+   "year": 2022,
+   "counties_in_state": 58,
+   "counties_with_price": 58,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 353.33,
+     "low": 221.78,
+     "high": 606.61,
+     "counties": 58,
+     "typical_share": 18.15
+    },
+    {
+     "group": "center_toddler",
+     "typical": 217.31,
+     "low": 175.49,
+     "high": 433.45,
+     "counties": 58,
+     "typical_share": 12.7
+    },
+    {
+     "group": "center_preschool",
+     "typical": 190.22,
+     "low": 145.46,
+     "high": 477.04,
+     "counties": 58,
+     "typical_share": 11.05
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 110.41,
+     "low": 53.88,
+     "high": 439.06,
+     "counties": 58,
+     "typical_share": 6.05
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 246.12,
+     "low": 189.67,
+     "high": 407.69,
+     "counties": 58,
+     "typical_share": 15.45
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 219.4,
+     "low": 173.59,
+     "high": 369.3,
+     "counties": 58,
+     "typical_share": 13.35
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 206.94,
+     "low": 177.19,
+     "high": 409.64,
+     "counties": 58,
+     "typical_share": 12.85
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 198.75,
+     "low": 162.08,
+     "high": 433.13,
+     "counties": 58,
+     "typical_share": 11.5
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 58,
+   "infant_center_counties_with_share": 58,
+   "page": "https://backpr.com/resources/child-care-cost/california",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/california",
+   "finder_url": "https://backpr.com/find/california"
+  },
+  {
+   "state_code": "CO",
+   "state": "Colorado",
+   "slug": "colorado",
+   "year": 2022,
+   "counties_in_state": 64,
+   "counties_with_price": 62,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 234.62,
+     "low": 103.85,
+     "high": 429.95,
+     "counties": 62,
+     "typical_share": 13.9
+    },
+    {
+     "group": "center_toddler",
+     "typical": 215.05,
+     "low": 94.05,
+     "high": 389.3,
+     "counties": 62,
+     "typical_share": 12.5
+    },
+    {
+     "group": "center_preschool",
+     "typical": 201.65,
+     "low": 86.85,
+     "high": 372.05,
+     "counties": 62,
+     "typical_share": 12.1
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 149.2,
+     "low": 41.71,
+     "high": 504.3,
+     "counties": 62,
+     "typical_share": 8.85
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 187.18,
+     "low": 87.7,
+     "high": 327.5,
+     "counties": 62,
+     "typical_share": 11.45
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 183.43,
+     "low": 87.7,
+     "high": 308.55,
+     "counties": 62,
+     "typical_share": 10.65
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 183.43,
+     "low": 87.7,
+     "high": 308.55,
+     "counties": 62,
+     "typical_share": 10.65
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 157.75,
+     "low": 82.9,
+     "high": 275.0,
+     "counties": 62,
+     "typical_share": 9.3
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 61,
+   "infant_center_counties_with_share": 62,
+   "page": "https://backpr.com/resources/child-care-cost/colorado",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/colorado",
+   "finder_url": "https://backpr.com/find/colorado"
+  },
+  {
+   "state_code": "CT",
+   "state": "Connecticut",
+   "slug": "connecticut",
+   "year": 2022,
+   "counties_in_state": 8,
+   "counties_with_price": 8,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 320.0,
+     "low": 290.0,
+     "high": 425.0,
+     "counties": 8,
+     "typical_share": 14.85
+    },
+    {
+     "group": "center_toddler",
+     "typical": 320.0,
+     "low": 290.0,
+     "high": 425.0,
+     "counties": 8,
+     "typical_share": 14.85
+    },
+    {
+     "group": "center_preschool",
+     "typical": 252.5,
+     "low": 235.0,
+     "high": 306.0,
+     "counties": 8,
+     "typical_share": 11.7
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 120.0,
+     "low": 115.0,
+     "high": 150.0,
+     "counties": 8,
+     "typical_share": 5.6
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 245.0,
+     "low": 200.0,
+     "high": 300.0,
+     "counties": 8,
+     "typical_share": 11.1
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 237.5,
+     "low": 200.0,
+     "high": 300.0,
+     "counties": 8,
+     "typical_share": 10.85
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 237.5,
+     "low": 200.0,
+     "high": 300.0,
+     "counties": 8,
+     "typical_share": 10.85
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 130.0,
+     "low": 90.0,
+     "high": 154.0,
+     "counties": 8,
+     "typical_share": 5.5
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 8,
+   "infant_center_counties_with_share": 8,
+   "page": "https://backpr.com/resources/child-care-cost/connecticut",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/connecticut",
+   "finder_url": "https://backpr.com/find/connecticut"
+  },
+  {
+   "state_code": "DE",
+   "state": "Delaware",
+   "slug": "delaware",
+   "year": 2022,
+   "counties_in_state": 3,
+   "counties_with_price": 3,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 182.13,
+     "low": 182.13,
+     "high": 280.28,
+     "counties": 3,
+     "typical_share": 11.5
+    },
+    {
+     "group": "center_toddler",
+     "typical": 139.04,
+     "low": 139.04,
+     "high": 199.21,
+     "counties": 3,
+     "typical_share": 8.8
+    },
+    {
+     "group": "center_preschool",
+     "typical": 144.6,
+     "low": 144.6,
+     "high": 210.26,
+     "counties": 3,
+     "typical_share": 9.1
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 111.23,
+     "low": 106.2,
+     "high": 111.23,
+     "counties": 3,
+     "typical_share": 6.3
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 155.65,
+     "low": 155.08,
+     "high": 181.67,
+     "counties": 3,
+     "typical_share": 8.8
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 130.83,
+     "low": 127.81,
+     "high": 153.66,
+     "counties": 3,
+     "typical_share": 7.4
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 130.8,
+     "low": 128.52,
+     "high": 155.1,
+     "counties": 3,
+     "typical_share": 7.5
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 65.69,
+     "low": 64.26,
+     "high": 86.17,
+     "counties": 3,
+     "typical_share": 4.1
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 3,
+   "infant_center_counties_with_share": 3,
+   "page": "https://backpr.com/resources/child-care-cost/delaware",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/delaware",
+   "finder_url": "https://backpr.com/find/delaware"
+  },
+  {
+   "state_code": "DC",
+   "state": "District of Columbia",
+   "slug": "district-of-columbia",
+   "year": 2022,
+   "counties_in_state": 1,
+   "counties_with_price": 1,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 490.0,
+     "low": 490.0,
+     "high": 490.0,
+     "counties": 1,
+     "typical_share": 17.9
+    },
+    {
+     "group": "center_toddler",
+     "typical": 450.6,
+     "low": 450.6,
+     "high": 450.6,
+     "counties": 1,
+     "typical_share": 16.5
+    },
+    {
+     "group": "center_preschool",
+     "typical": 392.5,
+     "low": 392.5,
+     "high": 392.5,
+     "counties": 1,
+     "typical_share": 14.3
+    },
+    {
+     "group": "center_schoolage",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 400.0,
+     "low": 400.0,
+     "high": 400.0,
+     "counties": 1,
+     "typical_share": 14.6
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 393.25,
+     "low": 393.25,
+     "high": 393.25,
+     "counties": 1,
+     "typical_share": 14.4
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 368.25,
+     "low": 368.25,
+     "high": 368.25,
+     "counties": 1,
+     "typical_share": 13.5
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 1,
+   "infant_center_counties_with_share": 1,
+   "page": "https://backpr.com/resources/child-care-cost/district-of-columbia",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/district-of-columbia",
+   "finder_url": "https://backpr.com/find/district-of-columbia"
+  },
+  {
+   "state_code": "FL",
+   "state": "Florida",
+   "slug": "florida",
+   "year": 2022,
+   "counties_in_state": 67,
+   "counties_with_price": 58,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 200.0,
+     "low": 130.0,
+     "high": 305.0,
+     "counties": 53,
+     "typical_share": 13.4
+    },
+    {
+     "group": "center_toddler",
+     "typical": 166.65,
+     "low": 102.7,
+     "high": 245.25,
+     "counties": 56,
+     "typical_share": 10.85
+    },
+    {
+     "group": "center_preschool",
+     "typical": 155.0,
+     "low": 93.63,
+     "high": 235.0,
+     "counties": 56,
+     "typical_share": 10.2
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 115.45,
+     "low": 85.0,
+     "high": 195.0,
+     "counties": 55,
+     "typical_share": 7.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 165.65,
+     "low": 117.15,
+     "high": 245.0,
+     "counties": 42,
+     "typical_share": 10.95
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 150.0,
+     "low": 100.0,
+     "high": 215.0,
+     "counties": 42,
+     "typical_share": 9.75
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 145.0,
+     "low": 90.0,
+     "high": 200.0,
+     "counties": 42,
+     "typical_share": 9.4
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 119.0,
+     "low": 60.0,
+     "high": 175.0,
+     "counties": 37,
+     "typical_share": 7.4
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 53,
+   "infant_center_counties_with_share": 53,
+   "page": "https://backpr.com/resources/child-care-cost/florida",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/florida",
+   "finder_url": "https://backpr.com/find/florida"
+  },
+  {
+   "state_code": "GA",
+   "state": "Georgia",
+   "slug": "georgia",
+   "year": 2022,
+   "counties_in_state": 159,
+   "counties_with_price": 159,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 108.5,
+     "low": 102.5,
+     "high": 205.0,
+     "counties": 159,
+     "typical_share": 9.3
+    },
+    {
+     "group": "center_toddler",
+     "typical": 102.0,
+     "low": 97.0,
+     "high": 187.8,
+     "counties": 159,
+     "typical_share": 8.7
+    },
+    {
+     "group": "center_preschool",
+     "typical": 102.0,
+     "low": 98.0,
+     "high": 179.0,
+     "counties": 159,
+     "typical_share": 8.6
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 55.0,
+     "low": 52.0,
+     "high": 82.0,
+     "counties": 159,
+     "typical_share": 4.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 103.0,
+     "low": 100.0,
+     "high": 163.0,
+     "counties": 159,
+     "typical_share": 8.7
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 97.0,
+     "low": 94.0,
+     "high": 153.0,
+     "counties": 159,
+     "typical_share": 8.1
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 97.0,
+     "low": 95.0,
+     "high": 154.0,
+     "counties": 159,
+     "typical_share": 8.1
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 45.4,
+     "low": 44.4,
+     "high": 77.0,
+     "counties": 159,
+     "typical_share": 3.9
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 152,
+   "infant_center_counties_with_share": 159,
+   "page": "https://backpr.com/resources/child-care-cost/georgia",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/georgia",
+   "finder_url": "https://backpr.com/find/georgia"
+  },
+  {
+   "state_code": "HI",
+   "state": "Hawaii",
+   "slug": "hawaii",
+   "year": 2022,
+   "counties_in_state": 5,
+   "counties_with_price": 5,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 305.77,
+     "low": 201.92,
+     "high": 365.77,
+     "counties": 4,
+     "typical_share": 15.05
+    },
+    {
+     "group": "center_toddler",
+     "typical": 190.38,
+     "low": 184.62,
+     "high": 263.08,
+     "counties": 5,
+     "typical_share": 10.6
+    },
+    {
+     "group": "center_preschool",
+     "typical": 190.38,
+     "low": 184.62,
+     "high": 263.08,
+     "counties": 5,
+     "typical_share": 10.6
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 43.85,
+     "low": 25.38,
+     "high": 54.23,
+     "counties": 3,
+     "typical_share": 2.4
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 173.08,
+     "low": 161.54,
+     "high": 207.69,
+     "counties": 5,
+     "typical_share": 9.2
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 167.31,
+     "low": 161.54,
+     "high": 207.69,
+     "counties": 5,
+     "typical_share": 9.2
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 167.31,
+     "low": 161.54,
+     "high": 207.69,
+     "counties": 5,
+     "typical_share": 9.2
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 4,
+   "infant_center_counties_with_share": 4,
+   "page": "https://backpr.com/resources/child-care-cost/hawaii",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/hawaii",
+   "finder_url": "https://backpr.com/find/hawaii"
+  },
+  {
+   "state_code": "ID",
+   "state": "Idaho",
+   "slug": "idaho",
+   "year": 2022,
+   "counties_in_state": 44,
+   "counties_with_price": 44,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 126.96,
+     "low": 106.15,
+     "high": 208.0,
+     "counties": 44,
+     "typical_share": 9.8
+    },
+    {
+     "group": "center_toddler",
+     "typical": 121.58,
+     "low": 104.46,
+     "high": 207.48,
+     "counties": 44,
+     "typical_share": 9.3
+    },
+    {
+     "group": "center_preschool",
+     "typical": 112.6,
+     "low": 95.48,
+     "high": 190.62,
+     "counties": 44,
+     "typical_share": 8.5
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 108.47,
+     "low": 96.31,
+     "high": 179.38,
+     "counties": 44,
+     "typical_share": 8.2
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 109.23,
+     "low": 94.77,
+     "high": 144.93,
+     "counties": 44,
+     "typical_share": 7.95
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 108.65,
+     "low": 95.77,
+     "high": 138.23,
+     "counties": 44,
+     "typical_share": 8.0
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 101.88,
+     "low": 89.0,
+     "high": 128.08,
+     "counties": 44,
+     "typical_share": 7.4
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 102.06,
+     "low": 92.77,
+     "high": 131.85,
+     "counties": 44,
+     "typical_share": 7.4
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 44,
+   "infant_center_counties_with_share": 44,
+   "page": "https://backpr.com/resources/child-care-cost/idaho",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/idaho",
+   "finder_url": "https://backpr.com/find/idaho"
+  },
+  {
+   "state_code": "IL",
+   "state": "Illinois",
+   "slug": "illinois",
+   "year": 2022,
+   "counties_in_state": 102,
+   "counties_with_price": 89,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 233.62,
+     "low": 130.78,
+     "high": 374.33,
+     "counties": 58,
+     "typical_share": 13.95
+    },
+    {
+     "group": "center_toddler",
+     "typical": 205.0,
+     "low": 105.0,
+     "high": 281.67,
+     "counties": 56,
+     "typical_share": 11.9
+    },
+    {
+     "group": "center_preschool",
+     "typical": 171.67,
+     "low": 91.67,
+     "high": 315.83,
+     "counties": 63,
+     "typical_share": 10.8
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 41.65,
+     "low": 23.65,
+     "high": 185.73,
+     "counties": 49,
+     "typical_share": 2.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 158.33,
+     "low": 91.67,
+     "high": 234.5,
+     "counties": 77,
+     "typical_share": 9.7
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 158.33,
+     "low": 91.67,
+     "high": 211.85,
+     "counties": 72,
+     "typical_share": 9.55
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 146.93,
+     "low": 91.73,
+     "high": 210.13,
+     "counties": 78,
+     "typical_share": 8.85
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 37.5,
+     "low": 20.85,
+     "high": 87.5,
+     "counties": 72,
+     "typical_share": 2.3
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 58,
+   "infant_center_counties_with_share": 58,
+   "page": "https://backpr.com/resources/child-care-cost/illinois",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/illinois",
+   "finder_url": "https://backpr.com/find/illinois"
+  },
+  {
+   "state_code": "IN",
+   "state": "Indiana",
+   "slug": "indiana",
+   "year": 2022,
+   "counties_in_state": 92,
+   "counties_with_price": 0,
+   "has_data": false,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "center_toddler",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "center_preschool",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "center_schoolage",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 0,
+   "infant_center_counties_with_share": 0,
+   "page": "https://backpr.com/resources/child-care-cost/indiana",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/indiana",
+   "finder_url": "https://backpr.com/find/indiana"
+  },
+  {
+   "state_code": "IA",
+   "state": "Iowa",
+   "slug": "iowa",
+   "year": 2022,
+   "counties_in_state": 99,
+   "counties_with_price": 99,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 159.65,
+     "low": 148.14,
+     "high": 185.43,
+     "counties": 99,
+     "typical_share": 9.8
+    },
+    {
+     "group": "center_toddler",
+     "typical": 137.57,
+     "low": 127.65,
+     "high": 159.78,
+     "counties": 99,
+     "typical_share": 8.4
+    },
+    {
+     "group": "center_preschool",
+     "typical": 137.57,
+     "low": 127.65,
+     "high": 159.78,
+     "counties": 99,
+     "typical_share": 8.4
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 110.06,
+     "low": 102.12,
+     "high": 127.82,
+     "counties": 99,
+     "typical_share": 6.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 105.98,
+     "low": 99.95,
+     "high": 125.13,
+     "counties": 99,
+     "typical_share": 6.6
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 104.24,
+     "low": 98.32,
+     "high": 123.08,
+     "counties": 99,
+     "typical_share": 6.5
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 104.24,
+     "low": 98.32,
+     "high": 123.08,
+     "counties": 99,
+     "typical_share": 6.5
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 100.77,
+     "low": 95.04,
+     "high": 118.98,
+     "counties": 99,
+     "typical_share": 6.3
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 99,
+   "infant_center_counties_with_share": 99,
+   "page": "https://backpr.com/resources/child-care-cost/iowa",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/iowa",
+   "finder_url": "https://backpr.com/find/iowa"
+  },
+  {
+   "state_code": "KS",
+   "state": "Kansas",
+   "slug": "kansas",
+   "year": 2022,
+   "counties_in_state": 105,
+   "counties_with_price": 105,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 95.6,
+     "low": 95.6,
+     "high": 223.73,
+     "counties": 105,
+     "typical_share": 6.7
+    },
+    {
+     "group": "center_toddler",
+     "typical": 97.6,
+     "low": 97.6,
+     "high": 213.07,
+     "counties": 105,
+     "typical_share": 6.9
+    },
+    {
+     "group": "center_preschool",
+     "typical": 97.6,
+     "low": 97.6,
+     "high": 182.93,
+     "counties": 105,
+     "typical_share": 6.9
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 82.4,
+     "low": 82.4,
+     "high": 155.33,
+     "counties": 105,
+     "typical_share": 5.6
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 98.4,
+     "low": 98.4,
+     "high": 161.73,
+     "counties": 105,
+     "typical_share": 6.8
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 83.33,
+     "low": 83.33,
+     "high": 134.8,
+     "counties": 105,
+     "typical_share": 5.8
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 83.33,
+     "low": 83.33,
+     "high": 134.8,
+     "counties": 105,
+     "typical_share": 5.8
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 83.33,
+     "low": 83.33,
+     "high": 134.8,
+     "counties": 105,
+     "typical_share": 5.8
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 36,
+   "infant_center_counties_with_share": 105,
+   "page": "https://backpr.com/resources/child-care-cost/kansas",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/kansas",
+   "finder_url": "https://backpr.com/find/kansas"
+  },
+  {
+   "state_code": "KY",
+   "state": "Kentucky",
+   "slug": "kentucky",
+   "year": 2022,
+   "counties_in_state": 120,
+   "counties_with_price": 120,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 127.73,
+     "low": 90.47,
+     "high": 222.22,
+     "counties": 120,
+     "typical_share": 10.4
+    },
+    {
+     "group": "center_toddler",
+     "typical": 120.03,
+     "low": 83.23,
+     "high": 189.02,
+     "counties": 120,
+     "typical_share": 9.75
+    },
+    {
+     "group": "center_preschool",
+     "typical": 120.03,
+     "low": 83.23,
+     "high": 189.02,
+     "counties": 120,
+     "typical_share": 9.75
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 119.52,
+     "low": 79.6,
+     "high": 186.2,
+     "counties": 120,
+     "typical_share": 9.55
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 119.01,
+     "low": 79.47,
+     "high": 186.33,
+     "counties": 120,
+     "typical_share": 8.95
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 105.03,
+     "low": 81.13,
+     "high": 175.17,
+     "counties": 120,
+     "typical_share": 8.2
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 105.03,
+     "low": 81.13,
+     "high": 175.17,
+     "counties": 120,
+     "typical_share": 8.2
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 103.23,
+     "low": 72.08,
+     "high": 168.5,
+     "counties": 120,
+     "typical_share": 7.9
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 119,
+   "infant_center_counties_with_share": 120,
+   "page": "https://backpr.com/resources/child-care-cost/kentucky",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/kentucky",
+   "finder_url": "https://backpr.com/find/kentucky"
+  },
+  {
+   "state_code": "LA",
+   "state": "Louisiana",
+   "slug": "louisiana",
+   "year": 2022,
+   "counties_in_state": 64,
+   "counties_with_price": 64,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 143.33,
+     "low": 120.0,
+     "high": 160.0,
+     "counties": 64,
+     "typical_share": 11.2
+    },
+    {
+     "group": "center_toddler",
+     "typical": 140.0,
+     "low": 120.0,
+     "high": 153.31,
+     "counties": 64,
+     "typical_share": 10.9
+    },
+    {
+     "group": "center_preschool",
+     "typical": 137.27,
+     "low": 123.07,
+     "high": 146.67,
+     "counties": 64,
+     "typical_share": 10.85
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 125.83,
+     "low": 112.5,
+     "high": 133.33,
+     "counties": 64,
+     "typical_share": 9.85
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 133.33,
+     "low": 100.0,
+     "high": 142.32,
+     "counties": 64,
+     "typical_share": 9.65
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 133.33,
+     "low": 100.0,
+     "high": 140.0,
+     "counties": 64,
+     "typical_share": 9.55
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 133.33,
+     "low": 100.0,
+     "high": 140.0,
+     "counties": 64,
+     "typical_share": 9.65
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 115.0,
+     "low": 103.33,
+     "high": 121.67,
+     "counties": 64,
+     "typical_share": 8.85
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 64,
+   "infant_center_counties_with_share": 64,
+   "page": "https://backpr.com/resources/child-care-cost/louisiana",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/louisiana",
+   "finder_url": "https://backpr.com/find/louisiana"
+  },
+  {
+   "state_code": "ME",
+   "state": "Maine",
+   "slug": "maine",
+   "year": 2022,
+   "counties_in_state": 16,
+   "counties_with_price": 16,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 224.66,
+     "low": 175.0,
+     "high": 261.67,
+     "counties": 16,
+     "typical_share": 14.2
+    },
+    {
+     "group": "center_toddler",
+     "typical": 202.67,
+     "low": 157.5,
+     "high": 251.67,
+     "counties": 16,
+     "typical_share": 12.9
+    },
+    {
+     "group": "center_preschool",
+     "typical": 188.33,
+     "low": 141.67,
+     "high": 261.33,
+     "counties": 16,
+     "typical_share": 11.65
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 140.0,
+     "low": 92.33,
+     "high": 266.67,
+     "counties": 16,
+     "typical_share": 9.5
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 163.33,
+     "low": 133.33,
+     "high": 206.67,
+     "counties": 16,
+     "typical_share": 10.7
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 150.0,
+     "low": 133.33,
+     "high": 193.33,
+     "counties": 16,
+     "typical_share": 10.0
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 145.83,
+     "low": 113.33,
+     "high": 190.0,
+     "counties": 16,
+     "typical_share": 9.25
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 135.36,
+     "low": 110.0,
+     "high": 160.0,
+     "counties": 16,
+     "typical_share": 8.8
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 16,
+   "infant_center_counties_with_share": 16,
+   "page": "https://backpr.com/resources/child-care-cost/maine",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/maine",
+   "finder_url": "https://backpr.com/find/maine"
+  },
+  {
+   "state_code": "MD",
+   "state": "Maryland",
+   "slug": "maryland",
+   "year": 2022,
+   "counties_in_state": 24,
+   "counties_with_price": 24,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 254.45,
+     "low": 208.61,
+     "high": 414.1,
+     "counties": 24,
+     "typical_share": 13.05
+    },
+    {
+     "group": "center_toddler",
+     "typical": 175.3,
+     "low": 151.07,
+     "high": 335.71,
+     "counties": 24,
+     "typical_share": 9.65
+    },
+    {
+     "group": "center_preschool",
+     "typical": 175.3,
+     "low": 151.07,
+     "high": 335.71,
+     "counties": 24,
+     "typical_share": 9.65
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 162.59,
+     "low": 133.36,
+     "high": 302.67,
+     "counties": 24,
+     "typical_share": 8.95
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 176.73,
+     "low": 149.41,
+     "high": 287.64,
+     "counties": 24,
+     "typical_share": 9.45
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 156.29,
+     "low": 126.75,
+     "high": 271.09,
+     "counties": 24,
+     "typical_share": 8.15
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 156.29,
+     "low": 126.75,
+     "high": 271.09,
+     "counties": 24,
+     "typical_share": 8.15
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 129.42,
+     "low": 120.85,
+     "high": 251.63,
+     "counties": 24,
+     "typical_share": 7.35
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 24,
+   "infant_center_counties_with_share": 24,
+   "page": "https://backpr.com/resources/child-care-cost/maryland",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/maryland",
+   "finder_url": "https://backpr.com/find/maryland"
+  },
+  {
+   "state_code": "MA",
+   "state": "Massachusetts",
+   "slug": "massachusetts",
+   "year": 2022,
+   "counties_in_state": 14,
+   "counties_with_price": 14,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 352.0,
+     "low": 330.0,
+     "high": 590.0,
+     "counties": 14,
+     "typical_share": 17.85
+    },
+    {
+     "group": "center_toddler",
+     "typical": 320.0,
+     "low": 301.3,
+     "high": 520.0,
+     "counties": 14,
+     "typical_share": 16.15
+    },
+    {
+     "group": "center_preschool",
+     "typical": 270.0,
+     "low": 230.25,
+     "high": 420.0,
+     "counties": 14,
+     "typical_share": 12.9
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 210.0,
+     "low": 175.0,
+     "high": 223.95,
+     "counties": 14,
+     "typical_share": 9.4
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 262.5,
+     "low": 225.0,
+     "high": 369.75,
+     "counties": 14,
+     "typical_share": 11.95
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 248.8,
+     "low": 203.0,
+     "high": 340.0,
+     "counties": 14,
+     "typical_share": 11.15
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 242.5,
+     "low": 200.0,
+     "high": 320.0,
+     "counties": 14,
+     "typical_share": 10.8
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 237.5,
+     "low": 200.0,
+     "high": 300.0,
+     "counties": 14,
+     "typical_share": 10.55
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 14,
+   "infant_center_counties_with_share": 14,
+   "page": "https://backpr.com/resources/child-care-cost/massachusetts",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/massachusetts",
+   "finder_url": "https://backpr.com/find/massachusetts"
+  },
+  {
+   "state_code": "MI",
+   "state": "Michigan",
+   "slug": "michigan",
+   "year": 2022,
+   "counties_in_state": 83,
+   "counties_with_price": 83,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 135.62,
+     "low": 106.63,
+     "high": 228.19,
+     "counties": 83,
+     "typical_share": 9.6
+    },
+    {
+     "group": "center_toddler",
+     "typical": 144.54,
+     "low": 115.83,
+     "high": 228.19,
+     "counties": 83,
+     "typical_share": 9.8
+    },
+    {
+     "group": "center_preschool",
+     "typical": 135.19,
+     "low": 96.31,
+     "high": 224.47,
+     "counties": 83,
+     "typical_share": 9.2
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 119.78,
+     "low": 89.62,
+     "high": 205.45,
+     "counties": 83,
+     "typical_share": 8.3
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 160.0,
+     "low": 131.81,
+     "high": 275.49,
+     "counties": 83,
+     "typical_share": 11.1
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 160.0,
+     "low": 124.4,
+     "high": 240.0,
+     "counties": 83,
+     "typical_share": 11.0
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 150.0,
+     "low": 120.0,
+     "high": 235.67,
+     "counties": 83,
+     "typical_share": 10.3
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 140.0,
+     "low": 93.25,
+     "high": 243.16,
+     "counties": 83,
+     "typical_share": 9.7
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 83,
+   "infant_center_counties_with_share": 83,
+   "page": "https://backpr.com/resources/child-care-cost/michigan",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/michigan",
+   "finder_url": "https://backpr.com/find/michigan"
+  },
+  {
+   "state_code": "MN",
+   "state": "Minnesota",
+   "slug": "minnesota",
+   "year": 2022,
+   "counties_in_state": 87,
+   "counties_with_price": 87,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 211.0,
+     "low": 167.0,
+     "high": 430.67,
+     "counties": 87,
+     "typical_share": 12.2
+    },
+    {
+     "group": "center_toddler",
+     "typical": 197.0,
+     "low": 151.67,
+     "high": 381.73,
+     "counties": 87,
+     "typical_share": 11.4
+    },
+    {
+     "group": "center_preschool",
+     "typical": 181.67,
+     "low": 139.0,
+     "high": 336.67,
+     "counties": 87,
+     "typical_share": 10.5
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 163.33,
+     "low": 108.47,
+     "high": 249.33,
+     "counties": 87,
+     "typical_share": 9.2
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 143.33,
+     "low": 123.33,
+     "high": 205.0,
+     "counties": 87,
+     "typical_share": 8.2
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 131.67,
+     "low": 123.33,
+     "high": 181.67,
+     "counties": 87,
+     "typical_share": 7.8
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 131.67,
+     "low": 125.0,
+     "high": 185.0,
+     "counties": 87,
+     "typical_share": 7.8
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 126.67,
+     "low": 113.33,
+     "high": 170.0,
+     "counties": 87,
+     "typical_share": 7.3
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 87,
+   "infant_center_counties_with_share": 87,
+   "page": "https://backpr.com/resources/child-care-cost/minnesota",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/minnesota",
+   "finder_url": "https://backpr.com/find/minnesota"
+  },
+  {
+   "state_code": "MS",
+   "state": "Mississippi",
+   "slug": "mississippi",
+   "year": 2022,
+   "counties_in_state": 82,
+   "counties_with_price": 82,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 117.77,
+     "low": 110.02,
+     "high": 154.73,
+     "counties": 82,
+     "typical_share": 10.9
+    },
+    {
+     "group": "center_toddler",
+     "typical": 107.19,
+     "low": 100.22,
+     "high": 144.06,
+     "counties": 82,
+     "typical_share": 9.9
+    },
+    {
+     "group": "center_preschool",
+     "typical": 107.19,
+     "low": 100.22,
+     "high": 132.06,
+     "counties": 82,
+     "typical_share": 9.85
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 101.63,
+     "low": 95.32,
+     "high": 108.72,
+     "counties": 82,
+     "typical_share": 8.9
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 82,
+   "infant_center_counties_with_share": 82,
+   "page": "https://backpr.com/resources/child-care-cost/mississippi",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/mississippi",
+   "finder_url": "https://backpr.com/find/mississippi"
+  },
+  {
+   "state_code": "MO",
+   "state": "Missouri",
+   "slug": "missouri",
+   "year": 2020,
+   "counties_in_state": 115,
+   "counties_with_price": 7,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 214.94,
+     "low": 143.29,
+     "high": 273.94,
+     "counties": 7,
+     "typical_share": 14.0
+    },
+    {
+     "group": "center_toddler",
+     "typical": 168.58,
+     "low": 134.86,
+     "high": 214.94,
+     "counties": 7,
+     "typical_share": 10.9
+    },
+    {
+     "group": "center_preschool",
+     "typical": 168.58,
+     "low": 134.86,
+     "high": 214.94,
+     "counties": 7,
+     "typical_share": 10.9
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 141.82,
+     "low": 118.0,
+     "high": 181.22,
+     "counties": 7,
+     "typical_share": 9.5
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 153.23,
+     "low": 150.8,
+     "high": 155.66,
+     "counties": 2,
+     "typical_share": 11.9
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 124.94,
+     "low": 116.33,
+     "high": 133.56,
+     "counties": 2,
+     "typical_share": 9.75
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 124.94,
+     "low": 116.33,
+     "high": 133.56,
+     "counties": 2,
+     "typical_share": 9.75
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 142.18,
+     "low": 120.64,
+     "high": 163.72,
+     "counties": 2,
+     "typical_share": 11.2
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 7,
+   "infant_center_counties_with_share": 7,
+   "page": "https://backpr.com/resources/child-care-cost/missouri",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/missouri",
+   "finder_url": "https://backpr.com/find/missouri"
+  },
+  {
+   "state_code": "MT",
+   "state": "Montana",
+   "slug": "montana",
+   "year": 2022,
+   "counties_in_state": 56,
+   "counties_with_price": 56,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 218.06,
+     "low": 196.63,
+     "high": 254.16,
+     "counties": 56,
+     "typical_share": 14.85
+    },
+    {
+     "group": "center_toddler",
+     "typical": 226.86,
+     "low": 206.75,
+     "high": 262.34,
+     "counties": 56,
+     "typical_share": 15.45
+    },
+    {
+     "group": "center_preschool",
+     "typical": 194.74,
+     "low": 175.91,
+     "high": 226.83,
+     "counties": 56,
+     "typical_share": 13.25
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 194.74,
+     "low": 175.91,
+     "high": 226.83,
+     "counties": 56,
+     "typical_share": 13.25
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 173.81,
+     "low": 155.19,
+     "high": 199.5,
+     "counties": 56,
+     "typical_share": 11.8
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 177.42,
+     "low": 159.24,
+     "high": 202.77,
+     "counties": 56,
+     "typical_share": 12.05
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 177.42,
+     "low": 159.24,
+     "high": 202.77,
+     "counties": 56,
+     "typical_share": 12.05
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 164.4,
+     "low": 146.9,
+     "high": 188.57,
+     "counties": 56,
+     "typical_share": 11.2
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 56,
+   "infant_center_counties_with_share": 56,
+   "page": "https://backpr.com/resources/child-care-cost/montana",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/montana",
+   "finder_url": "https://backpr.com/find/montana"
+  },
+  {
+   "state_code": "NE",
+   "state": "Nebraska",
+   "slug": "nebraska",
+   "year": 2022,
+   "counties_in_state": 93,
+   "counties_with_price": 93,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 187.25,
+     "low": 187.25,
+     "high": 243.75,
+     "counties": 93,
+     "typical_share": 12.3
+    },
+    {
+     "group": "center_toddler",
+     "typical": 177.5,
+     "low": 177.5,
+     "high": 226.13,
+     "counties": 93,
+     "typical_share": 11.6
+    },
+    {
+     "group": "center_preschool",
+     "typical": 162.5,
+     "low": 162.5,
+     "high": 205.0,
+     "counties": 93,
+     "typical_share": 10.7
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 157.5,
+     "low": 157.5,
+     "high": 177.08,
+     "counties": 93,
+     "typical_share": 10.3
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 107.5,
+     "low": 107.5,
+     "high": 150.0,
+     "counties": 93,
+     "typical_share": 7.1
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 112.5,
+     "low": 112.5,
+     "high": 150.0,
+     "counties": 93,
+     "typical_share": 7.4
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 115.0,
+     "low": 115.0,
+     "high": 150.0,
+     "counties": 93,
+     "typical_share": 7.6
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 117.5,
+     "low": 117.5,
+     "high": 150.0,
+     "counties": 93,
+     "typical_share": 7.7
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 93,
+   "infant_center_counties_with_share": 93,
+   "page": "https://backpr.com/resources/child-care-cost/nebraska",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/nebraska",
+   "finder_url": "https://backpr.com/find/nebraska"
+  },
+  {
+   "state_code": "NV",
+   "state": "Nevada",
+   "slug": "nevada",
+   "year": 2022,
+   "counties_in_state": 17,
+   "counties_with_price": 17,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 183.53,
+     "low": 158.5,
+     "high": 275.63,
+     "counties": 17,
+     "typical_share": 10.7
+    },
+    {
+     "group": "center_toddler",
+     "typical": 159.41,
+     "low": 154.33,
+     "high": 240.47,
+     "counties": 17,
+     "typical_share": 9.2
+    },
+    {
+     "group": "center_preschool",
+     "typical": 150.3,
+     "low": 149.12,
+     "high": 229.27,
+     "counties": 17,
+     "typical_share": 9.0
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 145.99,
+     "low": 143.9,
+     "high": 212.41,
+     "counties": 17,
+     "typical_share": 8.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 129.25,
+     "low": 128.52,
+     "high": 193.88,
+     "counties": 17,
+     "typical_share": 7.7
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 129.25,
+     "low": 128.52,
+     "high": 190.65,
+     "counties": 17,
+     "typical_share": 7.7
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 129.25,
+     "low": 128.52,
+     "high": 172.34,
+     "counties": 17,
+     "typical_share": 7.7
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 107.71,
+     "low": 107.1,
+     "high": 157.26,
+     "counties": 17,
+     "typical_share": 6.5
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 17,
+   "infant_center_counties_with_share": 17,
+   "page": "https://backpr.com/resources/child-care-cost/nevada",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/nevada",
+   "finder_url": "https://backpr.com/find/nevada"
+  },
+  {
+   "state_code": "NH",
+   "state": "New Hampshire",
+   "slug": "new-hampshire",
+   "year": 2022,
+   "counties_in_state": 10,
+   "counties_with_price": 10,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 286.42,
+     "low": 269.08,
+     "high": 307.67,
+     "counties": 10,
+     "typical_share": 14.8
+    },
+    {
+     "group": "center_toddler",
+     "typical": 271.54,
+     "low": 254.91,
+     "high": 291.86,
+     "counties": 10,
+     "typical_share": 14.0
+    },
+    {
+     "group": "center_preschool",
+     "typical": 238.09,
+     "low": 223.63,
+     "high": 255.8,
+     "counties": 10,
+     "typical_share": 12.3
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 213.08,
+     "low": 200.65,
+     "high": 228.49,
+     "counties": 10,
+     "typical_share": 11.0
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 197.32,
+     "low": 185.78,
+     "high": 211.62,
+     "counties": 10,
+     "typical_share": 10.2
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 183.83,
+     "low": 173.51,
+     "high": 196.81,
+     "counties": 10,
+     "typical_share": 9.5
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 183.83,
+     "low": 173.51,
+     "high": 196.81,
+     "counties": 10,
+     "typical_share": 9.5
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 10,
+   "infant_center_counties_with_share": 10,
+   "page": "https://backpr.com/resources/child-care-cost/new-hampshire",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/new-hampshire",
+   "finder_url": "https://backpr.com/find/new-hampshire"
+  },
+  {
+   "state_code": "NJ",
+   "state": "New Jersey",
+   "slug": "new-jersey",
+   "year": 2022,
+   "counties_in_state": 21,
+   "counties_with_price": 21,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 303.63,
+     "low": 281.69,
+     "high": 326.62,
+     "counties": 21,
+     "typical_share": 13.1
+    },
+    {
+     "group": "center_toddler",
+     "typical": 296.07,
+     "low": 273.94,
+     "high": 319.96,
+     "counties": 21,
+     "typical_share": 13.0
+    },
+    {
+     "group": "center_preschool",
+     "typical": 296.07,
+     "low": 273.94,
+     "high": 319.96,
+     "counties": 21,
+     "typical_share": 13.0
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 143.28,
+     "low": 127.52,
+     "high": 151.82,
+     "counties": 21,
+     "typical_share": 6.4
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 191.81,
+     "low": 172.0,
+     "high": 212.96,
+     "counties": 21,
+     "typical_share": 8.5
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 194.93,
+     "low": 175.0,
+     "high": 216.96,
+     "counties": 21,
+     "typical_share": 8.7
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 182.16,
+     "low": 163.61,
+     "high": 203.24,
+     "counties": 21,
+     "typical_share": 8.2
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 161.68,
+     "low": 144.43,
+     "high": 182.0,
+     "counties": 21,
+     "typical_share": 7.2
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 21,
+   "infant_center_counties_with_share": 21,
+   "page": "https://backpr.com/resources/child-care-cost/new-jersey",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/new-jersey",
+   "finder_url": "https://backpr.com/find/new-jersey"
+  },
+  {
+   "state_code": "NM",
+   "state": "New Mexico",
+   "slug": "new-mexico",
+   "year": 2022,
+   "counties_in_state": 33,
+   "counties_with_price": 0,
+   "has_data": false,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "center_toddler",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "center_preschool",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "center_schoolage",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": null,
+     "low": null,
+     "high": null,
+     "counties": 0,
+     "typical_share": null
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 0,
+   "infant_center_counties_with_share": 0,
+   "page": "https://backpr.com/resources/child-care-cost/new-mexico",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/new-mexico",
+   "finder_url": "https://backpr.com/find/new-mexico"
+  },
+  {
+   "state_code": "NY",
+   "state": "New York",
+   "slug": "new-york",
+   "year": 2022,
+   "counties_in_state": 62,
+   "counties_with_price": 62,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 247.0,
+     "low": 247.0,
+     "high": 325.0,
+     "counties": 62,
+     "typical_share": 15.6
+    },
+    {
+     "group": "center_toddler",
+     "typical": 230.0,
+     "low": 230.0,
+     "high": 300.0,
+     "counties": 62,
+     "typical_share": 14.6
+    },
+    {
+     "group": "center_preschool",
+     "typical": 200.0,
+     "low": 200.0,
+     "high": 293.0,
+     "counties": 62,
+     "typical_share": 12.75
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 194.0,
+     "low": 194.0,
+     "high": 250.0,
+     "counties": 62,
+     "typical_share": 12.05
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 190.0,
+     "low": 190.0,
+     "high": 300.0,
+     "counties": 62,
+     "typical_share": 11.8
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 180.0,
+     "low": 180.0,
+     "high": 290.0,
+     "counties": 62,
+     "typical_share": 11.25
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 175.0,
+     "low": 175.0,
+     "high": 275.0,
+     "counties": 62,
+     "typical_share": 10.95
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 175.0,
+     "low": 175.0,
+     "high": 250.0,
+     "counties": 62,
+     "typical_share": 10.7
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 62,
+   "infant_center_counties_with_share": 62,
+   "page": "https://backpr.com/resources/child-care-cost/new-york",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/new-york",
+   "finder_url": "https://backpr.com/find/new-york"
+  },
+  {
+   "state_code": "NC",
+   "state": "North Carolina",
+   "slug": "north-carolina",
+   "year": 2022,
+   "counties_in_state": 100,
+   "counties_with_price": 99,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 180.83,
+     "low": 109.46,
+     "high": 354.86,
+     "counties": 99,
+     "typical_share": 12.9
+    },
+    {
+     "group": "center_toddler",
+     "typical": 141.75,
+     "low": 108.31,
+     "high": 292.35,
+     "counties": 99,
+     "typical_share": 10.4
+    },
+    {
+     "group": "center_preschool",
+     "typical": 123.42,
+     "low": 84.21,
+     "high": 198.57,
+     "counties": 99,
+     "typical_share": 9.0
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 72.69,
+     "low": 46.3,
+     "high": 162.69,
+     "counties": 99,
+     "typical_share": 5.4
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 151.49,
+     "low": 94.33,
+     "high": 270.67,
+     "counties": 98,
+     "typical_share": 10.8
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 134.69,
+     "low": 83.05,
+     "high": 226.15,
+     "counties": 98,
+     "typical_share": 9.3
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 125.38,
+     "low": 81.5,
+     "high": 273.51,
+     "counties": 98,
+     "typical_share": 9.3
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 86.12,
+     "low": 58.33,
+     "high": 209.98,
+     "counties": 98,
+     "typical_share": 6.1
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 99,
+   "infant_center_counties_with_share": 99,
+   "page": "https://backpr.com/resources/child-care-cost/north-carolina",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/north-carolina",
+   "finder_url": "https://backpr.com/find/north-carolina"
+  },
+  {
+   "state_code": "ND",
+   "state": "North Dakota",
+   "slug": "north-dakota",
+   "year": 2022,
+   "counties_in_state": 53,
+   "counties_with_price": 53,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 208.51,
+     "low": 195.09,
+     "high": 240.08,
+     "counties": 53,
+     "typical_share": 11.6
+    },
+    {
+     "group": "center_toddler",
+     "typical": 190.35,
+     "low": 178.22,
+     "high": 219.26,
+     "counties": 53,
+     "typical_share": 10.6
+    },
+    {
+     "group": "center_preschool",
+     "typical": 176.52,
+     "low": 165.16,
+     "high": 203.25,
+     "counties": 53,
+     "typical_share": 9.9
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 171.74,
+     "low": 160.65,
+     "high": 201.29,
+     "counties": 53,
+     "typical_share": 9.6
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 153.32,
+     "low": 143.4,
+     "high": 176.5,
+     "counties": 53,
+     "typical_share": 8.6
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 144.67,
+     "low": 135.44,
+     "high": 166.64,
+     "counties": 53,
+     "typical_share": 8.1
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 145.69,
+     "low": 136.29,
+     "high": 167.73,
+     "counties": 53,
+     "typical_share": 8.1
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 150.01,
+     "low": 140.29,
+     "high": 175.47,
+     "counties": 53,
+     "typical_share": 8.4
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 53,
+   "infant_center_counties_with_share": 53,
+   "page": "https://backpr.com/resources/child-care-cost/north-dakota",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/north-dakota",
+   "finder_url": "https://backpr.com/find/north-dakota"
+  },
+  {
+   "state_code": "OH",
+   "state": "Ohio",
+   "slug": "ohio",
+   "year": 2022,
+   "counties_in_state": 88,
+   "counties_with_price": 88,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 221.87,
+     "low": 173.55,
+     "high": 295.0,
+     "counties": 88,
+     "typical_share": 14.15
+    },
+    {
+     "group": "center_toddler",
+     "typical": 200.0,
+     "low": 160.0,
+     "high": 265.0,
+     "counties": 88,
+     "typical_share": 12.8
+    },
+    {
+     "group": "center_preschool",
+     "typical": 175.0,
+     "low": 142.0,
+     "high": 232.0,
+     "counties": 88,
+     "typical_share": 11.25
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 126.0,
+     "low": 100.0,
+     "high": 150.0,
+     "counties": 88,
+     "typical_share": 7.85
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 170.0,
+     "low": 155.0,
+     "high": 200.0,
+     "counties": 88,
+     "typical_share": 11.1
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 165.0,
+     "low": 152.45,
+     "high": 190.0,
+     "counties": 88,
+     "typical_share": 10.75
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 155.0,
+     "low": 140.98,
+     "high": 175.0,
+     "counties": 88,
+     "typical_share": 10.0
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 139.21,
+     "low": 120.12,
+     "high": 155.0,
+     "counties": 88,
+     "typical_share": 8.8
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 88,
+   "infant_center_counties_with_share": 88,
+   "page": "https://backpr.com/resources/child-care-cost/ohio",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/ohio",
+   "finder_url": "https://backpr.com/find/ohio"
+  },
+  {
+   "state_code": "OK",
+   "state": "Oklahoma",
+   "slug": "oklahoma",
+   "year": 2022,
+   "counties_in_state": 77,
+   "counties_with_price": 77,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 204.94,
+     "low": 189.67,
+     "high": 230.82,
+     "counties": 77,
+     "typical_share": 15.3
+    },
+    {
+     "group": "center_toddler",
+     "typical": 177.19,
+     "low": 163.95,
+     "high": 199.71,
+     "counties": 77,
+     "typical_share": 13.3
+    },
+    {
+     "group": "center_preschool",
+     "typical": 177.19,
+     "low": 163.95,
+     "high": 199.71,
+     "counties": 77,
+     "typical_share": 13.3
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 115.83,
+     "low": 107.17,
+     "high": 130.57,
+     "counties": 77,
+     "typical_share": 8.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 148.78,
+     "low": 137.73,
+     "high": 167.49,
+     "counties": 77,
+     "typical_share": 11.1
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 136.78,
+     "low": 126.68,
+     "high": 153.8,
+     "counties": 77,
+     "typical_share": 10.2
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 136.78,
+     "low": 126.68,
+     "high": 153.8,
+     "counties": 77,
+     "typical_share": 10.2
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 104.3,
+     "low": 96.58,
+     "high": 117.3,
+     "counties": 77,
+     "typical_share": 7.8
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 77,
+   "infant_center_counties_with_share": 77,
+   "page": "https://backpr.com/resources/child-care-cost/oklahoma",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/oklahoma",
+   "finder_url": "https://backpr.com/find/oklahoma"
+  },
+  {
+   "state_code": "OR",
+   "state": "Oregon",
+   "slug": "oregon",
+   "year": 2022,
+   "counties_in_state": 36,
+   "counties_with_price": 36,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 197.31,
+     "low": 197.31,
+     "high": 407.08,
+     "counties": 36,
+     "typical_share": 15.2
+    },
+    {
+     "group": "center_toddler",
+     "typical": 181.15,
+     "low": 181.15,
+     "high": 378.93,
+     "counties": 36,
+     "typical_share": 13.95
+    },
+    {
+     "group": "center_preschool",
+     "typical": 150.0,
+     "low": 150.0,
+     "high": 296.86,
+     "counties": 36,
+     "typical_share": 11.45
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 62.31,
+     "low": 62.31,
+     "high": 111.46,
+     "counties": 36,
+     "typical_share": 4.5
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 173.08,
+     "low": 173.08,
+     "high": 250.14,
+     "counties": 36,
+     "typical_share": 12.2
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 164.06,
+     "low": 161.54,
+     "high": 221.37,
+     "counties": 36,
+     "typical_share": 11.3
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 153.32,
+     "low": 150.0,
+     "high": 207.54,
+     "counties": 36,
+     "typical_share": 10.55
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 141.78,
+     "low": 138.46,
+     "high": 173.0,
+     "counties": 36,
+     "typical_share": 9.75
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 36,
+   "infant_center_counties_with_share": 36,
+   "page": "https://backpr.com/resources/child-care-cost/oregon",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/oregon",
+   "finder_url": "https://backpr.com/find/oregon"
+  },
+  {
+   "state_code": "PA",
+   "state": "Pennsylvania",
+   "slug": "pennsylvania",
+   "year": 2020,
+   "counties_in_state": 67,
+   "counties_with_price": 67,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 185.0,
+     "low": 123.5,
+     "high": 304.2,
+     "counties": 67,
+     "typical_share": 13.1
+    },
+    {
+     "group": "center_toddler",
+     "typical": 177.5,
+     "low": 110.0,
+     "high": 274.0,
+     "counties": 67,
+     "typical_share": 12.3
+    },
+    {
+     "group": "center_preschool",
+     "typical": 165.0,
+     "low": 110.0,
+     "high": 245.0,
+     "counties": 67,
+     "typical_share": 11.5
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 153.0,
+     "low": 112.0,
+     "high": 280.0,
+     "counties": 67,
+     "typical_share": 10.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 147.5,
+     "low": 105.0,
+     "high": 210.0,
+     "counties": 67,
+     "typical_share": 10.7
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 130.0,
+     "low": 95.0,
+     "high": 215.0,
+     "counties": 67,
+     "typical_share": 9.7
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 130.0,
+     "low": 95.0,
+     "high": 217.5,
+     "counties": 67,
+     "typical_share": 9.4
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 125.0,
+     "low": 80.0,
+     "high": 222.5,
+     "counties": 67,
+     "typical_share": 9.2
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 67,
+   "infant_center_counties_with_share": 67,
+   "page": "https://backpr.com/resources/child-care-cost/pennsylvania",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/pennsylvania",
+   "finder_url": "https://backpr.com/find/pennsylvania"
+  },
+  {
+   "state_code": "RI",
+   "state": "Rhode Island",
+   "slug": "rhode-island",
+   "year": 2022,
+   "counties_in_state": 5,
+   "counties_with_price": 5,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 293.37,
+     "low": 289.59,
+     "high": 310.92,
+     "counties": 5,
+     "typical_share": 12.4
+    },
+    {
+     "group": "center_toddler",
+     "typical": 282.96,
+     "low": 279.2,
+     "high": 299.9,
+     "counties": 5,
+     "typical_share": 12.0
+    },
+    {
+     "group": "center_preschool",
+     "typical": 248.37,
+     "low": 245.26,
+     "high": 263.18,
+     "counties": 5,
+     "typical_share": 10.5
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 65.14,
+     "low": 61.97,
+     "high": 69.83,
+     "counties": 5,
+     "typical_share": 2.8
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 259.6,
+     "low": 254.49,
+     "high": 275.46,
+     "counties": 5,
+     "typical_share": 11.0
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 254.2,
+     "low": 249.15,
+     "high": 269.75,
+     "counties": 5,
+     "typical_share": 10.8
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 212.05,
+     "low": 208.59,
+     "high": 224.91,
+     "counties": 5,
+     "typical_share": 9.0
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 216.74,
+     "low": 210.98,
+     "high": 230.19,
+     "counties": 5,
+     "typical_share": 9.2
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 5,
+   "infant_center_counties_with_share": 5,
+   "page": "https://backpr.com/resources/child-care-cost/rhode-island",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/rhode-island",
+   "finder_url": "https://backpr.com/find/rhode-island"
+  },
+  {
+   "state_code": "SC",
+   "state": "South Carolina",
+   "slug": "south-carolina",
+   "year": 2022,
+   "counties_in_state": 46,
+   "counties_with_price": 46,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 117.21,
+     "low": 93.88,
+     "high": 222.26,
+     "counties": 46,
+     "typical_share": 10.8
+    },
+    {
+     "group": "center_toddler",
+     "typical": 117.21,
+     "low": 93.88,
+     "high": 208.36,
+     "counties": 46,
+     "typical_share": 10.45
+    },
+    {
+     "group": "center_preschool",
+     "typical": 127.21,
+     "low": 97.7,
+     "high": 183.94,
+     "counties": 46,
+     "typical_share": 10.8
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 133.88,
+     "low": 127.7,
+     "high": 169.41,
+     "counties": 46,
+     "typical_share": 10.25
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 133.88,
+     "low": 116.11,
+     "high": 154.2,
+     "counties": 46,
+     "typical_share": 10.05
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 133.88,
+     "low": 116.11,
+     "high": 154.2,
+     "counties": 46,
+     "typical_share": 10.05
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 136.11,
+     "low": 126.11,
+     "high": 143.25,
+     "counties": 46,
+     "typical_share": 10.3
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 140.0,
+     "low": 89.47,
+     "high": 143.88,
+     "counties": 46,
+     "typical_share": 10.35
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 46,
+   "infant_center_counties_with_share": 46,
+   "page": "https://backpr.com/resources/child-care-cost/south-carolina",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/south-carolina",
+   "finder_url": "https://backpr.com/find/south-carolina"
+  },
+  {
+   "state_code": "SD",
+   "state": "South Dakota",
+   "slug": "south-dakota",
+   "year": 2022,
+   "counties_in_state": 66,
+   "counties_with_price": 66,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 120.0,
+     "low": 120.0,
+     "high": 178.4,
+     "counties": 66,
+     "typical_share": 8.05
+    },
+    {
+     "group": "center_toddler",
+     "typical": 120.0,
+     "low": 120.0,
+     "high": 178.4,
+     "counties": 66,
+     "typical_share": 8.05
+    },
+    {
+     "group": "center_preschool",
+     "typical": 114.0,
+     "low": 114.0,
+     "high": 167.2,
+     "counties": 66,
+     "typical_share": 7.5
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 115.2,
+     "low": 115.2,
+     "high": 168.0,
+     "counties": 66,
+     "typical_share": 7.15
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 100.0,
+     "low": 100.0,
+     "high": 119.6,
+     "counties": 66,
+     "typical_share": 6.1
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 100.0,
+     "low": 100.0,
+     "high": 119.6,
+     "counties": 66,
+     "typical_share": 6.1
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 100.0,
+     "low": 100.0,
+     "high": 115.2,
+     "counties": 66,
+     "typical_share": 6.1
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 109.2,
+     "low": 100.0,
+     "high": 128.0,
+     "counties": 66,
+     "typical_share": 6.6
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 51,
+   "infant_center_counties_with_share": 66,
+   "page": "https://backpr.com/resources/child-care-cost/south-dakota",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/south-dakota",
+   "finder_url": "https://backpr.com/find/south-dakota"
+  },
+  {
+   "state_code": "TN",
+   "state": "Tennessee",
+   "slug": "tennessee",
+   "year": 2022,
+   "counties_in_state": 95,
+   "counties_with_price": 95,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 130.99,
+     "low": 111.67,
+     "high": 211.67,
+     "counties": 95,
+     "typical_share": 10.8
+    },
+    {
+     "group": "center_toddler",
+     "typical": 110.0,
+     "low": 97.46,
+     "high": 146.35,
+     "counties": 95,
+     "typical_share": 8.7
+    },
+    {
+     "group": "center_preschool",
+     "typical": 110.0,
+     "low": 97.46,
+     "high": 146.35,
+     "counties": 95,
+     "typical_share": 8.7
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 50.0,
+     "low": 47.0,
+     "high": 76.33,
+     "counties": 95,
+     "typical_share": 4.1
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 90.83,
+     "low": 80.67,
+     "high": 155.0,
+     "counties": 95,
+     "typical_share": 7.5
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 97.5,
+     "low": 89.08,
+     "high": 128.26,
+     "counties": 95,
+     "typical_share": 7.7
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 97.5,
+     "low": 89.08,
+     "high": 128.26,
+     "counties": 95,
+     "typical_share": 7.7
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 100.0,
+     "low": 100.0,
+     "high": 106.67,
+     "counties": 95,
+     "typical_share": 7.8
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 95,
+   "infant_center_counties_with_share": 95,
+   "page": "https://backpr.com/resources/child-care-cost/tennessee",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/tennessee",
+   "finder_url": "https://backpr.com/find/tennessee"
+  },
+  {
+   "state_code": "TX",
+   "state": "Texas",
+   "slug": "texas",
+   "year": 2022,
+   "counties_in_state": 254,
+   "counties_with_price": 254,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 144.0,
+     "low": 113.0,
+     "high": 229.0,
+     "counties": 254,
+     "typical_share": 9.95
+    },
+    {
+     "group": "center_toddler",
+     "typical": 136.0,
+     "low": 106.0,
+     "high": 214.0,
+     "counties": 254,
+     "typical_share": 9.4
+    },
+    {
+     "group": "center_preschool",
+     "typical": 133.0,
+     "low": 103.0,
+     "high": 209.0,
+     "counties": 254,
+     "typical_share": 9.2
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 126.0,
+     "low": 98.0,
+     "high": 197.0,
+     "counties": 254,
+     "typical_share": 8.65
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 131.0,
+     "low": 102.0,
+     "high": 206.0,
+     "counties": 254,
+     "typical_share": 9.0
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 126.0,
+     "low": 97.0,
+     "high": 196.0,
+     "counties": 254,
+     "typical_share": 8.6
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 124.0,
+     "low": 96.0,
+     "high": 194.0,
+     "counties": 254,
+     "typical_share": 8.5
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 120.0,
+     "low": 92.0,
+     "high": 184.0,
+     "counties": 254,
+     "typical_share": 8.1
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 251,
+   "infant_center_counties_with_share": 254,
+   "page": "https://backpr.com/resources/child-care-cost/texas",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/texas",
+   "finder_url": "https://backpr.com/find/texas"
+  },
+  {
+   "state_code": "UT",
+   "state": "Utah",
+   "slug": "utah",
+   "year": 2022,
+   "counties_in_state": 29,
+   "counties_with_price": 29,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 226.27,
+     "low": 226.27,
+     "high": 228.75,
+     "counties": 29,
+     "typical_share": 13.8
+    },
+    {
+     "group": "center_toddler",
+     "typical": 183.87,
+     "low": 183.87,
+     "high": 187.21,
+     "counties": 29,
+     "typical_share": 11.3
+    },
+    {
+     "group": "center_preschool",
+     "typical": 168.06,
+     "low": 168.06,
+     "high": 169.62,
+     "counties": 29,
+     "typical_share": 10.3
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 163.68,
+     "low": 163.68,
+     "high": 165.87,
+     "counties": 29,
+     "typical_share": 10.0
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 168.18,
+     "low": 168.18,
+     "high": 170.2,
+     "counties": 29,
+     "typical_share": 10.3
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 155.77,
+     "low": 155.77,
+     "high": 156.23,
+     "counties": 29,
+     "typical_share": 9.4
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 147.7,
+     "low": 147.7,
+     "high": 149.08,
+     "counties": 29,
+     "typical_share": 9.0
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 144.23,
+     "low": 144.23,
+     "high": 144.23,
+     "counties": 29,
+     "typical_share": 8.7
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 29,
+   "infant_center_counties_with_share": 29,
+   "page": "https://backpr.com/resources/child-care-cost/utah",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/utah",
+   "finder_url": "https://backpr.com/find/utah"
+  },
+  {
+   "state_code": "VT",
+   "state": "Vermont",
+   "slug": "vermont",
+   "year": 2021,
+   "counties_in_state": 14,
+   "counties_with_price": 14,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 309.36,
+     "low": 257.96,
+     "high": 362.08,
+     "counties": 14,
+     "typical_share": 18.7
+    },
+    {
+     "group": "center_toddler",
+     "typical": 292.81,
+     "low": 248.23,
+     "high": 348.98,
+     "counties": 14,
+     "typical_share": 17.8
+    },
+    {
+     "group": "center_preschool",
+     "typical": 301.96,
+     "low": 248.23,
+     "high": 357.98,
+     "counties": 14,
+     "typical_share": 18.0
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 224.41,
+     "low": 194.69,
+     "high": 261.94,
+     "counties": 14,
+     "typical_share": 13.8
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 203.08,
+     "low": 166.9,
+     "high": 231.12,
+     "counties": 14,
+     "typical_share": 12.45
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 197.23,
+     "low": 166.86,
+     "high": 215.7,
+     "counties": 14,
+     "typical_share": 12.15
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 198.21,
+     "low": 166.86,
+     "high": 220.7,
+     "counties": 14,
+     "typical_share": 12.3
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 170.75,
+     "low": 146.24,
+     "high": 192.74,
+     "counties": 14,
+     "typical_share": 10.3
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 14,
+   "infant_center_counties_with_share": 14,
+   "page": "https://backpr.com/resources/child-care-cost/vermont",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/vermont",
+   "finder_url": "https://backpr.com/find/vermont"
+  },
+  {
+   "state_code": "VA",
+   "state": "Virginia",
+   "slug": "virginia",
+   "year": 2022,
+   "counties_in_state": 133,
+   "counties_with_price": 133,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 191.21,
+     "low": 118.59,
+     "high": 559.34,
+     "counties": 133,
+     "typical_share": 11.3
+    },
+    {
+     "group": "center_toddler",
+     "typical": 147.05,
+     "low": 90.0,
+     "high": 496.3,
+     "counties": 133,
+     "typical_share": 8.9
+    },
+    {
+     "group": "center_preschool",
+     "typical": 141.09,
+     "low": 90.0,
+     "high": 496.3,
+     "counties": 133,
+     "typical_share": 8.8
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 142.1,
+     "low": 80.0,
+     "high": 415.96,
+     "counties": 133,
+     "typical_share": 8.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 158.37,
+     "low": 93.16,
+     "high": 384.54,
+     "counties": 133,
+     "typical_share": 9.1
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 131.33,
+     "low": 75.0,
+     "high": 341.73,
+     "counties": 133,
+     "typical_share": 7.6
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 130.61,
+     "low": 75.0,
+     "high": 341.73,
+     "counties": 133,
+     "typical_share": 7.6
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 128.53,
+     "low": 85.5,
+     "high": 323.08,
+     "counties": 133,
+     "typical_share": 8.3
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 133,
+   "infant_center_counties_with_share": 133,
+   "page": "https://backpr.com/resources/child-care-cost/virginia",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/virginia",
+   "finder_url": "https://backpr.com/find/virginia"
+  },
+  {
+   "state_code": "WA",
+   "state": "Washington",
+   "slug": "washington",
+   "year": 2022,
+   "counties_in_state": 39,
+   "counties_with_price": 39,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 327.58,
+     "low": 237.04,
+     "high": 478.45,
+     "counties": 39,
+     "typical_share": 17.3
+    },
+    {
+     "group": "center_toddler",
+     "typical": 248.93,
+     "low": 207.69,
+     "high": 389.7,
+     "counties": 39,
+     "typical_share": 14.5
+    },
+    {
+     "group": "center_preschool",
+     "typical": 248.93,
+     "low": 207.69,
+     "high": 389.7,
+     "counties": 39,
+     "typical_share": 14.5
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 191.62,
+     "low": 152.08,
+     "high": 374.46,
+     "counties": 39,
+     "typical_share": 11.8
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 246.15,
+     "low": 198.0,
+     "high": 346.92,
+     "counties": 39,
+     "typical_share": 13.6
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 205.23,
+     "low": 172.92,
+     "high": 309.85,
+     "counties": 39,
+     "typical_share": 11.9
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 205.3,
+     "low": 172.92,
+     "high": 309.85,
+     "counties": 39,
+     "typical_share": 11.9
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 190.38,
+     "low": 160.77,
+     "high": 245.32,
+     "counties": 39,
+     "typical_share": 11.1
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 39,
+   "infant_center_counties_with_share": 39,
+   "page": "https://backpr.com/resources/child-care-cost/washington",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/washington",
+   "finder_url": "https://backpr.com/find/washington"
+  },
+  {
+   "state_code": "WV",
+   "state": "West Virginia",
+   "slug": "west-virginia",
+   "year": 2022,
+   "counties_in_state": 55,
+   "counties_with_price": 55,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 173.42,
+     "low": 144.47,
+     "high": 195.02,
+     "counties": 55,
+     "typical_share": 13.6
+    },
+    {
+     "group": "center_toddler",
+     "typical": 164.65,
+     "low": 135.47,
+     "high": 185.2,
+     "counties": 55,
+     "typical_share": 12.9
+    },
+    {
+     "group": "center_preschool",
+     "typical": 165.54,
+     "low": 131.36,
+     "high": 189.62,
+     "counties": 55,
+     "typical_share": 12.7
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 150.16,
+     "low": 123.15,
+     "high": 170.48,
+     "counties": 55,
+     "typical_share": 11.7
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 155.52,
+     "low": 123.15,
+     "high": 170.48,
+     "counties": 55,
+     "typical_share": 11.9
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 133.97,
+     "low": 122.0,
+     "high": 182.33,
+     "counties": 55,
+     "typical_share": 10.9
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 133.97,
+     "low": 122.0,
+     "high": 194.47,
+     "counties": 55,
+     "typical_share": 10.9
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 133.76,
+     "low": 122.0,
+     "high": 194.47,
+     "counties": 55,
+     "typical_share": 10.4
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 55,
+   "infant_center_counties_with_share": 55,
+   "page": "https://backpr.com/resources/child-care-cost/west-virginia",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/west-virginia",
+   "finder_url": "https://backpr.com/find/west-virginia"
+  },
+  {
+   "state_code": "WI",
+   "state": "Wisconsin",
+   "slug": "wisconsin",
+   "year": 2022,
+   "counties_in_state": 72,
+   "counties_with_price": 72,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 210.0,
+     "low": 182.0,
+     "high": 293.0,
+     "counties": 72,
+     "typical_share": 12.95
+    },
+    {
+     "group": "center_toddler",
+     "typical": 190.0,
+     "low": 170.0,
+     "high": 258.75,
+     "counties": 72,
+     "typical_share": 11.7
+    },
+    {
+     "group": "center_preschool",
+     "typical": 190.0,
+     "low": 170.0,
+     "high": 258.75,
+     "counties": 72,
+     "typical_share": 11.7
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 164.0,
+     "low": 153.0,
+     "high": 205.0,
+     "counties": 72,
+     "typical_share": 10.4
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 155.0,
+     "low": 150.0,
+     "high": 220.0,
+     "counties": 72,
+     "typical_share": 10.0
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 150.0,
+     "low": 142.5,
+     "high": 200.0,
+     "counties": 72,
+     "typical_share": 9.6
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 150.0,
+     "low": 142.5,
+     "high": 200.0,
+     "counties": 72,
+     "typical_share": 9.6
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 140.0,
+     "low": 135.0,
+     "high": 180.0,
+     "counties": 72,
+     "typical_share": 9.1
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 72,
+   "infant_center_counties_with_share": 72,
+   "page": "https://backpr.com/resources/child-care-cost/wisconsin",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/wisconsin",
+   "finder_url": "https://backpr.com/find/wisconsin"
+  },
+  {
+   "state_code": "WY",
+   "state": "Wyoming",
+   "slug": "wyoming",
+   "year": 2022,
+   "counties_in_state": 23,
+   "counties_with_price": 22,
+   "has_data": true,
+   "summary": [
+    {
+     "group": "center_infant",
+     "typical": 158.5,
+     "low": 110.2,
+     "high": 300.07,
+     "counties": 21,
+     "typical_share": 9.1
+    },
+    {
+     "group": "center_toddler",
+     "typical": 137.87,
+     "low": 102.4,
+     "high": 231.37,
+     "counties": 21,
+     "typical_share": 8.3
+    },
+    {
+     "group": "center_preschool",
+     "typical": 138.69,
+     "low": 102.4,
+     "high": 231.37,
+     "counties": 21,
+     "typical_share": 8.3
+    },
+    {
+     "group": "center_schoolage",
+     "typical": 125.3,
+     "low": 77.55,
+     "high": 183.11,
+     "counties": 16,
+     "typical_share": 7.35
+    },
+    {
+     "group": "family_child_care_infant",
+     "typical": 147.28,
+     "low": 117.81,
+     "high": 359.85,
+     "counties": 19,
+     "typical_share": 8.3
+    },
+    {
+     "group": "family_child_care_toddler",
+     "typical": 128.52,
+     "low": 107.1,
+     "high": 332.01,
+     "counties": 20,
+     "typical_share": 7.55
+    },
+    {
+     "group": "family_child_care_preschool",
+     "typical": 128.52,
+     "low": 107.1,
+     "high": 332.01,
+     "counties": 20,
+     "typical_share": 7.55
+    },
+    {
+     "group": "family_child_care_schoolage",
+     "typical": 123.39,
+     "low": 42.58,
+     "high": 154.72,
+     "counties": 17,
+     "typical_share": 7.4
+    }
+   ],
+   "infant_center_counties_over_7pct_of_income": 20,
+   "infant_center_counties_with_share": 21,
+   "page": "https://backpr.com/resources/child-care-cost/wyoming",
+   "child_care_assistance_url": "https://www.childcare.gov/state-resources/wyoming",
+   "finder_url": "https://backpr.com/find/wyoming"
+  }
+ ]
+}

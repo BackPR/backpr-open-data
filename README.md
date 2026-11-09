@@ -79,18 +79,51 @@ Counts of active 501(c)(3) youth development, amateur sports, PTA and PTO, recre
 
 BackPR's free printable PDF and editable Word templates for camps, after-school programs, childcare and other youth programs, with Spanish versions of the forms families fill out.
 
-- Files: [`data/templates.csv`](data/templates.csv), [`data/templates.json`](data/templates.json) (38 records)
+- Files: [`data/templates.csv`](data/templates.csv), [`data/templates.json`](data/templates.json) (58 records)
 - Version 1.0 · Last checked October 2026
 - Sources: Written by BackPR
 - Notes: A list of BackPR's free templates, with links to each PDF and Word file. CC BY 4.0 covers this list; the templates themselves are free to use and change without credit. They're starting points to adapt, not legal advice. Have a lawyer review waivers and agreements.
 - Live copy: https://backpr.com/data/templates.json · Page on backpr.com: https://backpr.com/resources/templates
 - Cite as: BackPR (2026). Free youth program form templates: registration, medical, pickup, waivers, policies and staff forms (version 1.0, checked October 2026). https://backpr.com/data/templates.json. CC BY 4.0.
 
+### Licensed child care capacity by state: seats per 100 children
+
+Licensed seats and programs in each state's public child care licensing data, compared with the number of children aged 0 to 12, plus staff-to-child ratios.
+
+- Files: [`data/child-care-capacity-by-state.csv`](data/child-care-capacity-by-state.csv), [`data/child-care-capacity-by-state.json`](data/child-care-capacity-by-state.json) (22 records)
+- Version 2026.11 · Last checked November 8, 2026
+- Sources: Each state's official child care licensing data, as listed per record; U.S. Census Bureau, Vintage 2024 population estimates by age (civilian), July 1, 2024
+- Notes: Seats are the licensed capacity each state publishes for licensed child care centers and school-age programs in its open data. Home-based family child care isn't included. Capacity is the most children a program may care for at once, not enrollment or open spots. Children are ages 0 to 12, from July 1, 2024 estimates; seats are from the snapshot date. States where fewer than 95% of listings publish a capacity have a minimum seat count and are left out of per-child figures, totals and scores. States without a statewide list with capacity have no per-child figure. Scores (0 to 100) rank a state against the other states with a per-child figure; for ratios, fewer children per adult scores higher.
+- Live copy: https://backpr.com/data/child-care-capacity-by-state.json · Page on backpr.com: https://backpr.com/resources/child-care-capacity-by-state
+- Cite as: BackPR (2026). Licensed child care capacity by state: seats per 100 children (snapshot 2026-11-08). https://backpr.com/data/child-care-capacity-by-state.json. CC BY 4.0.
+
+### Child care cost by state and county: median weekly prices and share of family income
+
+County median weekly child care prices for infants, toddlers, preschool and school-age children in centers and family child care homes, with cost as a share of median family income, from the U.S. Department of Labor Women's Bureau National Database of Childcare Prices.
+
+- Files: [`data/child-care-cost-by-state.csv`](data/child-care-cost-by-state.csv), [`data/child-care-cost-by-state.json`](data/child-care-cost-by-state.json) (51 records)
+- Version 2022 · Last checked November 8, 2026
+- Sources: U.S. Department of Labor, Women's Bureau, National Database of Childcare Prices (county file 2008-2022; technical report September 2024)
+- Notes: Weekly full-time median prices from state market rate surveys, standardized by the Women's Bureau contractor; prices are in the dollars of the study year and are not inflation-adjusted. Many 2022 values are estimates between survey years or filled in from state data; see the technical report. Cost as a share of income is BackPR's calculation: weekly price x 52 divided by the county's median family income (ACS, same year). A state's typical county is the median of its county medians, not weighted by population.
+- Live copy: https://backpr.com/data/child-care-cost-by-state.json · Page on backpr.com: https://backpr.com/resources/child-care-cost-by-state
+- Cite as: BackPR (2026). Child care cost by state and county, from the U.S. Department of Labor Women's Bureau National Database of Childcare Prices (2022 data). https://backpr.com/data/child-care-cost-by-state.json. CC BY 4.0.
+
+### Child care cost by county
+
+Every county's median weekly child care prices by age and care type, with cost as a share of median family income.
+
+- Files: [`data/child-care-cost-by-county.csv`](data/child-care-cost-by-county.csv), [`data/child-care-cost-by-county.json`](data/child-care-cost-by-county.json) (2855 records)
+- Version 2022 · Last checked November 8, 2026
+- Sources: U.S. Department of Labor, Women's Bureau, National Database of Childcare Prices (county file 2008-2022; technical report September 2024)
+- Notes: Weekly full-time median prices from state market rate surveys, standardized by the Women's Bureau contractor; prices are in the dollars of the study year and are not inflation-adjusted. Many 2022 values are estimates between survey years or filled in from state data; see the technical report. Cost as a share of income is BackPR's calculation: weekly price x 52 divided by the county's median family income (ACS, same year). A state's typical county is the median of its county medians, not weighted by population.
+- Live copy: https://backpr.com/data/child-care-cost-by-county.json · Page on backpr.com: https://backpr.com/resources/child-care-cost-by-state
+- Cite as: BackPR (2026). Child care cost by county, from the U.S. Department of Labor Women's Bureau National Database of Childcare Prices (2022 data). https://backpr.com/data/child-care-cost-by-county.json. CC BY 4.0.
+
 ### Licensed youth program directory statistics: centers, after-school programs and camps by state
 
 Live counts of the childcare centers, school-age (after-school) programs, camps and other youth programs listed in BackPR's program finder, by state and program type, from official state and local licensing data. One record per state with listings. Updated daily on backpr.com; each file shows its update date.
 
-- Files: [`data/finder-directory-stats.csv`](data/finder-directory-stats.csv), [`data/finder-directory-stats.json`](data/finder-directory-stats.json) (one record per state with listings: 20 states)
+- Files: [`data/finder-directory-stats.csv`](data/finder-directory-stats.csv), [`data/finder-directory-stats.json`](data/finder-directory-stats.json) (one record per state with listings: 27 states)
 - Version: live · Updated daily on backpr.com and weekly here
 - Sources: Each state's official licensing or program data, as listed on each state's finder page
 - Notes: Home-based family childcare isn't listed. Counts cover the states that publish program data.

@@ -432,6 +432,226 @@
    "spanish": false,
    "spanish_pdf_url": null,
    "spanish_word_url": null
+  },
+  {
+   "slug": "emergency-contact-form",
+   "title": "Emergency contact form",
+   "description": "A one-page form for each child: parents, up to three emergency contacts, doctor, insurance and the health details staff need when something goes wrong.",
+   "page_url": "https://backpr.com/resources/templates/emergency-contact-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-emergency-contact-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-emergency-contact-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "allergy-action-plan",
+   "title": "Allergy action plan",
+   "description": "A plan for one child with a serious allergy: what the child is allergic to, signs of a reaction, what staff do for mild and severe symptoms, and the doctor's sign-off.",
+   "page_url": "https://backpr.com/resources/templates/allergy-action-plan",
+   "pdf_url": "https://backpr.com/media/templates/backpr-allergy-action-plan.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-allergy-action-plan.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-liability-waiver",
+   "title": "Camp liability waiver (sample)",
+   "description": "A sample release of liability and assumption of risk form for camps and youth activities, to adapt with your lawyer and insurer before you use it.",
+   "page_url": "https://backpr.com/resources/templates/camp-liability-waiver",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-liability-waiver.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-liability-waiver.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camper-behavior-agreement",
+   "title": "Camper behavior agreement",
+   "description": "A short agreement between the camp, the camper and their family after repeated behavior problems: the goals, the support that staff will give and what happens next.",
+   "page_url": "https://backpr.com/resources/templates/camper-behavior-agreement",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camper-behavior-agreement.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camper-behavior-agreement.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-transportation-permission-form",
+   "title": "Camp bus and transportation permission form",
+   "description": "Families say how their child gets to and from camp: bus stop, carpool, walking or biking home alone, and who may meet the bus.",
+   "page_url": "https://backpr.com/resources/templates/camp-transportation-permission-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-transportation-permission-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-transportation-permission-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-staff-application",
+   "title": "Camp staff application",
+   "description": "A job application for camp counselors and other seasonal staff: availability, experience with children, certifications, references and a background check notice.",
+   "page_url": "https://backpr.com/resources/templates/camp-staff-application",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-staff-application.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-staff-application.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "staff-reference-check-form",
+   "title": "Staff reference check form",
+   "description": "A call script and notes form for checking a job candidate's references before you hire camp, after-school or childcare staff.",
+   "page_url": "https://backpr.com/resources/templates/staff-reference-check-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-staff-reference-check-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-staff-reference-check-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "swim-test-record",
+   "title": "Swim test record",
+   "description": "A lifeguard's sheet for recording each camper's swim test, the swim level or band they earned and where they may swim.",
+   "page_url": "https://backpr.com/resources/templates/swim-test-record",
+   "pdf_url": "https://backpr.com/media/templates/backpr-swim-test-record.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-swim-test-record.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "vbs-registration-form",
+   "title": "VBS registration form",
+   "description": "A registration form for vacation Bible school: child, grade, parents, pickup, allergies, photo permission and a spot to sign up volunteers.",
+   "page_url": "https://backpr.com/resources/templates/vbs-registration-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-vbs-registration-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-vbs-registration-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-health-log",
+   "title": "Camp health log",
+   "description": "A daily log for the camp nurse or health staff: every visit, complaint, first aid, medicine given and whether the family was called.",
+   "page_url": "https://backpr.com/resources/templates/camp-health-log",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-health-log.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-health-log.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "cabin-and-bunkmate-request-form",
+   "title": "Cabin and bunkmate request form",
+   "description": "For overnight camps: families ask for a bunkmate, share sleeping needs and tell you what helps their camper settle in.",
+   "page_url": "https://backpr.com/resources/templates/cabin-and-bunkmate-request-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-cabin-and-bunkmate-request-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-cabin-and-bunkmate-request-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-store-spending-money-form",
+   "title": "Camp store and spending money form",
+   "description": "Families set a camp store (canteen) deposit, a daily limit and items their camper may not buy, and choose what happens to money left over.",
+   "page_url": "https://backpr.com/resources/templates/camp-store-spending-money-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-store-spending-money-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-store-spending-money-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-staff-evaluation-form",
+   "title": "Camp staff evaluation form",
+   "description": "A mid-summer and end-of-summer review for counselors: safety, supervision, working with campers and staff, with goals and a rehire note.",
+   "page_url": "https://backpr.com/resources/templates/camp-staff-evaluation-form",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-staff-evaluation-form.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-staff-evaluation-form.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camper-progress-report",
+   "title": "Camper progress report",
+   "description": "A short note to families at the end of a week or session: what their camper did, what they got better at, a friend or highlight, and something to try next time.",
+   "page_url": "https://backpr.com/resources/templates/camper-progress-report",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camper-progress-report.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camper-progress-report.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-staff-schedule",
+   "title": "Camp staff schedule",
+   "description": "A weekly grid for assigning counselors to groups, activity areas, breaks and duties like the bus, lunch and swim, so every group is covered.",
+   "page_url": "https://backpr.com/resources/templates/camp-staff-schedule",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-staff-schedule.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-staff-schedule.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-budget-worksheet",
+   "title": "Camp budget worksheet",
+   "description": "A worksheet for planning a summer camp budget: staff, food, supplies, venue, insurance and other costs, against enrollment, fees and scholarships.",
+   "page_url": "https://backpr.com/resources/templates/camp-budget-worksheet",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-budget-worksheet.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-budget-worksheet.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-planning-checklist",
+   "title": "Summer camp planning checklist",
+   "description": "A month-by-month checklist for running a summer camp, from setting dates and prices in the fall to hiring, registration, staff training and closing out the summer.",
+   "page_url": "https://backpr.com/resources/templates/camp-planning-checklist",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-planning-checklist.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-planning-checklist.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camper-profile-questionnaire",
+   "title": "Get to know your camper questionnaire",
+   "description": "A short questionnaire families fill out before camp so counselors know each child: interests, what helps them, worries, friendships and needs.",
+   "page_url": "https://backpr.com/resources/templates/camper-profile-questionnaire",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camper-profile-questionnaire.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camper-profile-questionnaire.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "head-count-log",
+   "title": "Head count and buddy check log",
+   "description": "A sheet for recording head counts at every transition and buddy checks at swim, so staff can confirm every child is accounted for.",
+   "page_url": "https://backpr.com/resources/templates/head-count-log",
+   "pdf_url": "https://backpr.com/media/templates/backpr-head-count-log.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-head-count-log.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
+  },
+  {
+   "slug": "camp-staff-code-of-conduct",
+   "title": "Camp staff code of conduct",
+   "description": "Rules every counselor and volunteer agrees to: supervision, no one-on-one time out of sight, appropriate touch, phones and social media, and reporting concerns.",
+   "page_url": "https://backpr.com/resources/templates/camp-staff-code-of-conduct",
+   "pdf_url": "https://backpr.com/media/templates/backpr-camp-staff-code-of-conduct.pdf",
+   "word_url": "https://backpr.com/media/templates/backpr-camp-staff-code-of-conduct.docx",
+   "spanish": false,
+   "spanish_pdf_url": null,
+   "spanish_word_url": null
   }
  ]
 }

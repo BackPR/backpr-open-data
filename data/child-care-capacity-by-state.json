@@ -1,0 +1,763 @@
+{
+ "name": "child-care-capacity-by-state",
+ "title": "Licensed child care capacity by state: seats per 100 children",
+ "description": "Licensed seats and programs in each state's public child care licensing data, compared with the number of children aged 0 to 12, plus staff-to-child ratios.",
+ "version": "2026.11",
+ "snapshot": "2026-11-08",
+ "license": "CC-BY-4.0",
+ "license_url": "https://creativecommons.org/licenses/by/4.0/",
+ "publisher": "BackPR",
+ "page": "https://backpr.com/resources/child-care-capacity-by-state",
+ "census_source": {
+  "name": "U.S. Census Bureau, Vintage 2024 population estimates by age (civilian), July 1, 2024",
+  "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/state/asrh/sc-est2024-agesex-civ.csv"
+ },
+ "cite_as": "BackPR (2026). Licensed child care capacity by state: seats per 100 children (snapshot 2026-11-08). https://backpr.com/data/child-care-capacity-by-state.json. CC BY 4.0.",
+ "last_checked": "2026-11-08",
+ "checked_label": "snapshot 2026-11-08",
+ "sources": [
+  "Each state's official child care licensing data, as listed per record",
+  "U.S. Census Bureau, Vintage 2024 population estimates by age (civilian), July 1, 2024"
+ ],
+ "notes": "Seats are the licensed capacity each state publishes for licensed child care centers and school-age programs in its open data. Home-based family child care isn't included. Capacity is the most children a program may care for at once, not enrollment or open spots. Children are ages 0 to 12, from July 1, 2024 estimates; seats are from the snapshot date. States where fewer than 95% of listings publish a capacity have a minimum seat count and are left out of per-child figures, totals and scores. States without a statewide list with capacity have no per-child figure. Scores (0 to 100) rank a state against the other states with a per-child figure; for ratios, fewer children per adult scores higher.",
+ "comparable_states": 15,
+ "comparable_children_0_12": 25157676,
+ "comparable_seats": 5091427,
+ "comparable_seats_per_100_children": 20.2,
+ "records": [
+  {
+   "state_code": "AK",
+   "state": "Alaska",
+   "slug": "alaska",
+   "licensed_programs": 98,
+   "programs_with_capacity": 98,
+   "licensed_seats": 7708,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 124794,
+   "seats_per_100_children": null,
+   "programs_per_10k_children": null,
+   "avg_seats_per_program": 79,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 18,
+   "capacity_published": true,
+   "partial_area": "Anchorage only",
+   "sources": [
+    {
+     "key": "ak-anchorage",
+     "name": "Municipality of Anchorage licensed child care providers",
+     "publisher": "Municipality of Anchorage",
+     "url": "https://www.arcgis.com/home/item.html?id=665a8b6a94704750b18788b8ab9816a9"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/alaska",
+   "rules_url": "https://backpr.com/resources/states/alaska",
+   "scores": null
+  },
+  {
+   "state_code": "CA",
+   "state": "California",
+   "slug": "california",
+   "licensed_programs": 13288,
+   "programs_with_capacity": 13288,
+   "licensed_seats": 754779,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 5857741,
+   "seats_per_100_children": 12.9,
+   "programs_per_10k_children": 22.7,
+   "avg_seats_per_program": 57,
+   "ratio_4_year_olds": 12,
+   "ratio_school_age": 14,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "ca-ccld",
+     "name": "California CCLD child care centers",
+     "publisher": "California Department of Social Services, Community Care Licensing Division",
+     "url": "https://www.ccld.dss.ca.gov/carefacilitysearch/DownloadData"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/california",
+   "rules_url": "https://backpr.com/resources/states/california",
+   "scores": {
+    "seats": 7,
+    "programs": 29,
+    "size": 14,
+    "ratio4": 46,
+    "ratioSchool": 79
+   }
+  },
+  {
+   "state_code": "CO",
+   "state": "Colorado",
+   "slug": "colorado",
+   "licensed_programs": 3235,
+   "programs_with_capacity": 3234,
+   "licensed_seats": 250410,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 847103,
+   "seats_per_100_children": 29.6,
+   "programs_per_10k_children": 38.2,
+   "avg_seats_per_program": 77,
+   "ratio_4_year_olds": 12,
+   "ratio_school_age": 15,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "co-childcare",
+     "name": "Colorado licensed child care facilities",
+     "publisher": "Colorado Department of Early Childhood",
+     "url": "https://data.colorado.gov/d/a9rr-k8mu"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/colorado",
+   "rules_url": "https://backpr.com/resources/states/colorado",
+   "scores": {
+    "seats": 79,
+    "programs": 86,
+    "size": 43,
+    "ratio4": 46,
+    "ratioSchool": 50
+   }
+  },
+  {
+   "state_code": "CT",
+   "state": "Connecticut",
+   "slug": "connecticut",
+   "licensed_programs": 1879,
+   "programs_with_capacity": null,
+   "licensed_seats": null,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": null,
+   "children_0_12": 503576,
+   "seats_per_100_children": null,
+   "programs_per_10k_children": null,
+   "avg_seats_per_program": null,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 15,
+   "capacity_published": false,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "ct-childcare",
+     "name": "Connecticut child care and youth camp licensing",
+     "publisher": "Connecticut Office of Early Childhood",
+     "url": "https://data.ct.gov/d/h8mr-dn95"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/connecticut",
+   "rules_url": "https://backpr.com/resources/states/connecticut",
+   "scores": null
+  },
+  {
+   "state_code": "DE",
+   "state": "Delaware",
+   "slug": "delaware",
+   "licensed_programs": 628,
+   "programs_with_capacity": 628,
+   "licensed_seats": 64970,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 149896,
+   "seats_per_100_children": 43.3,
+   "programs_per_10k_children": 41.9,
+   "avg_seats_per_program": 103,
+   "ratio_4_year_olds": 12,
+   "ratio_school_age": 15,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "de-childcare",
+     "name": "Delaware licensed child care providers and facilities",
+     "publisher": "Delaware Division of Family Services, Office of Child Care Licensing",
+     "url": "https://data.delaware.gov/d/iuzd-3dbt"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/delaware",
+   "rules_url": "https://backpr.com/resources/states/delaware",
+   "scores": {
+    "seats": 100,
+    "programs": 93,
+    "size": 86,
+    "ratio4": 46,
+    "ratioSchool": 50
+   }
+  },
+  {
+   "state_code": "DC",
+   "state": "District of Columbia",
+   "slug": "district-of-columbia",
+   "licensed_programs": 359,
+   "programs_with_capacity": 359,
+   "licensed_seats": 25831,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 98362,
+   "seats_per_100_children": 26.3,
+   "programs_per_10k_children": 36.5,
+   "avg_seats_per_program": 72,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 15,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "dc-childcare",
+     "name": "District of Columbia child development centers",
+     "publisher": "DC Office of the State Superintendent of Education",
+     "url": "https://www.arcgis.com/home/item.html?id=48009ae8fbe54157b86586d3e4f10929"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/district-of-columbia",
+   "rules_url": "https://backpr.com/resources/states/district-of-columbia",
+   "scores": {
+    "seats": 64,
+    "programs": 79,
+    "size": 36,
+    "ratio4": 82,
+    "ratioSchool": 50
+   }
+  },
+  {
+   "state_code": "FL",
+   "state": "Florida",
+   "slug": "florida",
+   "licensed_programs": 6613,
+   "programs_with_capacity": 6609,
+   "licensed_seats": 759698,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 99.9,
+   "children_0_12": 3163806,
+   "seats_per_100_children": 24.0,
+   "programs_per_10k_children": 20.9,
+   "avg_seats_per_program": 115,
+   "ratio_4_year_olds": 20,
+   "ratio_school_age": 25,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "fl-dcf",
+     "name": "Florida child care providers",
+     "publisher": "Florida Department of Children and Families",
+     "url": "https://www.myflfamilies.com/services/child-family/child-care/child-care-providers-and-statistics"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/florida",
+   "rules_url": "https://backpr.com/resources/states/florida",
+   "scores": {
+    "seats": 43,
+    "programs": 14,
+    "size": 93,
+    "ratio4": 0,
+    "ratioSchool": 7
+   }
+  },
+  {
+   "state_code": "KY",
+   "state": "Kentucky",
+   "slug": "kentucky",
+   "licensed_programs": 1759,
+   "programs_with_capacity": 1759,
+   "licensed_seats": 177700,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 724028,
+   "seats_per_100_children": 24.5,
+   "programs_per_10k_children": 24.3,
+   "avg_seats_per_program": 101,
+   "ratio_4_year_olds": 14,
+   "ratio_school_age": 15,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "ky-childcare",
+     "name": "Kentucky child care providers",
+     "publisher": "Kentucky Cabinet for Health and Family Services",
+     "url": "https://www.arcgis.com/home/item.html?id=96717ecf877b4d5bbd2e998aafe06672"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/kentucky",
+   "rules_url": "https://backpr.com/resources/states/kentucky",
+   "scores": {
+    "seats": 57,
+    "programs": 36,
+    "size": 79,
+    "ratio4": 21,
+    "ratioSchool": 50
+   }
+  },
+  {
+   "state_code": "MD",
+   "state": "Maryland",
+   "slug": "maryland",
+   "licensed_programs": 3114,
+   "programs_with_capacity": null,
+   "licensed_seats": null,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": null,
+   "children_0_12": 963028,
+   "seats_per_100_children": null,
+   "programs_per_10k_children": null,
+   "avg_seats_per_program": null,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 15,
+   "capacity_published": false,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "md-msde",
+     "name": "Maryland child care providers (MSDE Office of Child Care)",
+     "publisher": "Maryland State Department of Education, Office of Child Care",
+     "url": "https://www.arcgis.com/home/item.html?id=3d31d1b53831477ea54ff6020f64219f"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/maryland",
+   "rules_url": "https://backpr.com/resources/states/maryland",
+   "scores": null
+  },
+  {
+   "state_code": "MA",
+   "state": "Massachusetts",
+   "slug": "massachusetts",
+   "licensed_programs": 3030,
+   "programs_with_capacity": 3030,
+   "licensed_seats": 206277,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 947163,
+   "seats_per_100_children": 21.8,
+   "programs_per_10k_children": 32.0,
+   "avg_seats_per_program": 68,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 13,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "ma-childcare",
+     "name": "Massachusetts licensed and funded early education and care programs",
+     "publisher": "Massachusetts Department of Early Education and Care",
+     "url": "https://educationtocareer.data.mass.gov/d/iyks-y3g6"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/massachusetts",
+   "rules_url": "https://backpr.com/resources/states/massachusetts",
+   "scores": {
+    "seats": 36,
+    "programs": 64,
+    "size": 21,
+    "ratio4": 82,
+    "ratioSchool": 89
+   }
+  },
+  {
+   "state_code": "MI",
+   "state": "Michigan",
+   "slug": "michigan",
+   "licensed_programs": 4545,
+   "programs_with_capacity": 4545,
+   "licensed_seats": 237166,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 1473458,
+   "seats_per_100_children": 16.1,
+   "programs_per_10k_children": 30.8,
+   "avg_seats_per_program": 52,
+   "ratio_4_year_olds": 12,
+   "ratio_school_age": 18,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "mi-childcare",
+     "name": "Michigan child care centers",
+     "publisher": "Michigan Department of Lifelong Education, Advancement, and Potential",
+     "url": "https://www.arcgis.com/home/item.html?id=a79c3b0caedf412599085941e2af91d4"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/michigan",
+   "rules_url": "https://backpr.com/resources/states/michigan",
+   "scores": {
+    "seats": 21,
+    "programs": 57,
+    "size": 7,
+    "ratio4": 46,
+    "ratioSchool": 21
+   }
+  },
+  {
+   "state_code": "MN",
+   "state": "Minnesota",
+   "slug": "minnesota",
+   "licensed_programs": 2393,
+   "programs_with_capacity": null,
+   "licensed_seats": null,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": null,
+   "children_0_12": 910625,
+   "seats_per_100_children": null,
+   "programs_per_10k_children": null,
+   "avg_seats_per_program": null,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 15,
+   "capacity_published": false,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "mn-childcare",
+     "name": "Minnesota family and child care centers",
+     "publisher": "Minnesota Department of Human Services via MnGeo",
+     "url": "https://www.arcgis.com/home/item.html?id=2396668679a640788852c916fdae6045"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/minnesota",
+   "rules_url": "https://backpr.com/resources/states/minnesota",
+   "scores": null
+  },
+  {
+   "state_code": "NE",
+   "state": "Nebraska",
+   "slug": "nebraska",
+   "licensed_programs": 1128,
+   "programs_with_capacity": 1128,
+   "licensed_seats": 110958,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 341531,
+   "seats_per_100_children": 32.5,
+   "programs_per_10k_children": 33.0,
+   "avg_seats_per_program": 98,
+   "ratio_4_year_olds": 12,
+   "ratio_school_age": 15,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "ne-dhhs",
+     "name": "Nebraska DHHS licensed child care",
+     "publisher": "Nebraska Department of Health and Human Services",
+     "url": "https://www.arcgis.com/home/item.html?id=d3d3f44cb252424fb2f76e27162f534c"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/nebraska",
+   "rules_url": "https://backpr.com/resources/states/nebraska",
+   "scores": {
+    "seats": 86,
+    "programs": 71,
+    "size": 64,
+    "ratio4": 46,
+    "ratioSchool": 50
+   }
+  },
+  {
+   "state_code": "NJ",
+   "state": "New Jersey",
+   "slug": "new-jersey",
+   "licensed_programs": 4078,
+   "programs_with_capacity": 4078,
+   "licensed_seats": 408129,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 1439123,
+   "seats_per_100_children": 28.4,
+   "programs_per_10k_children": 28.3,
+   "avg_seats_per_program": 100,
+   "ratio_4_year_olds": 12,
+   "ratio_school_age": 15,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "nj-dcf",
+     "name": "Child Care Centers of New Jersey (NJDEP GIS layer of NJDCF licensed centers)",
+     "publisher": "New Jersey Department of Children and Families, Office of Licensing (layer by NJDEP)",
+     "url": "https://www.arcgis.com/home/item.html?id=0bc9fe070d4c49e1a6555c3fdea15b8a"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/new-jersey",
+   "rules_url": "https://backpr.com/resources/states/new-jersey",
+   "scores": {
+    "seats": 71,
+    "programs": 50,
+    "size": 71,
+    "ratio4": 46,
+    "ratioSchool": 50
+   }
+  },
+  {
+   "state_code": "NY",
+   "state": "New York",
+   "slug": "new-york",
+   "licensed_programs": 7591,
+   "programs_with_capacity": 7228,
+   "licensed_seats": 681091,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 95.2,
+   "children_0_12": 2821481,
+   "seats_per_100_children": 24.1,
+   "programs_per_10k_children": 26.9,
+   "avg_seats_per_program": 94,
+   "ratio_4_year_olds": 8,
+   "ratio_school_age": 10,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "ny-nyc",
+     "name": "NYC Health regulated child care programs",
+     "publisher": "New York City Department of Health and Mental Hygiene",
+     "url": "https://data.cityofnewyork.us/d/gy3q-4tzp"
+    },
+    {
+     "key": "ny-ocfs",
+     "name": "New York State child care regulated programs",
+     "publisher": "New York State Office of Children and Family Services",
+     "url": "https://data.ny.gov/d/cb42-qumz"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/new-york",
+   "rules_url": "https://backpr.com/resources/states/new-york",
+   "scores": {
+    "seats": 50,
+    "programs": 43,
+    "size": 57,
+    "ratio4": 100,
+    "ratioSchool": 100
+   }
+  },
+  {
+   "state_code": "PA",
+   "state": "Pennsylvania",
+   "slug": "pennsylvania",
+   "licensed_programs": 5002,
+   "programs_with_capacity": 4239,
+   "licensed_seats": 398258,
+   "seats_are_minimum": true,
+   "capacity_coverage_pct": 84.7,
+   "children_0_12": 1839503,
+   "seats_per_100_children": null,
+   "programs_per_10k_children": null,
+   "avg_seats_per_program": 94,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 12,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "pa-dhs",
+     "name": "Pennsylvania child care providers",
+     "publisher": "Pennsylvania Department of Human Services, Office of Child Development and Early Learning",
+     "url": "https://data.pa.gov/d/ajn5-kaxt"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/pennsylvania",
+   "rules_url": "https://backpr.com/resources/states/pennsylvania",
+   "scores": null
+  },
+  {
+   "state_code": "TN",
+   "state": "Tennessee",
+   "slug": "tennessee",
+   "licensed_programs": 1856,
+   "programs_with_capacity": null,
+   "licensed_seats": null,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": null,
+   "children_0_12": 1117131,
+   "seats_per_100_children": null,
+   "programs_per_10k_children": null,
+   "avg_seats_per_program": null,
+   "ratio_4_year_olds": 13,
+   "ratio_school_age": 20,
+   "capacity_published": false,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "tn-childcare",
+     "name": "Tennessee active statewide child care locations",
+     "publisher": "Tennessee Department of Human Services",
+     "url": "https://www.arcgis.com/home/item.html?id=bfe29552601b4d8793b1fba580c2e3fd"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/tennessee",
+   "rules_url": "https://backpr.com/resources/states/tennessee",
+   "scores": null
+  },
+  {
+   "state_code": "TX",
+   "state": "Texas",
+   "slug": "texas",
+   "licensed_programs": 9596,
+   "programs_with_capacity": 9596,
+   "licensed_seats": 1130582,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 5403845,
+   "seats_per_100_children": 20.9,
+   "programs_per_10k_children": 17.8,
+   "avg_seats_per_program": 118,
+   "ratio_4_year_olds": 18,
+   "ratio_school_age": 26,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "tx-hhsc",
+     "name": "Texas HHSC Child Care Licensing operations",
+     "publisher": "Texas Health and Human Services Commission, Child Care Licensing",
+     "url": "https://data.texas.gov/d/bc5r-88dy"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/texas",
+   "rules_url": "https://backpr.com/resources/states/texas",
+   "scores": {
+    "seats": 29,
+    "programs": 7,
+    "size": 100,
+    "ratio4": 7,
+    "ratioSchool": 0
+   }
+  },
+  {
+   "state_code": "UT",
+   "state": "Utah",
+   "slug": "utah",
+   "licensed_programs": 941,
+   "programs_with_capacity": 941,
+   "licensed_seats": 77939,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 645091,
+   "seats_per_100_children": 12.1,
+   "programs_per_10k_children": 14.6,
+   "avg_seats_per_program": 83,
+   "ratio_4_year_olds": 15,
+   "ratio_school_age": 20,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "ut-childcare",
+     "name": "Utah child care facilities",
+     "publisher": "Utah Department of Health and Human Services",
+     "url": "https://www.arcgis.com/home/item.html?id=df32162f1ccf46c18ac4ad93a244fee3"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/utah",
+   "rules_url": "https://backpr.com/resources/states/utah",
+   "scores": {
+    "seats": 0,
+    "programs": 0,
+    "size": 50,
+    "ratio4": 14,
+    "ratioSchool": 14
+   }
+  },
+  {
+   "state_code": "VT",
+   "state": "Vermont",
+   "slug": "vermont",
+   "licensed_programs": 558,
+   "programs_with_capacity": 558,
+   "licensed_seats": 26143,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 77523,
+   "seats_per_100_children": 33.7,
+   "programs_per_10k_children": 72.0,
+   "avg_seats_per_program": 47,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 13,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "vt-childcare",
+     "name": "Vermont child care provider data",
+     "publisher": "Vermont Department for Children and Families, Child Development Division",
+     "url": "https://data.vermont.gov/d/ctdw-tmfz"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/vermont",
+   "rules_url": "https://backpr.com/resources/states/vermont",
+   "scores": {
+    "seats": 93,
+    "programs": 100,
+    "size": 0,
+    "ratio4": 82,
+    "ratioSchool": 89
+   }
+  },
+  {
+   "state_code": "VA",
+   "state": "Virginia",
+   "slug": "virginia",
+   "licensed_programs": 2659,
+   "programs_with_capacity": null,
+   "licensed_seats": null,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": null,
+   "children_0_12": 1327313,
+   "seats_per_100_children": null,
+   "programs_per_10k_children": null,
+   "avg_seats_per_program": null,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 18,
+   "capacity_published": false,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "va-vdoe",
+     "name": "Virginia licensed child day centers",
+     "publisher": "Virginia Department of Education",
+     "url": "https://www.arcgis.com/home/item.html?id=f61abbd2d13241df9ece9edbbd8c6ab9"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/virginia",
+   "rules_url": "https://backpr.com/resources/states/virginia",
+   "scores": null
+  },
+  {
+   "state_code": "WA",
+   "state": "Washington",
+   "slug": "washington",
+   "licensed_programs": 2541,
+   "programs_with_capacity": 2541,
+   "licensed_seats": 179754,
+   "seats_are_minimum": false,
+   "capacity_coverage_pct": 100.0,
+   "children_0_12": 1167525,
+   "seats_per_100_children": 15.4,
+   "programs_per_10k_children": 21.8,
+   "avg_seats_per_program": 71,
+   "ratio_4_year_olds": 10,
+   "ratio_school_age": 15,
+   "capacity_published": true,
+   "partial_area": null,
+   "sources": [
+    {
+     "key": "wa-dcyf",
+     "name": "Washington DCYF licensed child care centers and school-age programs",
+     "publisher": "Washington Department of Children, Youth, and Families",
+     "url": "https://data.wa.gov/d/was8-3ni8"
+    }
+   ],
+   "finder_url": "https://backpr.com/find/washington",
+   "rules_url": "https://backpr.com/resources/states/washington",
+   "scores": {
+    "seats": 14,
+    "programs": 21,
+    "size": 29,
+    "ratio4": 82,
+    "ratioSchool": 50
+   }
+  }
+ ]
+}
