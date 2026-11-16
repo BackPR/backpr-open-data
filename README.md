@@ -123,7 +123,7 @@ Every county's median weekly child care prices by age and care type, with cost a
 
 Live counts of the childcare centers, school-age (after-school) programs, camps and other youth programs listed in BackPR's program finder, by state and program type, from official state and local licensing data. One record per state with listings. Updated daily on backpr.com; each file shows its update date.
 
-- Files: [`data/finder-directory-stats.csv`](data/finder-directory-stats.csv), [`data/finder-directory-stats.json`](data/finder-directory-stats.json) (one record per state with listings: 27 states)
+- Files: [`data/finder-directory-stats.csv`](data/finder-directory-stats.csv), [`data/finder-directory-stats.json`](data/finder-directory-stats.json) (one record per state with listings: 37 states)
 - Version: live · Updated daily on backpr.com and weekly here
 - Sources: Each state's official licensing or program data, as listed on each state's finder page
 - Notes: Home-based family childcare isn't listed. Counts cover the states that publish program data.
